@@ -1,14 +1,18 @@
 ---
-title: 'new'
+title: 'new posyt avatat gens'
 status: 'published'
 author:
   name: 'new2'
-  picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
+  picture: '/images/image-74-7-1024x1024-I0ND.jpg'
 slug: 'new-avatart'
-description: ''
+description: 'lastest new post on avater gens'
 coverImage: '/images/free-ai-animation-generator-tools-768x456-g5OT.png'
 publishedAt: '2023-08-08T12:34:05.844Z'
 ---
 
-new
+newnew posyt avatat gensnew posyt avatat gensnew posyt avatat gensnew posyt avatat gens
+
+```javascript
+code coed
+```
 
