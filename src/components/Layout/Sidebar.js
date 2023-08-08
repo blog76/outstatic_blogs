@@ -91,7 +91,7 @@ const Sidebar = () => {
               border: "0px",
               overflow: "hidden",
               width: "100%",
-              minHeight: "100vh",
+              // minHeight: "100vh",
             }} // Adjust width and minHeight
           />
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-lg font-bold px-2 py-1 shadow-lg rounded-xl mt-3">
