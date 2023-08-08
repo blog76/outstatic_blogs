@@ -71,7 +71,7 @@ const BlogSingle = ({ post, htmlData }) => {
 export default BlogSingle;
 
 export async function getStaticPaths() {
-  const posts = getDocuments("a-ivoices", ["slug"]);
+  const posts = getDocuments("aivoices", ["slug"]);
 
   const paths = posts.map((post) => ({
     params: { slug: post.slug },
@@ -85,7 +85,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async ({ params }) => {
   const slug = params.slug;
-  const post = getDocumentBySlug("a-ivoices", slug, [
+  const post = getDocumentBySlug("aivoices", slug, [
     "title",
     "slug",
     "coverImage",

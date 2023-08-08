@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const Index = ({ allBlogs }) => {
   const router = useRouter();
   const { s } = router.query;
-  
+
   let filteredBlogs = [];
   if (s && allBlogs && allBlogs.length > 0) {
     filteredBlogs = allBlogs.filter((post) =>
@@ -21,7 +21,7 @@ const Index = ({ allBlogs }) => {
         </header>
         {/* <h1>Welcome to my Blog!</h1> */}
         <div className="row">
-          {(s ? filteredBlogs : allBlogs.slice(0,5)).map((post) => {
+          {(s ? filteredBlogs : allBlogs).map((post) => {
             if (post.title.length > 100) {
               post.title = post.title.slice(0, 100) + "...";
             }

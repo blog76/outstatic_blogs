@@ -16,7 +16,7 @@ export function HeaderLinks() {
         { name: "AI Logo Maker", path: "/category/logo-makers" },
         { name: "AI Transcriber", path: "/category/transcribers" },
         { name: "AI Video Generator", path: "/category/video-generators" },
-        { name: "AI Voice", path: "/category/a-ivoices" },
+        { name: "AI Voice", path: "/category/aivoices" },
         { name: "AI Writer", path: "/category/writers" },
         { name: "Text Generator", path: "/category/text-generators" },
       ],

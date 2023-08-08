@@ -8,7 +8,7 @@ const category = [
   ["AI Logo Maker", "/category/logo-makers"],
   ["AI Transcriber", "/category/transcribers"],
   ["AI Video Generator", "/category/video-generators"],
-  ["AI Voice", "/category/a-ivoices"],
+  ["AI Voice", "/category/aivoices"],
   ["AI Writer", "/category/writers"],
   ["Text Generator", "/category/text-generators"],
 ];
