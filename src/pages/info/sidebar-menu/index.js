@@ -31,7 +31,7 @@ const Index = ({ posts }) => {
               <div className="p-2">
                 <h5
                   onClick={() =>
-                    handleLinkClick("/category/latexes/" + blogPost.slug)
+                    handleLinkClick("/category/latests/" + blogPost.slug)
                   }
                   className="mb-1 font-bold tracking-tight text-black cursor-pointer"
                 >
@@ -52,7 +52,7 @@ const Index = ({ posts }) => {
 export default Index;
 
 export const getStaticProps = async () => {
-  const posts = getDocuments("latexes", [
+  const posts = getDocuments("latests", [
     "title",
     "publishedAt",
     "slug",
