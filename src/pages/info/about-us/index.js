@@ -30,10 +30,10 @@ const Aboutus = () => {
             critical events that occurred during the development process.
           </div>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Making Video Sharing Fun:
+            Making Blog Sharing Fun:
           </div>
           <div className="mt-5 ">
-            Describe the platform&apos;s primary goal of enhancing video sharing
+            Describe the platform&apos;s primary goal of enhancing Blog sharing
             with joy, entertainment, and innovation. Describe how Smart AI
             Solutions wants to be a safe sanctuary for viewers looking for
             entertaining, interesting, and diverse material.

@@ -92,10 +92,10 @@ const Contactus = () => {
             </p>
 
             <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Making Video Sharing Fun:
+              Making Blog Sharing Fun:
             </h2>
             <p class="mb-6 p-0">
-              Describe the platform&apos;s primary goal of enhancing video
+              Describe the platform&apos;s primary goal of enhancing Blog
               sharing with joy, entertainment, and innovation. Describe how
               Smart AI Solutions wants to be a safe sanctuary for viewers
               looking for entertaining, interesting, and diverse material.

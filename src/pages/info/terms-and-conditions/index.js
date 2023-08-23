@@ -67,7 +67,7 @@ const Terms = () => {
               </h2>
               <p className="mb-6 p-0">
                 Make it clear who is in charge of the Smart AI
-                Solutions-submitted material (user-generated posts, videos,
+                Solutions-submitted material (user-generated posts, Blogs,
                 etc.). Describe any permits or licences given to Smart AI
                 Solutions for the usage of user-generated content.
               </p>

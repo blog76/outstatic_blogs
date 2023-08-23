@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
               Important
             </h2>
             <p className="mb-6 p-0">
-              The fascinating video content platform “Smart AI Solutions” is
+              The fascinating Blog content platform “Smart AI Solutions” is
               introduced. In the digital age, stress the value of user privacy
               and trust.
             </p>
