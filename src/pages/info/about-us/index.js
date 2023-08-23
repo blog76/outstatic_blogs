@@ -2,80 +2,138 @@ const Aboutus = () => {
   return (
     <>
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
-        <div className="container shadow-gray-500 shadow-lg p-12 my-5 md:h-[80rem]">
+        <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
           <header className="text-cyan-500 text-[40px] font-bold">
             <h1>About Us</h1>
           </header>
           <p className="mt-7 mb-1.5em text-[17px]">
-            Welcome to the DragGAN AI Tool Blog!
+            Welcome to the AI Tools Blog!
           </p>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            About me:
+            Our Story and Passion: Unveiling the Magic Behind Smart AI Solutions
           </div>
 
           <div className="mt-5 ">
-            At <b>DragGAN AI Tool Blog</b>, we are passionate about the power of
-            artificial intelligence and its applications in the world of image
-            editing. Led by <b>Sonu</b>, a dedicated blogger with over 5 years
-            of experience and a B.Tech degree in Information Technology, we
-            strive to provide valuable tutorials and insights into the
-            innovative <b>DragGAN AI editing tool.</b>
+            By highlighting the enthusiasm and distinctiveness of Smart AI
+            Solutions, you may establish the blog&apos;s tone. Describe how this
+            blog will provide readers a glimpse into the platform&apos;s vision,
+            beliefs, and journey.
             <br />
             <br />
           </div>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Other Blogs:
+            In our case:
           </div>
           <div className="mt-5 ">
-            With a deep love for writing and a strong background in blogging,
-            Sonu has established multiple successful educational blogs,
-            including hindigovtscheme.com, ekalyanbihar.online, and
-            bestsmartwatchindia.in. These platforms have helped thousands of
-            readers stay informed and up-to-date on various topics.
+            Tell the history of Smart AI Solutions, including how and why it was
+            created. Highlight any significant inspirations, obstacles, or
+            critical events that occurred during the development process.
           </div>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Our Mission to Create DragGAN AI Blog
+            Making Video Sharing Fun:
           </div>
           <div className="mt-5 ">
-            The creation of the DragGAN AI Tool Blog was driven by our desire to
-            share knowledge and provide detailed tutorials on using the DragGAN
-            AI editing tool.
-            <br />
-            <br /> We understand the importance of user-friendly and informative
-            content, and we aim to deliver just that. Whether you&apos;re a
-            beginner looking to explore the world of AI editing or an
-            experienced user seeking advanced techniques, our blog has something
-            for everyone.
+            Describe the platform&apos;s primary goal of enhancing video sharing
+            with joy, entertainment, and innovation. Describe how Smart AI
+            Solutions wants to be a safe sanctuary for viewers looking for
+            entertaining, interesting, and diverse material.
           </div>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Tutorials:
+            Our Goals and Purpose:
           </div>
           <div className="mt-5 ">
-            We cover a wide range of topics related to DragGAN, including
-            step-by-step guides on how to use the tool effectively, the download
-            procedure, and other relevant information. Our articles are designed
-            to empower you with the skills and knowledge needed to make the most
-            of this powerful AI editing tool.
+            The long-term strategy you have for Smart AI Solutions should be
+            made very clear. <br />
+            In your goal statement, be sure to emphasize how user-centric your
+            platform is.
           </div>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Feel Free to Contact Us:
+            Developing a Fun Community:
           </div>
           <div className="mt-5 ">
-            If you have any questions or need assistance, please don&apos;t
-            hesitate to reach out to us at
-            <span className="text-red-500 hover:text-black">
-              {" "}
-              <a href="mailto:help@dragganaitool.com">
-                help@dragganaitool.com
-              </a>{" "}
-            </span>
-            . We value your feedback and are always ready to help you navigate
-            the exciting world of DragGAN AI editing.
-            <br />
-            <br />
-            Join us on this journey of exploration and creativity with the
-            DragGAN AI Tool Blog. Together, let&apos;s unlock the potential of
-            AI editing and create stunning visual masterpieces.
+            Describe how Smart AI Solutions helps viewers feel connected and
+            part of a community. <br />
+            Give examples of user encounters, difficulties, or teamwork that
+            exemplify this sense of community.
+          </div>
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Supporting Creativity:
+          </div>
+          <div className="mt-5">
+            Describe how Smart AI Solutions encourages and celebrates the
+            originality and creativity of its users. Emphasize any special
+            functions or resources that allow users to express themselves.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Funsta&apos;s Experience:
+          </div>
+          <div className="mt-5">
+            Give examples of the distinctive user experience that Smart AI
+            Solutions provides. Talk about the functions, user interfaces, or
+            other aspects of the platform that make it more enjoyable overall.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Our Group:
+          </div>
+          <div className="mt-5">
+            Describe the duties of the important Smart AI Solutions team
+            members. Give a brief overview of the culture and ideals that direct
+            the work of your team.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Privacy and Openness:
+          </div>
+          <div className="mt-5">
+            Stress your dedication to maintaining user privacy and being
+            transparent. Mention the use of data protection measures and
+            compliance with applicable laws briefly.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Customer Reviews:
+          </div>
+          <div className="mt-5">
+            Include testimonials or tales from people who have enjoyed or
+            benefited from utilizing Smart AI Solutions. Draw attention to how
+            your platform has improved their life.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Looking Forward:
+          </div>
+          <div className="mt-5">
+            Give us a sneak glimpse at Smart AI Solutions&apos;s exciting ideas
+            and forthcoming features. Declare your commitment to ongoing
+            development based on user feedback.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Link Up With Us:
+          </div>
+          <div className="mt-5">
+            Link to the Smart AI Solutions website&apos;s social networking
+            pages, customer service page, or contact details. Encourage users to
+            participate, share their stories, and make recommendations.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Final thoughts:
+          </div>
+          <div className="mt-5">
+            Describe the core values of Smart AI Solutions and how they are
+            dedicated to being a source of connection and joy. Gratitude to your
+            users for participating in the Smart AI Solutions community.
+          </div>
+
+          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+            Disclaimer:
+          </div>
+          <div className="mt-5">
+            Make it clear that the blog post is meant to improve the
+            platform&apos;s “About Us” section.
           </div>
         </div>
       </div>

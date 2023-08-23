@@ -7,6 +7,7 @@ export function FooterLinks() {
     ["Terms", "/info/terms-and-conditions"],
     ["Privacy Policy", "/info/privacy-policy"],
     ["Contact Us", "/info/contact-us"],
+    ["Disclaimer", "/info/disclaimer"],
   ].map(([label, href]) => (
     <Link key={label} href={href} className={`flex border-b border-gray-700`}>
       <span className={` ${router.pathname === href ? "activeLinkRoute" : ""}`}>

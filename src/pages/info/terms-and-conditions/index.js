@@ -4,155 +4,163 @@ const Terms = () => {
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
         <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
           <header className="text-cyan-500 text-[40px] font-bold">
-            <h1>Terms</h1>
+            <h1>Terms and Conditions</h1>
           </header>
           <div>
             <div className="mt-5" itemprop="text">
               <p className="mb-5 text-[17px] mt-2em">
-                Welcome to DragGAN AI Tool Blog!
+                Exploring the Smart AI Solutions Terms & Conditions: Your Guide
+                to an Enjoyable Experience
               </p>
 
               <p className="mb-5 text-[17px] mt-2em">
-                These terms and conditions (“Terms”) govern your use of the
-                DragGAN AI Tool Blog located at{" "}
-                <span className="text-red-500 hover:text-black">
-                  {" "}
-                  <a href="https://dragganaitool.com/">
-                    https://dragganaitool.com/
-                  </a>{" "}
-                </span>
-                (“Website”). By accessing or using the Website, you agree to be
-                bound by these Terms. If you do not agree with any part of these
-                Terms, you must not use the Website.
+                Give an explanation of the blog post&apos;s objective, which is
+                to give readers a thorough knowledge of Smart AI Solutions&apos;
+                terms and conditions. Emphasize the significance of reading and
+                accepting these conditions in order to have a secure and
+                satisfying experience on the site.
               </p>
 
-              <p className="mb-5 text-[17px] mt-2em">
-                <strong>Disclaimer</strong>: We are not affiliated with or
-                endorsed by DragGAN AI Editing software. We don&apos;t have any
-                tie-up with DragGAN official software. Our website provides
-                information and tutorials about the DragGAN AI tool only based
-                on our own experiences and research. We&apos;re not the official
-                copyright owner.
-              </p>
+              <p className="mb-5 text-[17px] mt-2em"></p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Use of Cookies:{" "}
+                Recognizing the Terms and Conditions:
               </h2>
 
               <p className="mb-5 text-[17px] mt-2em">
-                We use cookies on the DragGAN AI Tool website. By accessing the
-                Website, you agree to our use of cookies in accordance with the
-                DragGAN Privacy Policy. Cookies are used to enhance the
-                functionality and user experience of the website.
+                Explain what terms and conditions are and why users need to be
+                aware of them. Insist that they make clear the guidelines and
+                requirements for utilizing Smart AI Solutions.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                User-generated Content:{" "}
+                Understanding of the Terms and Conditions:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                Certain parts of the DragGAN AI Tool website may allow users to
-                post and exchange opinions and information. DragGAN does not
-                filter, edit, publish, or review user-generated content before
-                it is posted. The views and opinions expressed in user-generated
-                content do not necessarily reflect those of DragGAN. DragGAN
-                shall not be liable for any user-generated content or any
-                liability, damages, or expenses caused or suffered as a result
-                of the use of such content.
+              <p className="mb-6 p-0">
+                Describe how using Smart AI Solutions signifies a user&apos;s
+                acceptance of the terms and conditions. Note that the legal
+                relationship between Smart AI Solutions and its users is
+                established by this agreement.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Hyperlinking to Third-Party Websites:
+                Use and Access:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                The DragGAN AI Tool website may contain links to third-party
-                websites. These links are provided for convenience and do not
-                imply endorsement or approval of the linked websites. We have no
-                control over the content and availability of those websites and
-                shall not be responsible for any damages or losses arising from
-                the use of third-party websites.
+              <p className="mb-6 p-0">
+                Indicate who is permitted to access Smart AI Solutions (age
+                requirements, regional restrictions, etc.). Describe permitted
+                uses and unacceptable ones, such as those that include
+                harassment, spam, or harmful activity.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Linking to the DragGAN AI Tool Website:{" "}
+                Establishing and Maintaining Accounts:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                If you wish to link to the DragGAN AI Tool website, you may do
-                so under the following conditions:
-              </p>
-
-              <ul className="mb-4 ml-12 list-disc text-[17px] ">
-                <li>
-                  You may link to our home page, publications, or other
-                  informational pages.
-                </li>
-
-                <li>
-                  The link must not be deceptive or falsely imply sponsorship or
-                  endorsement.
-                </li>
-
-                <li>
-                  The link must fit within the context of the linking party&apos;s
-                  site.
-                </li>
-              </ul>
-
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Removal of Links:{" "}
-              </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                If you find any link on the DragGAN AI Tool website that you
-                believe is offensive or inappropriate, please contact us. We
-                will consider your request to remove the link, but we are not
-                obligated to do so or to respond to you directly.
+              <p className="mb-6 p-0">
+                Describe how to register for a Smart AI Solutions account.
+                Describe user&apos;s obligations to maintain the security of
+                their accounts and the accuracy of their information.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Disclaimer of Liability:{" "}
+                Submission of Content and Ownership:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                The information on the DragGAN AI Tool website is provided on an
-                “as is” basis. We do not warrant the accuracy, completeness, or
-                availability of the information on the website. We exclude all
-                liability for any loss or damage arising from the use of the
-                website. This includes, but is not limited to, any direct,
-                indirect, or consequential loss or damage.
+              <p className="mb-6 p-0">
+                Make it clear who is in charge of the Smart AI
+                Solutions-submitted material (user-generated posts, videos,
+                etc.). Describe any permits or licences given to Smart AI
+                Solutions for the usage of user-generated content.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Modification of Terms:{" "}
+                Inventive Property:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                We reserve the right to modify these Terms at any time without
-                prior notice. By continuing to use the DragGAN AI Tool website,
-                you agree to be bound by the modified Terms.
+              <p className="mb-6 p-0">
+                Outline Smart AI Solution&apos;s and its user&apos;s
+                intellectual property rights. Describe how users may file
+                reports of copyright violations and how such reports are
+                handled.
+              </p>
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Data Use and Privacy:
+              </h2>
+              <p className="mb-6 p-0">
+                Examine the connection between the privacy policy and the terms
+                and conditions. Describe the methods Smart AI Solutions uses to
+                gather, utilize, and safeguard user data.
               </p>
 
               <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-                Governing Law:{" "}
+                User Behaviour and Community Rules:
               </h2>
-
-              <p className="mb-5 text-[17px] mt-2em">
-                These Terms shall be governed by and construed in accordance
-                with the laws of [Jurisdiction], without regard to its conflict
-                of law provisions.
+              <p className="mb-6 p-0">
+                Specify the behaviour that is expected of users while engaging
+                with Smart AI Solutions. Refer to any community rules that
+                members must abide by to maintain a welcoming and courteous
+                atmosphere.
               </p>
 
-              <p className="mb-5 text-[17px] mt-2em">
-                If any provision of these Terms is found to be invalid or
-                unenforceable, the remaining provisions shall remain in full
-                force and effect.
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Enforcement and Moderation:
+              </h2>
+              <p className="mb-6 p-0">
+                Describe the methods Smart AI Solutions uses to enforce company
+                rules, such as content deletion, warnings, and account
+                suspensions. Emphasize the importance of user reporting and the
+                appeal&apos;s mechanism for enforcement actions.
               </p>
-              <p className="mb-5 text-[17px] mt-2em">
-                By accessing and using the DragGAN AI Tool website, you
-                acknowledge that you have read, understood, and agree to be
-                bound by these Terms and Conditions.
+
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Disclaimers of Liability:
+              </h2>
+              <p className="mb-6 p-0">
+                Tell us how much Smart AI Solutions is responsible for the
+                content or user experiences. Include clauses denying guarantees
+                and limiting your liability for damages.
+              </p>
+
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Governing Law and Adjudication of Disputes:
+              </h2>
+              <p className="mb-6 p-0">
+                Mention the legal system that controls the terms and conditions
+                of Smart AI Solutions. Describe the procedures (arbitration,
+                mediation, etc.) that will be used to settle complaints between
+                users and Smart AI Solutions.
+              </p>
+
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Updates and Changes:
+              </h2>
+              <p className="mb-6 p-0">
+                Describe the process and timing of any Terms & Conditions
+                updates by Smart AI Solutions. Users should be encouraged to
+                often check for updates.
+              </p>
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                User Recognition:
+              </h2>
+              <p className="mb-6 p-0">
+                Remind viewers that by using Smart AI Solutions, they are
+                agreeing to all terms. Encourage users to get in touch with
+                Smart AI Solutions if they have any queries or issues.
+              </p>
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Conclusion:
+              </h2>
+              <p className="mb-6 p-0">
+                Explain the significance of comprehending and observing the
+                terms and conditions of Smart AI Solutions. Reaffirm your
+                commitment to giving users a secure and engaging platform.
+              </p>
+
+              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+                Disclaimer:
+              </h2>
+              <p className="mb-6 p-0">
+                Make it clear that the blog post is just meant for informative
+                reasons and does not serve to amend the platform&apos;s real
+                terms and conditions.
               </p>
             </div>
           </div>

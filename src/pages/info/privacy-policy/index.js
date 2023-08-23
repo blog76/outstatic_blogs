@@ -8,125 +8,124 @@ const PrivacyPolicy = () => {
           </header>
           <div className="mt-8 text-[17px]">
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Who We are{" "}
+              Using Funsta Videos to Manage Your Privacy: Your Trust Is
+              Important
             </h2>
             <p className="mb-6 p-0">
-              Our website address is: http://dragganaitool.com.
+              The fascinating video content platform “Funsta Videos” is
+              introduced. In the digital age, stress the value of user privacy
+              and trust.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Comments{" "}
+              Supporting Creativity:
             </h2>
             <p className="mb-6 p-0">
-              When visitors leave comments on the site we collect the data shown
-              in the comments form, and also the visitor’s IP address and
-              browser user agent string to help spam detection.
-            </p>
-            <p className="mb-6 p-0">
-              An anonymised string created from your email address (also called
-              a hash) may be provided to the Gravatar service to see if you are
-              using it. The Gravatar service Privacy Policy is available here:
-              https://automattic.com/privacy/. After approval of your comment,
-              your profile picture is visible to the public in the context of
-              your comment.
+              Describe your commitment to preserving user privacy and data.
+              Stress the ways in which your privacy policy reflects this
+              dedication.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Media{" "}
+              What does a privacy policy mean?
             </h2>
             <p className="mb-6 p-0">
-              If you upload images to the website, you should avoid uploading
-              images with embedded location data (EXIF GPS) included. Visitors
-              to the website can download and extract any location data from
-              images on the website.
+              Describe the idea of a privacy policy in a few words. Substantiate
+              its importance in educating consumers about data collection, use,
+              and protection.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Cookies{" "}
+              Information Gathered:
             </h2>
             <p className="mb-6 p-0">
-              If you leave a comment on our site you may opt in to saving your
-              name, email address and website in cookies. These are for your
-              convenience so that you do not have to fill in your details again
-              when you leave another comment. These cookies will last for one
-              year.
-            </p>
+              List the many kinds of data you gather, including names, email
+              addresses, profile images, and user-generated material. Explain
+              that platform functioning and personalized experiences depend on
+              this information.
+            </p>{" "}
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              How We Use the Data Collected:
+            </h2>
             <p className="mb-6 p-0">
-              If you visit our login page, we will set a temporary cookie to
-              determine if your browser accepts cookies. This cookie contains no
-              personal data and is discarded when you close your browser.
-            </p>
+              Describe the goals for data collection, including boosting user
+              experience, personalizing content suggestions, and service
+              improvement.
+            </p>{" "}
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              Measures for Data Security:
+            </h2>
             <p className="mb-6 p-0">
-              When you log in, we will also set up several cookies to save your
-              login information and your screen display choices. Login cookies
-              last for two days, and screen options cookies last for a year. If
-              you select “Remember Me”, your login will persist for two weeks.
-              If you log out of your account, the login cookies will be removed.
-            </p>
-            <p className="mb-6 p-0">
-              If you edit or publish an article, an additional cookie will be
-              saved in your browser. This cookie includes no personal data and
-              simply indicates the post ID of the article you just edited. It
-              expires after 1 day.
+              Describe the security measures you&apos;ve put in place to guard
+              user data against theft, unauthorized access, and other problems.
+              Mention frequent security assessments, secure server storage, and
+              encryption.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Embedded content from other websites{" "}
+              User Rights and Control:
             </h2>
             <p className="mb-6 p-0">
-              Articles on this site may include embedded content (e.g. videos,
-              images, articles, etc.). Embedded content from other websites
-              behaves in the exact same way as if the visitor has visited the
-              other website.
-            </p>
-            <p className="mb-6 p-0">
-              These websites may collect data about you, use cookies, embed
-              additional third-party tracking, and monitor your interaction with
-              that embedded content, including tracking your interaction with
-              the embedded content if you have an account and are logged in to
-              that website.
+              Describe the procedures for gaining access to, editing, and
+              deleting user data. Give consumers guidance on how to control
+              their privacy and preference settings.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Who we share your data with{" "}
+              Analytics and Cookies:
             </h2>
             <p className="mb-6 p-0">
-              If you request a password reset, your IP address will be included
-              in the reset email.
+              Explain how cookies, tracking technology, and outside analytics
+              tools are used. Explain to users how to control cookie settings.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              How long we retain your data{" "}
+              Privacy of Children:
             </h2>
             <p className="mb-6 p-0">
-              If you leave a comment, the comment and its metadata are retained
-              indefinitely. This is so we can recognise and approve any
-              follow-up comments automatically instead of holding them in a
-              moderation queue.
-            </p>
-            <p className="mb-6 p-0">
-              For users that register on our website (if any), we also store the
-              personal information they provide in their user profile. All users
-              can see, edit, or delete their personal information at any time
-              (except they cannot change their username). Website administrators
-              can also see and edit that information.
+              What is the age restriction policy for users on your platform?
+              Place a strong emphasis on observing the Children&apos;s Online
+              Privacy Protection Act (COPPA) or other pertinent laws.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              What rights you have over your data{" "}
+              Sharing with Third Parties:
             </h2>
             <p className="mb-6 p-0">
-              If you have an account on this site, or have left comments, you
-              can request to receive an exported file of the personal data we
-              hold about you, including any data you have provided to us. You
-              can also request that we erase any personal data we hold about
-              you. This does not include any data we are obliged to keep for
-              administrative, legal, or security purposes.
+              Disclose any data sharing with partners, advertising, or other
+              third parties. Make sure there is openness on the type of sharing
+              and how it enhances the customer experience.
             </p>
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Where your data is sent{" "}
+              Updates to Policy:
             </h2>
             <p className="mb-6 p-0">
-              Visitor comments may be checked through an automated spam
-              detection service.
+              Indicate how and when the privacy policy may be updated. Emphasize
+              your dedication to alerting users of changes.
             </p>
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              Following the Law:
+            </h2>
             <p className="mb-6 p-0">
-              <strong>
-                Feel free to ask your queries: help@dragganaitool.com
-              </strong>
+              Mention applicable data protection legislation (such as the GDPR
+              and CCPA) and how you abide by them. Users should be urged to
+              familiarize themselves with their legal rights.
+            </p>
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              Trust Among Users and Openness:
+            </h2>
+            <p className="mb-6 p-0">
+              Reiterate your commitment to increasing openness and user trust.
+              Stress the importance of privacy in fostering a satisfying
+              platform experience.
+            </p>
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              Conclusion:
+            </h2>
+            <p className="mb-6 p-0">
+              Recap the dedication of your platform to user privacy and data
+              security. Ask users to get in touch with your team if they have
+              any privacy-related questions.
+            </p>
+            <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              Warning:
+            </h2>
+            <p className="mb-6 p-0">
+              Make it very clear that the blog post serves simply as information
+              and not as legal advice.
             </p>
           </div>
         </div>
