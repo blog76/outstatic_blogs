@@ -117,7 +117,6 @@ export default function Navbar() {
               <form
                 role="search"
                 class="bg-white w-auto text-black"
-                action="https://dragganaitool.com/"
               >
                 <div class="flex">
                   <input
