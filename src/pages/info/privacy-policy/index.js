@@ -8,11 +8,11 @@ const PrivacyPolicy = () => {
           </header>
           <div className="mt-8 text-[17px]">
             <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Using Funsta Videos to Manage Your Privacy: Your Trust Is
+              Using Smart AI Solutions to Manage Your Privacy: Your Trust Is
               Important
             </h2>
             <p className="mb-6 p-0">
-              The fascinating video content platform “Funsta Videos” is
+              The fascinating video content platform “Smart AI Solutions” is
               introduced. In the digital age, stress the value of user privacy
               and trust.
             </p>

@@ -7,7 +7,7 @@ const Aboutus = () => {
             <h1>About Us</h1>
           </header>
           <p className="mt-7 mb-1.5em text-[17px]">
-            Welcome to the AI Tools Blog!
+            Welcome to the Smart AI Solutions Blog!
           </p>
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
             Our Story and Passion: Unveiling the Magic Behind Smart AI Solutions
@@ -66,7 +66,7 @@ const Aboutus = () => {
           </div>
 
           <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
-            Funsta&apos;s Experience:
+            Smart AI Solution&apos;s Experience:
           </div>
           <div className="mt-5">
             Give examples of the distinctive user experience that Smart AI
@@ -105,7 +105,7 @@ const Aboutus = () => {
             Looking Forward:
           </div>
           <div className="mt-5">
-            Give us a sneak glimpse at Smart AI Solutions&apos;s exciting ideas
+            Give us a sneak glimpse at Smart AI Solution&apos;s exciting ideas
             and forthcoming features. Declare your commitment to ongoing
             development based on user feedback.
           </div>

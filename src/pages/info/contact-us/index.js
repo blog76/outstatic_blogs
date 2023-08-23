@@ -129,7 +129,7 @@ const Contactus = () => {
             </p>
 
             <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
-              Funsta&apos;s Experience:
+              Smart AI Solutions&apos;s Experience:
             </h2>
             <p class="mb-6 p-0">
               Give examples of the distinctive user experience that Smart AI
@@ -185,7 +185,7 @@ const Contactus = () => {
             <p class="mb-6 p-0">
               Describe the core values of Smart AI Solutions and how they are
               dedicated to being a source of connection and joy. Gratitude to
-              your users for participating in the Funsta community.
+              your users for participating in the Smart AI Solutions community.
             </p>
 
             <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">

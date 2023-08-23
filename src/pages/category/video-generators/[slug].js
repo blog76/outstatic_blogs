@@ -58,7 +58,7 @@ const BlogSingle = ({ post, htmlData }) => {
                 {post.author.name} is a passionate blogger specializing in SEO
                 and writing high-quality articles. With a strong background in
                 AI and technology, Sonu provides valuable insights and
-                comprehensive guides on the latest AI tools.
+                comprehensive guides on the latest Smart AI Solutions.
               </p>
             </div>
           </div>
