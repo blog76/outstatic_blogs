@@ -11,7 +11,7 @@ const BlogSingle = ({ post, htmlData }) => {
   const year = publishedDate.getFullYear();
   return (
     <div>
-      <div className="container">
+      <div className="container ">
         <div className=" md:px-[3rem] px-[1rem] py-[4rem] drop-shadow-lg bg-white mx-auto my-3 ">
           <div className="drop-shadow-lg">
             <Image

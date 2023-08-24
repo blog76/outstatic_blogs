@@ -3,9 +3,9 @@ import { FooterLinks } from "../UI/FooterLink";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto">
-      <div className="bg-zinc-800">
-        <div className="font-mono m-auto max-w-5xl text-white py-[3rem] pl-20 md:px-[10rem] w-[60%]">
+    <footer className="mt-auto bg-[#f2f5f7]">
+      <div className="">
+        <div className="font-mono m-auto max-w-5xl text-white py-[3rem] pl-20 md:px-[10rem] ">
           <FooterLinks />
         </div>
       </div>

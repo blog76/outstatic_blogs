@@ -2,8 +2,8 @@ const Terms = () => {
   return (
     <>
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
-        <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
-          <header className="text-cyan-500 text-[40px] font-bold">
+        <div className="container  p-12 my-5 ">
+          <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>Terms and Conditions</h1>
           </header>
           <div>
@@ -23,7 +23,7 @@ const Terms = () => {
 
               <p className="mb-5 text-[17px] mt-2em"></p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Recognizing the Terms and Conditions:
               </h2>
 
@@ -33,7 +33,7 @@ const Terms = () => {
                 requirements for utilizing Smart AI Solutions.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Understanding of the Terms and Conditions:
               </h2>
               <p className="mb-6 p-0">
@@ -43,7 +43,7 @@ const Terms = () => {
                 established by this agreement.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Use and Access:
               </h2>
               <p className="mb-6 p-0">
@@ -53,7 +53,7 @@ const Terms = () => {
                 harassment, spam, or harmful activity.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Establishing and Maintaining Accounts:
               </h2>
               <p className="mb-6 p-0">
@@ -62,7 +62,7 @@ const Terms = () => {
                 their accounts and the accuracy of their information.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Submission of Content and Ownership:
               </h2>
               <p className="mb-6 p-0">
@@ -72,7 +72,7 @@ const Terms = () => {
                 Solutions for the usage of user-generated content.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Inventive Property:
               </h2>
               <p className="mb-6 p-0">
@@ -81,7 +81,7 @@ const Terms = () => {
                 reports of copyright violations and how such reports are
                 handled.
               </p>
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Data Use and Privacy:
               </h2>
               <p className="mb-6 p-0">
@@ -90,7 +90,7 @@ const Terms = () => {
                 gather, utilize, and safeguard user data.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 User Behaviour and Community Rules:
               </h2>
               <p className="mb-6 p-0">
@@ -100,7 +100,7 @@ const Terms = () => {
                 atmosphere.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Enforcement and Moderation:
               </h2>
               <p className="mb-6 p-0">
@@ -110,7 +110,7 @@ const Terms = () => {
                 appeal&apos;s mechanism for enforcement actions.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Disclaimers of Liability:
               </h2>
               <p className="mb-6 p-0">
@@ -119,7 +119,7 @@ const Terms = () => {
                 and limiting your liability for damages.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Governing Law and Adjudication of Disputes:
               </h2>
               <p className="mb-6 p-0">
@@ -129,7 +129,7 @@ const Terms = () => {
                 users and Smart AI Solutions.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Updates and Changes:
               </h2>
               <p className="mb-6 p-0">
@@ -137,7 +137,7 @@ const Terms = () => {
                 updates by Smart AI Solutions. Users should be encouraged to
                 often check for updates.
               </p>
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 User Recognition:
               </h2>
               <p className="mb-6 p-0">
@@ -145,7 +145,7 @@ const Terms = () => {
                 agreeing to all terms. Encourage users to get in touch with
                 Smart AI Solutions if they have any queries or issues.
               </p>
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Conclusion:
               </h2>
               <p className="mb-6 p-0">
@@ -154,7 +154,7 @@ const Terms = () => {
                 commitment to giving users a secure and engaging platform.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1 mb-5">
                 Disclaimer:
               </h2>
               <p className="mb-6 p-0">

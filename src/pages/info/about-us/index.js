@@ -2,14 +2,14 @@ const Aboutus = () => {
   return (
     <>
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
-        <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
-          <header className="text-cyan-500 text-[40px] font-bold">
+        <div className="container p-12 my-5 ">
+          <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>About Us</h1>
           </header>
           <p className="mt-7 mb-1.5em text-[17px]">
             Welcome to the Smart AI Solutions Blog!
           </p>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Our Story and Passion: Unveiling the Magic Behind Smart AI Solutions
           </div>
 
@@ -21,7 +21,7 @@ const Aboutus = () => {
             <br />
             <br />
           </div>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             In our case:
           </div>
           <div className="mt-5 ">
@@ -29,7 +29,7 @@ const Aboutus = () => {
             created. Highlight any significant inspirations, obstacles, or
             critical events that occurred during the development process.
           </div>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Making Blog Sharing Fun:
           </div>
           <div className="mt-5 ">
@@ -38,7 +38,7 @@ const Aboutus = () => {
             Solutions wants to be a safe sanctuary for viewers looking for
             entertaining, interesting, and diverse material.
           </div>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Our Goals and Purpose:
           </div>
           <div className="mt-5 ">
@@ -47,7 +47,7 @@ const Aboutus = () => {
             In your goal statement, be sure to emphasize how user-centric your
             platform is.
           </div>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Developing a Fun Community:
           </div>
           <div className="mt-5 ">
@@ -56,7 +56,7 @@ const Aboutus = () => {
             Give examples of user encounters, difficulties, or teamwork that
             exemplify this sense of community.
           </div>
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Supporting Creativity:
           </div>
           <div className="mt-5">
@@ -65,7 +65,7 @@ const Aboutus = () => {
             functions or resources that allow users to express themselves.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Smart AI Solution&apos;s Experience:
           </div>
           <div className="mt-5">
@@ -74,7 +74,7 @@ const Aboutus = () => {
             other aspects of the platform that make it more enjoyable overall.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Our Group:
           </div>
           <div className="mt-5">
@@ -83,7 +83,7 @@ const Aboutus = () => {
             the work of your team.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Privacy and Openness:
           </div>
           <div className="mt-5">
@@ -92,7 +92,7 @@ const Aboutus = () => {
             compliance with applicable laws briefly.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Customer Reviews:
           </div>
           <div className="mt-5">
@@ -101,7 +101,7 @@ const Aboutus = () => {
             your platform has improved their life.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Looking Forward:
           </div>
           <div className="mt-5">
@@ -110,7 +110,7 @@ const Aboutus = () => {
             development based on user feedback.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Link Up With Us:
           </div>
           <div className="mt-5">
@@ -119,7 +119,7 @@ const Aboutus = () => {
             participate, share their stories, and make recommendations.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Final thoughts:
           </div>
           <div className="mt-5">
@@ -128,7 +128,7 @@ const Aboutus = () => {
             users for participating in the Smart AI Solutions community.
           </div>
 
-          <div className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-lg rounded-xl mt-7">
+          <div className="text-[#3A4F66] text-[25px] font-bold  py-1  rounded-xl mt-7">
             Disclaimer:
           </div>
           <div className="mt-5">

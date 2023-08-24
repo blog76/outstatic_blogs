@@ -27,11 +27,11 @@ export function HeaderLinks() {
     return (
       <ul
         id="dropdown"
-        className="bg-cyan-500 text-white absolute z-10 w-60 mt-4"
+        className="bg-white border border-gray-500 text-[#192a3d] absolute z-10 w-60 mt-4"
       >
         {subMenu.map(({ name, path }, i) => (
           <Link href={path} key={i} onClick={() => setIsSubMenuOpen(false)}>
-            <li key={name} className={`hover:bg-gray-900 p-3`}>
+            <li key={name} className={`hover:text-[#2872fa] p-3`}>
               <span
                 className={`text-[15px] font-medium ${
                   router.pathname === path ? "activeLinkRoute" : ""
@@ -51,7 +51,7 @@ export function HeaderLinks() {
         <div key={i} className="relative m-0">
           <Link
             href={path}
-            className={`px-5 py-5 leading-normal hover:bg-gray-900 text-[15px] font-medium ${
+            className={`px-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium ${
               router.pathname === path ? "activeLinkRoute" : ""
             }`}
             onClick={() => name === "AI Tools" && setIsSubMenuOpen(true)}

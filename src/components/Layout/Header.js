@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HeaderLinks } from "../UI/HederLink";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,9 +10,9 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="flex bg-cyan-500 text-white flex-col">
+      <div className="flex bg-white text-[#192a3d] flex-col">
         {/* Centering container */}
-        <div className="xl:w-[65%] lg:w-[100%] lg:mx-auto md:w-full">
+        <div className="xl:w-[134vh] lg:mx-auto md:w-full">
           <div className=" flex items-center justify-between p-5">
             <div className="lg:hidden order-2">
               {/* Mobile menu button */}
@@ -24,7 +25,7 @@ export default function Navbar() {
                   <svg
                     className={`block h-6 w-6 ${
                       isMobileMenuOpen ? "hidden" : "-mr-44"
-                    } text-white`}
+                    } text-[#3A4F66]`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -59,8 +60,10 @@ export default function Navbar() {
               </button>
             </div>
             {/* logo */}
-            <div className="w-auto font-bold text-[25px] items-center mr-auto lg:flex ">
-              <p className="leading-normal">Smart AI Solutions</p>
+            <div className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
+              <Link href="/" className="leading-normal">
+                Smart AI Solutions
+              </Link>
             </div>
             {/* items */}
             <div className="items-center sm:ml-6 lg:flex p-4 lg:flex-wrap md:m-0 hidden">
@@ -98,7 +101,7 @@ export default function Navbar() {
       </div>
       {isMobileMenuOpen && (
         <div className="lg:hidden">
-          <div className="space-y-1 px-2 pb-3 pt-2 bg-cyan-500 text-white">
+          <div className="space-y-1 px-2 pb-3 pt-2 bg-white border border-gray-500 text-[#192a3d]">
             <div className="gap-5 text-lg font-medium space-y-5 h-[100%] pb-5">
               <HeaderLinks />
             </div>
@@ -114,20 +117,17 @@ export default function Navbar() {
             }}
           >
             <div className="scale-100 mt-64 w-1/4">
-              <form
-                role="search"
-                class="bg-white w-auto text-black"
-              >
-                <div class="flex">
+              <form role="search" className="bg-white w-auto text-black">
+                <div className="flex">
                   <input
                     type="search"
-                    class="w-full h-14 px-3 py-5"
+                    className="w-full h-14 px-3 py-5"
                     placeholder="Search …"
                     value=""
                     name="s"
                   />
                   <button aria-label="Search">
-                    <span class="px-10 py-5">
+                    <span className="px-10 py-5">
                       <svg
                         viewBox="0 0 512 512"
                         aria-hidden="true"
