@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 
 const Index = ({ allBlogs }) => {
   const router = useRouter();
-  const { s } = router.query;
-
+  const { s, n } = router.query;
+console.log('sss',s,n)
   let filteredBlogs = [];
   if (s && allBlogs && allBlogs.length > 0) {
     filteredBlogs = allBlogs.filter((post) =>

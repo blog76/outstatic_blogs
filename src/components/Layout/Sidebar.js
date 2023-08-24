@@ -58,11 +58,7 @@ const Sidebar = () => {
         <div className="md:max-w-[450px] md:px-6 text-xl bg-white rounded-md py-5 px-5 mx-auto my-8  ">
           <form
             role="search"
-            method="get"
             className=" relative flex justify-between p-2.5 rounded-md border border-gray-300"
-            action="https://bestadvise4u.com/"
-            aria-haspopup="listbox"
-            data-live-results="thumbs"
           >
             <input
               placeholder="Seach"
@@ -88,7 +84,7 @@ const Sidebar = () => {
 
         {/* <div className="md:max-w-[450px] bg-white py-8 px-5 mx-auto my-5">
           <iframe
-          className="invisible "
+            className="invisible "
             ref={iframeRef}
             src="/info/sidebar-menu"
             width="100%"

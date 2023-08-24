@@ -116,20 +116,17 @@ export default function Navbar() {
             }}
           >
             <div className="scale-100 mt-64 w-1/4">
-              <form
-                role="search"
-                class="bg-white w-auto text-black"
-              >
-                <div class="flex">
+              <form role="search" className="bg-white w-auto text-black">
+                <div className="flex">
                   <input
                     type="search"
-                    class="w-full h-14 px-3 py-5"
+                    className="w-full h-14 px-3 py-5"
                     placeholder="Search …"
                     value=""
                     name="s"
                   />
                   <button aria-label="Search">
-                    <span class="px-10 py-5">
+                    <span className="px-10 py-5">
                       <svg
                         viewBox="0 0 512 512"
                         aria-hidden="true"

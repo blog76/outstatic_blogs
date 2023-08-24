@@ -13,7 +13,14 @@ function MyApp({ Component, pageProps, router }) {
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
-    // Add your logic to fetch and display the data for the new page
+    const currentURL = new URL(window.location.href);
+    const search = currentURL.searchParams.get("s");
+    console.log("sss", search);
+    if (search) {
+      router.push(`/s?=${search}&?n=${newPage}`);
+    } else {
+      router.push(`/?n=${newPage}`);
+    }
   };
 
   React.useEffect(() => {
