@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="bg-cyan-400">
         <div className=" m-auto max-w-5xl text-center font-normal px-[2rem] md:px-[8rem] py-[1rem] text-white">
-          © 2023 Smart AI Solutions. Disclaimer: We are not affiliated with or
+          © Smart AI Solutions 2023 - All rights reserved. Disclaimer: We are not affiliated with or
           endorsed by AI Editing software. Our website provides information and
           tutorials about the AI tool based on our own experiences and research.
         </div>
