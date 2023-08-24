@@ -35,10 +35,12 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <div className="flex flex-col min-h-screen">
+      {loading && <Loader />}
       <Navbar />
-      <div className="flex flex-col lg:flex-row flex-1  justify-center">
-        <main className="flex-1 p-4 w-full max-w-[840px]">
-          {loading ? <Loader /> : <Component {...pageProps} />}
+      <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
+        <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
+          {/* {loading ? <Loader /> : <Component {...pageProps} />} */}
+          <Component {...pageProps} />
         </main>
         <Sidebar />
       </div>

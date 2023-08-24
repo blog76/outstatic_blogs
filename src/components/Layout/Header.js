@@ -9,9 +9,9 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="flex bg-cyan-500 text-white flex-col">
+      <div className="flex bg-white text-[#192a3d] flex-col">
         {/* Centering container */}
-        <div className="xl:w-[65%] lg:w-[100%] lg:mx-auto md:w-full">
+        <div className="xl:w-[134vh] lg:mx-auto md:w-full">
           <div className=" flex items-center justify-between p-5">
             <div className="lg:hidden order-2">
               {/* Mobile menu button */}
@@ -59,7 +59,7 @@ export default function Navbar() {
               </button>
             </div>
             {/* logo */}
-            <div className="w-auto font-bold text-[25px] items-center mr-auto lg:flex ">
+            <div className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
               <p className="leading-normal">Smart AI Solutions</p>
             </div>
             {/* items */}
