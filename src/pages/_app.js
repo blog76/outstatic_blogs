@@ -57,14 +57,16 @@ function MyApp({ Component, pageProps, router }) {
         <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
           {/* {loading ? <Loader /> : <Component {...pageProps} />} */}
           <Component {...pageProps} />
-        </main>
-        <Sidebar />
-      </div>
-      <Pagination
+          <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
+        </main>
+        
+        <Sidebar />
+      </div>
+      
 
       <Footer />
     </div>
