@@ -4,9 +4,18 @@ import Sidebar from "@/components/Layout/Sidebar";
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Loader from "./loading";
+import Pagination from "@/components/UI/Pagination";
 
 function MyApp({ Component, pageProps, router }) {
   const [loading, setLoading] = React.useState(false);
+  const [currentPage, setCurrentPage] = React.useState(1);
+  const totalPages = 10; // Replace this with the actual total number of pages
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+    // Add your logic to fetch and display the data for the new page
+  };
+
   React.useEffect(() => {
     const start = () => {
       console.log("start");
@@ -44,6 +53,12 @@ function MyApp({ Component, pageProps, router }) {
         </main>
         <Sidebar />
       </div>
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={handlePageChange}
+      />
+
       <Footer />
     </div>
   );
