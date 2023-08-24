@@ -15,7 +15,7 @@ const Index = ({ posts }) => {
             const publishedDate = new Date(post.publishedAt);
             const day = publishedDate.getDate();
             const month = publishedDate.toLocaleString("default", {
-              month: "short",
+              month: "long",
             });
             const year = publishedDate.getFullYear();
 

@@ -2,8 +2,8 @@ const Terms = () => {
   return (
     <>
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
-        <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
-          <header className="text-cyan-500 text-[40px] font-bold">
+        <div className="container p-12 my-5 ">
+          <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>Disclaimer</h1>
           </header>
           <div>
@@ -19,7 +19,7 @@ const Terms = () => {
                 comprehend the terms and conditions of usage.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 What is a Disclaimer?
               </h2>
               <p className="mb-6 p-0">
@@ -28,7 +28,7 @@ const Terms = () => {
                 binding contract that outlines the conditions of the engagement.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Smart AI Solutions Use Guidelines:
               </h2>
               <p className="mb-6 p-0">
@@ -37,7 +37,7 @@ const Terms = () => {
                 by the conditions stated in the disclaimer.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Liability Limitation:
               </h2>
               <p className="mb-6 p-0">
@@ -47,7 +47,7 @@ const Terms = () => {
                 risk and responsibility.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Reliability and Accuracy of the Content:
               </h2>
               <p className="mb-6 p-0">
@@ -57,7 +57,7 @@ const Terms = () => {
                 comprehensiveness.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Links and Resources from Other Parties:
               </h2>
               <p className="mb-6 p-0">
@@ -66,7 +66,7 @@ const Terms = () => {
                 sources, and the platform does not necessarily support them.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Rights to Intellectual Property:
               </h2>
               <p className="mb-6 p-0">
@@ -76,7 +76,7 @@ const Terms = () => {
                 copyrights.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Content Created by Users:
               </h2>
               <p className="mb-6 p-0">
@@ -85,7 +85,7 @@ const Terms = () => {
                 content and that users are accountable for their own content.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Updates and Changes:
               </h2>
               <p className="mb-6 p-0">
@@ -94,7 +94,7 @@ const Terms = () => {
                 updates.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Legal Professionals&apos; Advice:
               </h2>
               <p className="mb-6 p-0">
@@ -104,7 +104,7 @@ const Terms = () => {
                 specific advice.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Call Us:
               </h2>
               <p className="mb-6 p-0">
@@ -113,7 +113,7 @@ const Terms = () => {
                 to openness and user interaction.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Final Thoughts:
               </h2>
               <p className="mb-6 p-0">
@@ -123,7 +123,7 @@ const Terms = () => {
                 conditions.
               </p>
 
-              <h2 className="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+              <h2 className="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
                 Disclosure:
               </h2>
               <p className="mb-6 p-0">

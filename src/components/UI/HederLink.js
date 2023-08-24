@@ -21,7 +21,7 @@ export function HeaderLinks() {
         { name: "Text Generator", path: "/category/text-generators" },
       ],
     },
-    { name: "Submit Guest Post", path: "/submit-guest-post/" },
+    // { name: "Submit Guest Post", path: "/submit-guest-post/" },
   ];
   const DropdownMenu = ({ subMenu }) => {
     return (

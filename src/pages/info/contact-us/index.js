@@ -3,7 +3,7 @@ const Contactus = () => {
     <>
       <div className="max-w-[1024px] gap-[1rem] mx-auto ">
         <div className="container shadow-gray-500 shadow-md p-12 my-5">
-          <header className="text-cyan-500 text-[40px] font-bold">
+          <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>Contact Us</h1>
           </header>
           <div className="my-8 px-0">
@@ -67,8 +67,8 @@ const Contactus = () => {
             </form>
           </div>
         </div>
-        <div className="container shadow-gray-500 shadow-lg p-12 my-5 ">
-          <header className="text-cyan-500 text-[40px] font-bold">
+        <div className="container shadow-gray-500  p-12 my-5 ">
+          <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>
               Our Story and Passion: Unveiling the Magic Behind Smart AI
               Solutions
@@ -82,7 +82,7 @@ const Contactus = () => {
               vision, beliefs, and journey.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               In Our Case:
             </h2>
             <p class="mb-6 p-0">
@@ -91,7 +91,7 @@ const Contactus = () => {
               critical events that occurred during the development process.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Making Blog Sharing Fun:
             </h2>
             <p class="mb-6 p-0">
@@ -101,7 +101,7 @@ const Contactus = () => {
               looking for entertaining, interesting, and diverse material.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Our Goals and Purpose:
             </h2>
             <p class="mb-6 p-0">
@@ -110,7 +110,7 @@ const Contactus = () => {
               user-centric your platform is.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Developing a Fun Community:
             </h2>
             <p class="mb-6 p-0">
@@ -119,7 +119,7 @@ const Contactus = () => {
               difficulties, or teamwork that exemplify this sense of community.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Supporting Creativity:
             </h2>
             <p class="mb-6 p-0">
@@ -128,7 +128,7 @@ const Contactus = () => {
               functions or resources that allow users to express themselves.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Smart AI Solutions&apos;s Experience:
             </h2>
             <p class="mb-6 p-0">
@@ -137,7 +137,7 @@ const Contactus = () => {
               other aspects of the platform that make it more enjoyable overall.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Our Group:
             </h2>
             <p class="mb-6 p-0">
@@ -145,7 +145,7 @@ const Contactus = () => {
               members. Give a brief overview of the culture and ideals that
               direct the work of your team.
             </p>
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Privacy and Openness:
             </h2>
             <p class="mb-6 p-0">
@@ -153,7 +153,7 @@ const Contactus = () => {
               transparent. Mention the use of data protection measures and
               compliance with applicable laws briefly.
             </p>
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Customer Reviews:
             </h2>
             <p class="mb-6 p-0">
@@ -162,7 +162,7 @@ const Contactus = () => {
               your platform has improved their life.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Looking Forward:
             </h2>
             <p class="mb-6 p-0">
@@ -171,7 +171,7 @@ const Contactus = () => {
               development based on user feedback.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Link Up With Us:
             </h2>
             <p class="mb-6 p-0">
@@ -179,7 +179,7 @@ const Contactus = () => {
               pages, customer service page, or contact details. Encourage users
               to participate, share their stories, and make recommendations.
             </p>
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               Final Thoughts:
             </h2>
             <p class="mb-6 p-0">
@@ -188,7 +188,7 @@ const Contactus = () => {
               your users for participating in the Smart AI Solutions community.
             </p>
 
-            <h2 class="bg-gradient-to-tr from-blue-600 to-blue-400 text-white text-[25px] font-bold px-6 py-1 shadow-xl rounded-xl mb-5">
+            <h2 class="text-[#3A4F66] text-[25px] font-bold  py-1  mb-5">
               A Note of Caution:
             </h2>
             <p class="mb-6 p-0">

@@ -59,28 +59,21 @@ const Sidebar = () => {
           <form
             role="search"
             method="get"
-           className=" relative flex justify-between p-2.5 rounded-md border border-gray-300"
+            className=" relative flex justify-between p-2.5 rounded-md border border-gray-300"
             action="https://bestadvise4u.com/"
             aria-haspopup="listbox"
             data-live-results="thumbs"
           >
             <input
-              type="search"
-              placeholder="Search"
-              value=""
-              name="s"
-              autocomplete="off"
-              title="Search for..."
-              aria-label="Search for..."
+              placeholder="Seach"
+              type="text"
+              value={search}
+              onChange={handleChangeSearch}
+              className="w-[8rem] font-normal focus:outline-none focus:border-gray-500 text-gray-500 min-w-[60%] relative"
             />
 
-            <button
-              type="submit"
-              class="search-submit"
-              aria-label="Search button"
-            >
+            <button type="submit" aria-label="Search button">
               <svg
-                class="ct-icon"
                 aria-hidden="true"
                 width="15"
                 height="15"
@@ -89,23 +82,11 @@ const Sidebar = () => {
               >
                 <path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z"></path>
               </svg>
-              <span data-loader="circles">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
             </button>
           </form>
         </div>
 
-        <div className="md:max-w-[450px] bg-white py-8 px-5 mx-auto my-5">
-          {/* <iframe
-            src="/info/sidebar-menu" // Replace with the actual path to the component or page you want to render
-            width="100%" // Set the desired width of the sidebar
-            height="100%"
-            // scrolling="no"
-            style={{ border: "0px", overflow: "hidden", height: "100vh" }}
-          /> */}
+        {/* <div className="md:max-w-[450px] bg-white py-8 px-5 mx-auto my-5">
           <iframe
           className="invisible "
             ref={iframeRef}
@@ -120,9 +101,9 @@ const Sidebar = () => {
               minHeight: "80vh",
             }} // Adjust width and minHeight
           />
-        </div>
+        </div> */}
         <div className="md:max-w-[450px] md:px-6 text-xl bg-white rounded-md py-2.5 px-2 mx-auto my-8">
-        <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
+          <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
             Select Your Category
           </div>
           <div>
@@ -131,7 +112,7 @@ const Sidebar = () => {
                 <Link href={href} key={i}>
                   <li
                     key={label}
-                    className={`text-base font-normal ml-2 `}
+                    className={`text-base font-normal ml-2 hover:text-[#2872fa]`}
                   >
                     <span>{label}</span>
                   </li>

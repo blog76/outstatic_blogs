@@ -60,7 +60,9 @@ export default function Navbar() {
             </div>
             {/* logo */}
             <div className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
-              <p className="leading-normal">Smart AI Solutions</p>
+              <a 
+              href="/"
+              className="leading-normal">Smart AI Solutions</a>
             </div>
             {/* items */}
             <div className="items-center sm:ml-6 lg:flex p-4 lg:flex-wrap md:m-0 hidden">

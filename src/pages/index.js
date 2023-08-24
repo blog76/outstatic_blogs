@@ -31,7 +31,7 @@ const Index = ({ allBlogs }) => {
             const publishedDate = new Date(post.publishedAt);
             const day = publishedDate.getDate();
             const month = publishedDate.toLocaleString("default", {
-              month: "short",
+              month: "long",
             });
             const year = publishedDate.getFullYear();
 
@@ -42,10 +42,10 @@ const Index = ({ allBlogs }) => {
               key={post.publishedAt}
               className="mb-5 block bg-white border border-gray-300 rounded-md"
             >
-              <div className="p-2.5">
-                <div className="pl-4">
+              <div className="p-2.5 ">
+                <div className="pl-4 ">
                   <header className="block">
-                    <h2 className="mb-5 text-[#2f4468] text-[20px] leading-normal font-bold capitalize">
+                    <h2 className="mb-5 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] font-bold capitalize">
                       <a>
                         <h2>{post.title}</h2>
                       </a>
