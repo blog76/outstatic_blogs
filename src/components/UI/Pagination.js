@@ -13,11 +13,11 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   };
 
   return (
-    <div className="flex items-center justify-center space-x-2">
-      {currentPage > 1 && (
+    <div className="items-center space-x-2 bg-gray-100 flex justify-center border-t-2 border-[#2872fa] py-2">
+      {currentPage > 1 && ( 
         <button
           onClick={() => onPageChange(currentPage - 1)}
-          className="w-8 h-8 bg-white border border-gray-300 rounded-full flex items-center justify-center"
+          className="w-8 h-8 px-10 py-5 border-2 border-gray-200 rounded-md flex items-center justify-center"
         >
           Prev
         </button>
@@ -27,8 +27,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <button
           key={page}
           onClick={() => onPageChange(page)}
-          className={`w-8 h-8 bg-white border border-gray-300 rounded-full flex items-center justify-center ${
-            page === currentPage ? "bg-gray-300" : ""
+          className={`w-8 h-8  border  rounded-md flex items-center justify-center ${
+            page === currentPage ? "bg-[#2872fa] text-white" : ""
           }`}
         >
           {page}
@@ -38,7 +38,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       {currentPage < totalPages && (
         <button
           onClick={() => onPageChange(currentPage + 1)}
-          className="w-8 h-8 bg-white border border-gray-300 rounded-full flex items-center justify-center"
+          className="w-8 h-8 px-10 py-5 border-2 border-gray-200 rounded-md flex items-center justify-center"
         >
           Next
         </button>
