@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HeaderLinks } from "../UI/HederLink";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -60,9 +61,9 @@ export default function Navbar() {
             </div>
             {/* logo */}
             <div className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
-              <a 
-              href="/"
-              className="leading-normal">Smart AI Solutions</a>
+              <Link href="/" className="leading-normal">
+                Smart AI Solutions
+              </Link>
             </div>
             {/* items */}
             <div className="items-center sm:ml-6 lg:flex p-4 lg:flex-wrap md:m-0 hidden">
