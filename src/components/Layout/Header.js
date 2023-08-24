@@ -24,7 +24,7 @@ export default function Navbar() {
                   <svg
                     className={`block h-6 w-6 ${
                       isMobileMenuOpen ? "hidden" : "-mr-44"
-                    } text-white`}
+                    } text-[#3A4F66]`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -98,7 +98,7 @@ export default function Navbar() {
       </div>
       {isMobileMenuOpen && (
         <div className="lg:hidden">
-          <div className="space-y-1 px-2 pb-3 pt-2 bg-cyan-500 text-white">
+          <div className="space-y-1 px-2 pb-3 pt-2 bg-white border border-gray-500 text-[#192a3d]">
             <div className="gap-5 text-lg font-medium space-y-5 h-[100%] pb-5">
               <HeaderLinks />
             </div>

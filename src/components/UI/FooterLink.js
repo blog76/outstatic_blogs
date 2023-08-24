@@ -9,7 +9,7 @@ export function FooterLinks() {
     ["Contact Us", "/info/contact-us"],
     ["Disclaimer", "/info/disclaimer"],
   ].map(([label, href]) => (
-    <Link key={label} href={href} className={`flex border-gray-700 font-bold text-[16px] uppercase text-[#214b7d] hover:text-[#2872fa]`}>
+    <Link key={label} href={href} className={`px-3 font-bold text-[#214b7d] hover:text-[#2872fa] uppercase`}>
       <span className={` ${router.pathname === href ? "activeLinkRoute" : ""}`}>
         {label}
       </span>
