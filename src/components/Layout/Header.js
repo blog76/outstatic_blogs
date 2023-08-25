@@ -20,7 +20,7 @@ export default function Navbar() {
                 onClick={toggleMobileMenu}
                 className="relative flex justify-between items-center p-2 text-white focus:outline-none focus:ring-inset"
               >
-                <span className="mr-7">
+                <span className="mr-10">
                   {/* Icon for open menu */}
                   <svg
                     className={`block h-6 w-6 ${
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <svg
                     className={`block h-6 w-6 ${
                       isMobileMenuOpen ? "-mr-44" : "hidden"
-                    } text-white`}
+                    } text-black`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -56,7 +56,7 @@ export default function Navbar() {
                     />
                   </svg>
                 </span>
-                <span className="text-[20px]">Menu</span>
+                {/* <span className="text-[20px] text-black">Menu</span> */}
               </button>
             </div>
             {/* logo */}
@@ -67,7 +67,7 @@ export default function Navbar() {
             </div>
             {/* items */}
             <div className="items-center sm:ml-6 lg:flex p-4 lg:flex-wrap md:m-0 hidden">
-              <HeaderLinks />
+              <HeaderLinks  />
             </div>
           </div>
           {/* search Icon */}
@@ -103,7 +103,7 @@ export default function Navbar() {
         <div className="lg:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2 bg-white border border-gray-500 text-[#192a3d]">
             <div className="gap-5 text-lg font-medium space-y-5 h-[100%] pb-5">
-              <HeaderLinks />
+              <HeaderLinks setIsMobileMenuOpen={setIsMobileMenuOpen} isMobileMenuOpen={isMobileMenuOpen}/>
             </div>
           </div>
         </div>

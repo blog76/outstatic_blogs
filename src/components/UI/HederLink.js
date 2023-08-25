@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-export function HeaderLinks() {
+export function HeaderLinks({ setIsMobileMenuOpen, isMobileMenuOpen }) {
   const router = useRouter();
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const links = [
@@ -23,14 +23,24 @@ export function HeaderLinks() {
     },
     // { name: "Submit Guest Post", path: "/submit-guest-post/" },
   ];
-  const DropdownMenu = ({ subMenu }) => {
+
+  const DropdownMenu = ({ subMenu,isMobileMenuOpen }) => {debugger
     return (
       <ul
         id="dropdown"
         className="bg-white border border-gray-500 text-[#192a3d] absolute z-10 w-60 mt-4"
       >
         {subMenu.map(({ name, path }, i) => (
-          <Link href={path} key={i} onClick={() => setIsSubMenuOpen(false)}>
+          <Link
+            href={path}
+            key={i}
+            onClick={() => {
+              setIsSubMenuOpen(false);
+              if (isMobileMenuOpen) {
+                setIsMobileMenuOpen(false);
+              }
+            }}
+          >
             <li key={name} className={`hover:text-[#2872fa] p-3`}>
               <span
                 className={`text-[15px] font-medium ${
@@ -54,7 +64,22 @@ export function HeaderLinks() {
             className={`px-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium ${
               router.pathname === path ? "activeLinkRoute" : ""
             }`}
-            onClick={() => name === "AI Tools" && setIsSubMenuOpen(true)}
+            onClick={() => {
+              if (name === "AI Tools") {
+                setIsSubMenuOpen(true);
+              } else {
+                setIsMobileMenuOpen(false);
+              }
+
+              if (isMobileMenuOpen) {
+                if (name === "AI Tools") {
+                  setIsMobileMenuOpen(true);
+                  setIsSubMenuOpen(true);
+                } else {
+                  setIsMobileMenuOpen(false);
+                }
+              }
+            }}
           >
             <span>{name}</span>
           </Link>
@@ -74,7 +99,7 @@ export function HeaderLinks() {
             </span>
           )}
           {subMenu && name === "AI Tools" && isSubMenuOpen && (
-            <DropdownMenu subMenu={subMenu} />
+            <DropdownMenu subMenu={subMenu}  isMobileMenuOpen={isMobileMenuOpen}/>
           )}
         </div>
       ))}
