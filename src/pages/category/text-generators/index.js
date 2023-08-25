@@ -2,7 +2,20 @@ import { getDocuments } from "outstatic/server";
 import Link from "next/link";
 import Image from "next/image";
 
-const Index = ({ posts }) => {
+import { useRouter } from "next/router";
+
+const Index = ({ posts, len }) => {
+  const router = useRouter();
+  const { n } = router.query;
+  let filteredBlogs = [];
+  if (n) {
+    const startIndex = n ? (n - 1) * 10 : 0;
+    const endIndex = startIndex + 10;
+    filteredBlogs = allBlogs.slice(startIndex, endIndex);
+  }
+  if (typeof window !== "undefined") {
+    localStorage.setItem("len", JSON.stringify(len));
+  }
   return (
     <>
       <div className="container">
@@ -11,7 +24,7 @@ const Index = ({ posts }) => {
         </header>
         {/* <h1>Welcome to my Blog!</h1> */}
         <div className="row">
-          {posts.map((post) => {
+          {(n ? filteredBlogs : posts).map((post) => {
             const publishedDate = new Date(post.publishedAt);
             const day = publishedDate.getDate();
             const month = publishedDate.toLocaleString("default", {
@@ -88,6 +101,6 @@ export const getStaticProps = async () => {
   ]);
 
   return {
-    props: { posts },
+    props: { posts, len: posts.length || 0 },
   };
 };

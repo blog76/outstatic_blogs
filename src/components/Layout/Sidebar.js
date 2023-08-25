@@ -13,7 +13,7 @@ const category = [
   ["Text Generator", "/category/text-generators"],
 ];
 
-const Sidebar = () => {
+const Sidebar = ({ changePager }) => {
   const [search, setSearch] = useState("");
   const router = useRouter();
 
@@ -66,7 +66,7 @@ const Sidebar = () => {
           <div>
             <ul id="category" className="bg-white text-[#3A4F66] w-60 ">
               {category.map(([label, href], i) => (
-                <Link href={href} key={i}>
+                <Link href={href} key={i} onClick={changePager}>
                   <li
                     key={label}
                     className={`text-base font-normal ml-2 hover:text-[#2872fa]`}

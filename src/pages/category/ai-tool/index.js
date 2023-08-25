@@ -1,17 +1,28 @@
 import { getDocuments } from "outstatic/server";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
-const Index = ({ posts }) => {
+const Index = ({ posts, len }) => {
+  const router = useRouter();
+  const { n } = router.query;
+  let filteredBlogs = [];
+  if (n) {
+    const startIndex = n ? (n - 1) * 10 : 0;
+    const endIndex = startIndex + 10;
+    filteredBlogs = allBlogs.slice(startIndex, endIndex);
+  }
+  if (typeof window !== "undefined") {
+    localStorage.setItem("len", JSON.stringify(len));
+  }
   return (
     <>
       <div className="container">
         <header className="h-55 mb-5 p-12 text-[#2f4468] font-[600] text-4xl">
           <h1>AI Tool</h1>
         </header>
-        {/* <h1>Welcome to my Blog!</h1> */}
         <div className="row">
-          {posts.map((post) => {
+          {(n ? filteredBlogs : posts).map((post) => {
             const publishedDate = new Date(post.publishedAt);
             const day = publishedDate.getDate();
             const month = publishedDate.toLocaleString("default", {
@@ -88,6 +99,6 @@ export const getStaticProps = async () => {
   ]);
 
   return {
-    props: { posts },
+    props: { posts, len: posts.length || 0 },
   };
 };

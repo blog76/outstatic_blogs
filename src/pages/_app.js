@@ -16,19 +16,19 @@ function MyApp({ Component, pageProps, router }) {
     if (isCilent) {
       setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
     }
-  }, [isCilent]);
+  }, [isCilent, loading]);
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
     router.push(`/?n=${newPage}`);
+    setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
   };
   React.useEffect(() => {
     const start = () => {
-      console.log("start");
       setLoading(true);
+      console.log("----------->start", localStorage.getItem("len"));
     };
     const end = () => {
-      console.log("finished");
       setLoading(false);
     };
     router.events.on("routeChangeStart", start);
@@ -58,11 +58,13 @@ function MyApp({ Component, pageProps, router }) {
           <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
             <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
               <Component {...pageProps} />
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                onPageChange={handlePageChange}
-              />
+              {totalPages > 1 && (
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={handlePageChange}
+                />
+              )}
             </main>
             <Sidebar />
           </div>
