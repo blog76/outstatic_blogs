@@ -107,6 +107,7 @@ export default Index;
 export async function getServerSideProps(context) {
   const { n } = context.query;
   const collection = getCollections();
+  console.log("n--------->", n);
   let allBlogs = [],
     len = 0;
   (collection || []).map((i) => {
@@ -130,8 +131,11 @@ export async function getServerSideProps(context) {
     return a.publishedAt.localeCompare(b.publishedAt);
   });
   len = allBlogs.length;
+  console.log("len--------->", len);
+
   const startIndex = n ? (n - 1) * 10 : 0;
   const endIndex = startIndex + 10;
+  console.log("startIndex--------->", startIndex);
 
   const blogsForPage = allBlogs.slice(startIndex, endIndex);
   if (n) {
