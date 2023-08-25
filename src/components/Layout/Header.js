@@ -67,7 +67,7 @@ export default function Navbar() {
             </div>
             {/* items */}
             <div className="items-center sm:ml-6 lg:flex p-4 lg:flex-wrap md:m-0 hidden">
-              <HeaderLinks />
+              <HeaderLinks  />
             </div>
           </div>
           {/* search Icon */}
@@ -103,7 +103,7 @@ export default function Navbar() {
         <div className="lg:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2 bg-white border border-gray-500 text-[#192a3d]">
             <div className="gap-5 text-lg font-medium space-y-5 h-[100%] pb-5">
-              <HeaderLinks />
+              <HeaderLinks setIsMobileMenuOpen={setIsMobileMenuOpen} isMobileMenuOpen={isMobileMenuOpen}/>
             </div>
           </div>
         </div>

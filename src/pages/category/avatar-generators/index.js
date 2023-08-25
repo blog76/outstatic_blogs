@@ -26,20 +26,20 @@ const Index = ({ posts }) => {
                 key={post.publishedAt}
                 className="mb-5 block border-3 border-b border-gray-300"
               >
-                <div className="flex">
-                  <div className="mt-5 w-30 flex justify-center items-center p-5">
-                    <a>
-                      <Image
-                        width={325}
-                        height={200}
-                        className="w-[325px] h-[200px] object-cover rounded-md"
-                        src={imageUrl}
-                        alt="bg"
-                      />
-                    </a>
-                  </div>
+               <div className="lg:flex md:flex-none">
+                <div className="mt-5 w-30 flex lg:justify-center md:justify-start p-5">
+                  <a>
+                    <Image
+                      width={325}
+                      height={200}
+                      className="lg:w-[350px] lg:h-[200px] md:w-[550px] md:h-[350px] object-cover rounded-md"
+                      src={imageUrl}
+                      alt="bg"
+                    />
+                  </a>
+                </div>
                   <div className="capitalize">
-                    <div className="p-10">
+                  <div className="lg:p-10 md:p-[20px] sm:p-[30px]">
                       <header className="block">
                         <h2 className="mb-5 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold ">
                           <a>
