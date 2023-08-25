@@ -16,39 +16,13 @@ const category = [
 const Sidebar = () => {
   const [search, setSearch] = useState("");
   const router = useRouter();
-  const iframeRef = useRef(null);
-
-  useEffect(() => {
-    if (iframeRef.current) {
-      const iframeDocument =
-        iframeRef.current.contentDocument ||
-        iframeRef.current.contentWindow.document;
-      const iframeContentHeight = iframeDocument.body.scrollHeight;
-      iframeRef.current.style.height = `${iframeContentHeight}px`;
-    }
-  }, []);
-  useEffect(() => {
-    const handleMessage = (event) => {
-      const { type, path } = event.data;
-      if (type === "changePath") {
-        router.push(path);
-      }
-    };
-
-    // Add the event listener when the component mounts
-    window.addEventListener("message", handleMessage);
-
-    // Remove the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("message", handleMessage);
-    };
-  }, []);
 
   const handleChangeSearch = (e) => {
     setSearch(e.target.value);
   };
 
-  const handleSearch = () => {
+  const handleSearch = (e) => {
+    e.preventDefault();
     router.push(`/?s=${search}`);
   };
 
@@ -68,7 +42,11 @@ const Sidebar = () => {
               className="w-[8rem] font-normal focus:outline-none focus:border-gray-500 text-gray-500 min-w-[60%] relative"
             />
 
-            <button type="submit" aria-label="Search button">
+            <button
+              type="submit"
+              aria-label="Search button"
+              onClick={handleSearch}
+            >
               <svg
                 aria-hidden="true"
                 width="15"
@@ -81,23 +59,6 @@ const Sidebar = () => {
             </button>
           </form>
         </div>
-
-        {/* <div className="md:max-w-[450px] bg-white py-8 px-5 mx-auto my-5">
-          <iframe
-            className="invisible "
-            ref={iframeRef}
-            src="/info/sidebar-menu"
-            width="100%"
-            // height="100%" (remove this line)
-            scrolling="no"
-            style={{
-              border: "0px",
-              overflow: "hidden",
-              width: "100%",
-              minHeight: "80vh",
-            }} // Adjust width and minHeight
-          />
-        </div> */}
         <div className="md:max-w-[450px] md:px-6 text-xl bg-white rounded-md py-2.5 px-2 mx-auto my-8">
           <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
             Select Your Category

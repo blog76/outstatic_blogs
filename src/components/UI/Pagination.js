@@ -14,9 +14,12 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
   return (
     <div className="items-center space-x-2 bg-gray-100 flex justify-center border-t-2 border-[#2872fa] py-2">
-      {currentPage > 1 && ( 
+      {currentPage > 1 && (
         <button
-          onClick={() => onPageChange(currentPage - 1)}
+          onClick={(e) => {
+            e.preventDefault();
+            onPageChange(currentPage - 1);
+          }}
           className="w-8 h-8 px-10 py-5 border-2 border-gray-200 rounded-md flex items-center justify-center"
         >
           Prev
@@ -26,7 +29,10 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       {getPageNumbers().map((page) => (
         <button
           key={page}
-          onClick={() => onPageChange(page)}
+          onClick={(e) => {
+            e.preventDefault();
+            onPageChange(page);
+          }}
           className={`w-8 h-8  border  rounded-md flex items-center justify-center ${
             page === currentPage ? "bg-[#2872fa] text-white" : ""
           }`}
@@ -37,7 +43,10 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
       {currentPage < totalPages && (
         <button
-          onClick={() => onPageChange(currentPage + 1)}
+          onClick={(e) => {
+            e.preventDefault();
+            onPageChange(currentPage + 1);
+          }}
           className="w-8 h-8 px-10 py-5 border-2 border-gray-200 rounded-md flex items-center justify-center"
         >
           Next
