@@ -10,10 +10,15 @@ const Index = ({ allBlogs, len }) => {
     filteredBlogs = allBlogs.filter((post) =>
       post.title.toLowerCase().includes(s.toLowerCase())
     );
+  } else if (n) {
+    const startIndex = n ? (n - 1) * 10 : 0;
+    const endIndex = startIndex + 10;
+    filteredBlogs = allBlogs.slice(startIndex, endIndex);
   }
   if (typeof window !== "undefined") {
     localStorage.setItem("len", JSON.stringify(len));
   }
+
   return (
     <>
       <div className="container">
@@ -21,7 +26,7 @@ const Index = ({ allBlogs, len }) => {
           <h1>{s ? `Search Results for: ${s} ` : "Home Page"}</h1>
         </header>
         <div className="row">
-          {(s ? filteredBlogs : allBlogs)?.map((post) => {
+          {(s || n ? filteredBlogs : allBlogs)?.map((post) => {
             if (post.title.length > 100) {
               post.title = post.title.slice(0, 100) + "...";
             }
@@ -104,10 +109,8 @@ const Index = ({ allBlogs, len }) => {
 
 export default Index;
 
-export async function getServerSideProps(context) {
-  const { n } = context.query;
+export async function getStaticProps() {
   const collection = getCollections();
-  console.log("n--------->", n);
   let allBlogs = [],
     len = 0;
   (collection || []).map((i) => {
@@ -131,16 +134,7 @@ export async function getServerSideProps(context) {
     return a.publishedAt.localeCompare(b.publishedAt);
   });
   len = allBlogs.length;
-  console.log("len--------->", len);
 
-  const startIndex = n ? (n - 1) * 10 : 0;
-  const endIndex = startIndex + 10;
-  console.log("startIndex--------->", startIndex);
-
-  const blogsForPage = allBlogs.slice(startIndex, endIndex);
-  if (n) {
-    allBlogs = blogsForPage;
-  }
   return {
     props: { allBlogs: allBlogs, len: len },
   };
