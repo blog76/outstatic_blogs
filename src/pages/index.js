@@ -1,6 +1,5 @@
 import { getCollections, getDocuments } from "outstatic/server";
 import Link from "next/link";
-import Image from "next/image";
 import { useRouter } from "next/router";
 
 const Index = ({ allBlogs, len }) => {
