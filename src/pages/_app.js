@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps, router }) {
         <>
           <Navbar />
           <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
-            <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
+            <main className="flex-1 py-4 pt-8 w-full max-w-[840px]">
               <Component {...pageProps} />
               {totalPages > 1 && (
                 <Pagination

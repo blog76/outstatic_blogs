@@ -11,7 +11,7 @@ const Index = ({ allBlogs, len }) => {
     filteredBlogs = allBlogs.filter((post) =>
       post.title.toLowerCase().includes(s.toLowerCase())
     );
-  } else if (n) {
+  } else {
     const startIndex = n ? (n - 1) * 10 : 0;
     const endIndex = startIndex + 10;
     filteredBlogs = allBlogs.slice(startIndex, endIndex);
@@ -27,7 +27,7 @@ const Index = ({ allBlogs, len }) => {
           <h1>{s ? `Search Results for: ${s} ` : "Home Page"}</h1>
         </header>
         <div className="row">
-          {(s || n ? filteredBlogs : allBlogs)?.map((post) => {
+          {filteredBlogs?.map((post) => {
             if (post.title.length > 100) {
               post.title = post.title.slice(0, 100) + "...";
             }
