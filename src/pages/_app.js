@@ -9,20 +9,19 @@ import Pagination from "@/components/UI/Pagination";
 function MyApp({ Component, pageProps, router }) {
   const [loading, setLoading] = React.useState(false);
   const [currentPage, setCurrentPage] = React.useState(1);
-  const totalPages = 10; // Replace this with the actual total number of pages
+  const [totalPages, setTotalPages] = React.useState(0);
+
+  const isCilent = typeof window !== "undefined";
+  React.useEffect(() => {
+    if (isCilent) {
+      setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
+    }
+  }, [isCilent]);
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
-    const currentURL = new URL(window.location.href);
-    const search = currentURL.searchParams.get("s");
-    console.log("sss", search);
-    if (search) {
-      router.push(`/s?=${search}&?n=${newPage}`);
-    } else {
-      router.push(`/?n=${newPage}`);
-    }
+    router.push(`/?n=${newPage}`);
   };
-
   React.useEffect(() => {
     const start = () => {
       console.log("start");
@@ -51,24 +50,25 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {loading && <Loader />}
-      <Navbar />
-      <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
-        <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
-          {/* {loading ? <Loader /> : <Component {...pageProps} />} */}
-          <Component {...pageProps} />
-          <Pagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={handlePageChange}
-      />
-        </main>
-        
-        <Sidebar />
-      </div>
-      
-
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
+            <main className="flex-1 p-4 pt-8 w-full max-w-[840px]">
+              <Component {...pageProps} />
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
+            </main>
+            <Sidebar />
+          </div>
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
