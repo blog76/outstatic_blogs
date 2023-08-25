@@ -24,7 +24,7 @@ export function HeaderLinks({ setIsMobileMenuOpen, isMobileMenuOpen }) {
     // { name: "Submit Guest Post", path: "/submit-guest-post/" },
   ];
 
-  const DropdownMenu = ({ subMenu,isMobileMenuOpen }) => {debugger
+  const DropdownMenu = ({ subMenu, isMobileMenuOpen }) => {
     return (
       <ul
         id="dropdown"
@@ -64,42 +64,69 @@ export function HeaderLinks({ setIsMobileMenuOpen, isMobileMenuOpen }) {
             className={`px-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium ${
               router.pathname === path ? "activeLinkRoute" : ""
             }`}
-            onClick={() => {
-              if (name === "AI Tools") {
-                setIsSubMenuOpen(true);
-              } else {
-                setIsMobileMenuOpen(false);
-              }
-
-              if (isMobileMenuOpen) {
-                if (name === "AI Tools") {
-                  setIsMobileMenuOpen(true);
-                  setIsSubMenuOpen(true);
-                } else {
-                  setIsMobileMenuOpen(false);
-                }
-              }
-            }}
           >
             <span>{name}</span>
           </Link>
           {name === "AI Tools" && (
-            <span className=" fill-white pr-10 absolute top-1 left-20">
-              <span>
-                <svg
-                  viewBox="0 0 330 512"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
+            <span
+              className=" fill-black pr-10 absolute top-1 left-20 hover:fill-[#2872fa]"
+              
+            >
+              {isSubMenuOpen ? (
+                <div
+                  onClick={() => {
+                    if (name === "AI Tools") {
+                      setIsSubMenuOpen(false);
+                      if (isMobileMenuOpen) {
+                        setIsMobileMenuOpen(true);
+                      }
+                    } else if (isMobileMenuOpen) {
+                      setIsMobileMenuOpen(false);
+                    }
+                  }}
                 >
-                  <path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path>
-                </svg>
-              </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12.293 10.293a1 1 0 0 1-1.414 0L8 6.414 5.121 9.293a1 1 0 0 1-1.414-1.414l4-4a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414z"
+                    />
+                  </svg>
+                </div>
+              ) : (
+                <div
+                onClick={() => {
+                  if (name === "AI Tools") {
+                    setIsSubMenuOpen(true);
+                    if (isMobileMenuOpen) {
+                      setIsMobileMenuOpen(true);
+                    }
+                  } else if (isMobileMenuOpen) {
+                    setIsMobileMenuOpen(false);
+                  }
+                }}>
+                  <svg
+                    viewBox="0 0 330 512"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                  >
+                    <path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path>
+                  </svg>
+                </div>
+              )}
             </span>
           )}
           {subMenu && name === "AI Tools" && isSubMenuOpen && (
-            <DropdownMenu subMenu={subMenu}  isMobileMenuOpen={isMobileMenuOpen}/>
+            <DropdownMenu
+              subMenu={subMenu}
+              isMobileMenuOpen={isMobileMenuOpen}
+            />
           )}
         </div>
       ))}
