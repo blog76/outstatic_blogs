@@ -18,7 +18,7 @@ const Index = ({ posts, len }) => {
   return (
     <>
       <div className="container">
-        <header className="h-55 mb-5 p-12 text-[#2f4468] font-[600] text-4xl bg-white rounded-xl">
+        <header className="h-55 mb-5 p-12 text-[#2f4468] font-[600] text-4xl   rounded-xl">
           <h1>AI Voice</h1>
         </header>
         {/* <h1>Welcome to my Blog!</h1> */}
@@ -36,7 +36,7 @@ const Index = ({ posts, len }) => {
             return (
               <>
                 <div
-                  className="sm:grid grid-cols-12 gap-4 mt-5 p-8 items-center bg-white rounded-xl"
+                  className="sm:grid grid-cols-12 gap-4 mt-5 p-8 items-center  rounded-xl"
                   key={post.publishedAt}
                 >
                   <div className="col-span-5">

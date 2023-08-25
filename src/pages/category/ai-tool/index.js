@@ -35,7 +35,7 @@ const Index = ({ posts, len }) => {
             return (
               <>
                 <div
-                  className="sm:grid grid-cols-12 gap-4 mt-5 p-8 items-center bg-white rounded-xl"
+                  className="sm:grid grid-cols-12 gap-4 mt-5 p-8 items-center  rounded-xl"
                   key={post.publishedAt}
                 >
                   <div className="col-span-5">
