@@ -1,18 +1,21 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+const MENU = [
+  { name: "About us", path: "/info/about-us" },
+  { name: "Terms", path: "/info/terms-and-conditions" },
+  { name: "Privacy Policy", path: "/info/privacy-policy" },
+  { name: "Contact Us", path: "/info/contact-us" },
+  { name: "Disclaimer", path: "/info/disclaimer" },
+];
 export function FooterLinks() {
   const router = useRouter();
-  return [
-    ["About us", "/info/about-us"],
-    ["Terms", "/info/terms-and-conditions"],
-    ["Privacy Policy", "/info/privacy-policy"],
-    ["Contact Us", "/info/contact-us"],
-    ["Disclaimer", "/info/disclaimer"],
-  ].map(([label, href]) => (
-    <Link key={label} href={href} className={`flex px-3 font-bold text-[#214b7d] hover:text-[#2872fa] uppercase`}>
-      <div className={` ${router.pathname === href ? "activeLinkRoute" : ""} `}>
-        {label}
-      </div>
+  return MENU.map((label, ind) => (
+    <Link
+      key={ind}
+      href={label.path}
+      className="px-3 font-bold text-[#214b7d] hover:text-[#2872fa] uppercase"
+    >
+      <span>{label.name}</span>
     </Link>
   ));
 }

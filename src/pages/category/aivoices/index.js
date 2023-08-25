@@ -18,11 +18,11 @@ const Index = ({ posts, len }) => {
   return (
     <>
       <div className="container">
-        <header className="h-55 mb-5 p-12 text-[#2f4468] font-[600] text-4xl">
+        <header className="h-55 mb-5 p-12 text-[#2f4468] font-[600] text-4xl bg-white rounded-xl">
           <h1>AI Voice</h1>
         </header>
         {/* <h1>Welcome to my Blog!</h1> */}
-        <div className="row">
+        <div className="row mb-20">
           {(n ? filteredBlogs : posts).map((post) => {
             const publishedDate = new Date(post.publishedAt);
             const day = publishedDate.getDate();
@@ -34,24 +34,22 @@ const Index = ({ posts, len }) => {
             const imageUrl = post.coverImage;
 
             return (
-              <article
-                key={post.publishedAt}
-                className="mb-5 block border-3 border-b border-gray-300"
-              >
-                <div className="lg:flex md:flex-none">
-                <div className="mt-5 w-30 flex lg:justify-center md:justify-start p-5">
-                  <a>
-                    <Image
-                      width={325}
-                      height={200}
-                      className="lg:w-[350px] lg:h-[200px] md:w-[550px] md:h-[350px] object-cover rounded-md"
-                      src={imageUrl}
-                      alt="bg"
-                    />
-                  </a>
-                </div>
-                  <div className="capitalize">
-                    <div className="lg:p-10 md:p-[20px] sm:p-[30px]">
+              <>
+                <div
+                  className="sm:grid grid-cols-12 gap-4 mt-5 p-8 items-center bg-white rounded-xl"
+                  key={post.publishedAt}
+                >
+                  <div className="col-span-5">
+                    <a>
+                      <img
+                        className="w-full h-[200px] object-cover rounded-md"
+                        src={imageUrl}
+                        alt="bg"
+                      />
+                    </a>
+                  </div>
+                  <div className="col-span-7">
+                    <div className="ps-5">
                       <header className="block">
                         <h2 className="mb-5 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold ">
                           <a>
@@ -60,7 +58,9 @@ const Index = ({ posts, len }) => {
                         </h2>
                       </header>
                       <p className="mb-5 text-lg font-[400] text-[#3A4F66]">
-                        {post.description}
+                        {post.description.slice(0, 90)}
+                        {post.description.length < 90 ? "" : "...."}
+                        {/* {post.description} */}
                       </p>
                       <p className="mb-5">
                         <Link
@@ -78,7 +78,7 @@ const Index = ({ posts, len }) => {
                     </div>
                   </div>
                 </div>
-              </article>
+              </>
             );
           })}
         </div>

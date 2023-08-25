@@ -23,7 +23,7 @@ const Index = ({ allBlogs, len }) => {
   return (
     <>
       <div className="container">
-        <header className="h-55 mb-5 p-12 bg-white text-black font-[600] text-4xl ">
+        <header className="h-55 mb-5 p-12  text-black font-[600] text-4xl ">
           <h1>{s ? `Search Results for: ${s} ` : "Home Page"}</h1>
         </header>
         <div className="row">
@@ -40,14 +40,14 @@ const Index = ({ allBlogs, len }) => {
               month: "long",
             });
             const year = publishedDate.getFullYear();
-            const imageUrl = post.coverImage;   
+            const imageUrl = post.coverImage;
             return (
               <article
                 key={post.publishedAt}
                 className="mb-5 block border-3 border-b border-gray-300"
               >
-                <div className="flex">
-                  <div className="mt-5 w-30 flex justify-center items-center p-5">
+                <div className="grid lg:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1">
+                  <div className="mt-5 w-30 flex justify-center items-center p-2">
                     <a>
                       <Image
                         width={325}
@@ -59,7 +59,7 @@ const Index = ({ allBlogs, len }) => {
                     </a>
                   </div>
                   <div className="capitalize">
-                    <div className="p-10">
+                    <div className="p-5">
                       <header className="block">
                         <h2 className="mb-5 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold ">
                           <a>
