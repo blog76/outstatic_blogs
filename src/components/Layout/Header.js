@@ -20,7 +20,7 @@ export default function Navbar() {
                 onClick={toggleMobileMenu}
                 className="relative flex justify-between items-center p-2 text-white focus:outline-none focus:ring-inset"
               >
-                <span className="mr-7">
+                <span className="mr-10">
                   {/* Icon for open menu */}
                   <svg
                     className={`block h-6 w-6 ${
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <svg
                     className={`block h-6 w-6 ${
                       isMobileMenuOpen ? "-mr-44" : "hidden"
-                    } text-white`}
+                    } text-black`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -56,7 +56,7 @@ export default function Navbar() {
                     />
                   </svg>
                 </span>
-                <span className="text-[20px]">Menu</span>
+                {/* <span className="text-[20px] text-black">Menu</span> */}
               </button>
             </div>
             {/* logo */}
