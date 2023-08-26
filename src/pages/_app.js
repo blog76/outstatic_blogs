@@ -63,19 +63,25 @@ function MyApp({ Component, pageProps, router }) {
       ) : (
         <>
           <Navbar />
-          <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
-            <main className="flex-1 py-4 pt-8 w-full max-w-[840px]">
-              <Component {...pageProps} />
-              {totalPages > 1 && !isSingal && (
-                <Pagination
-                  currentPage={currentPage}
-                  totalPages={totalPages}
-                  onPageChange={handlePageChange}
-                />
-              )}
-            </main>
-            <Sidebar />
-          </div>
+          <nav className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center p-2 text-[#192a3d] items-start">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
+              <div className="sm:grid grid-cols-12 gap-8 mt-5 rounded-xl w-full">
+                <div className="col-span-12 lg:col-span-7 mb-5 sm:mb-0">
+                  <Component {...pageProps} />
+                  {totalPages > 1 && !isSingal && (
+                    <Pagination
+                      currentPage={currentPage}
+                      totalPages={totalPages}
+                      onPageChange={handlePageChange}
+                    />
+                  )}
+                </div>
+                <div className="col-span-12 lg:col-span-5">
+                  <Sidebar />
+                </div>
+              </div>
+            </div>
+          </nav>
           <Footer />
         </>
       )}

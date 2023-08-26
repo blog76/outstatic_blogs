@@ -59,15 +59,24 @@ const Index = ({ posts, len }) => {
                       <p className="mb-5 text-lg font-[400] text-[#3A4F66]">
                         {post.description.slice(0, 90)}
                         {post.description.length < 90 ? "" : "...."}
-                        {/* {post.description} */}
                       </p>
                       <p className="mb-5">
-                        <Link
-                          href={"/category/posts/" + post.slug}
-                          className="text-white bg-[#2872fa] hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-base rounded-[3px] px-5 py-2.5"
+                        <button
+                          onClick={() =>
+                            router.push("/category/posts/" + post.slug)
+                          }
+                          className="text-white bg-[#2872fa] hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-base rounded px-5 py-2 flex"
                         >
                           Read more
-                        </Link>
+                          <svg
+                            width="20px"
+                            height="17px"
+                            className="fill-white self-center ml-2"
+                            viewBox="0 0 32 32"
+                          >
+                            <path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z "></path>
+                          </svg>
+                        </button>
                       </p>
                       <div className="text-[#878787] mt-2 text-base">
                         <span>

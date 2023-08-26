@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const links = [
   { name: "Home", path: "/" },
@@ -23,24 +23,56 @@ const links = [
 export function HeaderLinks() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropdownRef = useRef(null);
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <>
       <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-0 md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
+        <ul className="items-center font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-0 md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
           {links.map((item, index) => {
             return (
               <li key={index}>
                 {item.subMenu && item.subMenu.length ? (
-                  <div className="relative inline-block text-left">
+                  <div
+                    className="relative inline-block text-left"
+                    ref={dropdownRef}
+                  >
                     <span
                       onClick={toggleDropdown}
-                      className={`px-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium cursor-pointer`}
+                      className={`flex items-center ps-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium cursor-pointer`}
                     >
                       {item.name}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          stroke="none"
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        ></path>
+                        <path d="M6 9l6 6l6 -6"></path>
+                      </svg>
                     </span>
                     {isOpen && (
                       <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 drop-shadow-lg">

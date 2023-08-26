@@ -27,9 +27,9 @@ const Sidebar = ({ changePager }) => {
   };
 
   return (
-    <aside className="lg:w-[450px]  md:relative md:right-0">
-      <div className="md:max-w-[450px]">
-        <div className="md:max-w-[450px] md:px-6 text-xl bg-white rounded-md py-5 px-5 mx-auto my-8  ">
+    <aside className="">
+      <div className="">
+        <div className=" md:px-6 text-xl bg-white rounded-md py-5 px-5 mb-8">
           <form
             role="search"
             className=" relative flex justify-between p-2.5 rounded-md border border-gray-300"
@@ -59,7 +59,7 @@ const Sidebar = ({ changePager }) => {
             </button>
           </form>
         </div>
-        <div className="md:max-w-[450px] md:px-6 text-xl bg-white rounded-md py-2.5 px-2 mx-auto my-8">
+        <div className=" md:px-6 text-xl bg-white rounded-md py-2.5 px-2 my-8">
           <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
             Select Your Category
           </div>

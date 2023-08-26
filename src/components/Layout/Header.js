@@ -19,13 +19,9 @@ export default function Navbar() {
 
   return (
     <nav class="bg-white p-2 text-[#192a3d]">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <span className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
-          <Link
-            href="/"
-            className="leading-normal"
-            style={{ paddingLeft: "16px" }}
-          >
+          <Link href="/" className="leading-normal">
             Smart AI Solutions
           </Link>
         </span>
