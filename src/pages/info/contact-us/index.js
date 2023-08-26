@@ -2,72 +2,14 @@ const Contactus = () => {
   return (
     <>
       <div className="max-w-[1024px] gap-[1rem] mx-auto ">
-        <div className="container shadow-gray-500 shadow-md p-12 my-5">
-          <header className="text-[#192a3d] text-[40px] font-bold">
-            <h1>Contact Us</h1>
-          </header>
-          <div className="my-8 px-0">
-            <form action="#" className="space-y-8">
-              <div>
-                <label
-                  for="name"
-                  className="block mb-2  font-medium text-black"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
-                />
-              </div>
-              <div>
-                <label
-                  for="email"
-                  className="block mb-2 text-[17px] font-medium text-black"
-                >
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
-                />
-              </div>
-              <div>
-                <label
-                  for="subject"
-                  className="block mb-2 text-[17px] font-medium text-black"
-                >
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
-                />
-              </div>
-              <div className="sm:col-span-2">
-                <label
-                  for="message"
-                  className="block mb-2 text-[17px] font-medium text-black"
-                >
-                  Your message(Optional)
-                </label>
-                <textarea
-                  id="message"
-                  rows="6"
-                  className="block p-2.5 w-full text-[17px] text-black bg-gray-50 shadow-sm border border-black"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="py-3 px-5 text-[17px] font-medium text-center text-white bg-black sm:w-fit "
-              >
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-        <div className="container shadow-gray-500  p-12 my-5 ">
+        <div
+          className="container shadow-gray-500  "
+          style={{
+            paddingLeft: "40px",
+            marginBottom: "24px",
+            paddingRight: "10px",
+          }}
+        >
           <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>
               Our Story and Passion: Unveiling the Magic Behind Smart AI
@@ -196,6 +138,71 @@ const Contactus = () => {
               official platform material and is just intended to offer insights
               into Smart AI Solution&apos;s “About Us” section.
             </p>
+          </div>
+          <div className="container border-t-4 border-blue-400 my-5">
+            <header className="text-[#192a3d] text-[40px] font-bold" style={{ marginTop:'24px'}}>
+              <h1>Contact Us</h1>
+            </header>
+            <div className="my-8 px-0">
+              <form action="#" className="space-y-8">
+                <div>
+                  <label
+                    for="name"
+                    className="block mb-2  font-medium text-black"
+                  >
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
+                  />
+                </div>
+                <div>
+                  <label
+                    for="email"
+                    className="block mb-2 text-[17px] font-medium text-black"
+                  >
+                    Your Email
+                  </label>
+                  <input
+                    type="email"
+                    className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
+                  />
+                </div>
+                <div>
+                  <label
+                    for="subject"
+                    className="block mb-2 text-[17px] font-medium text-black"
+                  >
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    id="subject"
+                    className="shadow-sm border border-black text-black text-[17px] block max-w-full p-2.5 "
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label
+                    for="message"
+                    className="block mb-2 text-[17px] font-medium text-black"
+                  >
+                    Your message(Optional)
+                  </label>
+                  <textarea
+                    id="message"
+                    rows="6"
+                    className="block p-2.5 w-full text-[17px] text-black bg-gray-50 shadow-sm border border-black"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  className="py-3 px-5 text-[17px] font-medium text-center text-white bg-black sm:w-fit "
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
