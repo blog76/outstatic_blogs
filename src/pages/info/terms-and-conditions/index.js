@@ -4,7 +4,11 @@ const Terms = () => {
       <div className="md:flex max-w-[1024px] gap-[1rem] mx-auto ">
         <div
           className="container "
-          style={{ paddingLeft: "40px", marginBottom: "24px" }}
+          style={{
+            paddingLeft: "40px",
+            marginBottom: "24px",
+            paddingRight: "10px",
+          }}
         >
           <header className="text-[#192a3d] text-[40px] font-bold">
             <h1>Terms and Conditions</h1>
