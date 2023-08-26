@@ -9,9 +9,6 @@ const BlogSingle = ({ post, htmlData }) => {
     month: "short",
   });
   const year = publishedDate.getFullYear();
-  if (typeof window !== "undefined") {
-    localStorage.setItem("sin", JSON.stringify(true));
-  }
 
   return (
     <div>

@@ -16,8 +16,9 @@ function MyApp({ Component, pageProps, router }) {
   React.useEffect(() => {
     if (isCilent) {
       setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
+      setIsSingal(router.pathname.includes("[slug]"));
     }
-  }, [isCilent, loading]);
+  }, [isCilent, loading, router.pathname]);
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
@@ -27,7 +28,6 @@ function MyApp({ Component, pageProps, router }) {
   React.useEffect(() => {
     const start = () => {
       setLoading(true);
-
     };
     const end = () => {
       setLoading(false);
