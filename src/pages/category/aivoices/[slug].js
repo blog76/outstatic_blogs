@@ -9,24 +9,29 @@ const BlogSingle = ({ post, htmlData }) => {
     month: "short",
   });
   const year = publishedDate.getFullYear();
+   if (typeof window !== "undefined") {
+     localStorage.setItem("sin", JSON.stringify(true));
+   }
+
   return (
     <div>
       <div className="container">
-        <div className=" md:px-[3rem] px-[1rem] py-[4rem] drop-shadow-lg   mx-auto my-3 ">
+        <header className="h-55 mb-5 py-12 text-[#2f4468] font-[600] text-4xl">
+          <h1 className="text-4xl font-sans ml-10  font-bold">{post.title}</h1>
+        </header>
+
+        <div className=" md:px-[3rem] px-[1rem] py-[2rem] drop-shadow-lg   mx-auto my-3 ">
           <div className="drop-shadow-lg">
             <Image
               src={post.coverImage}
               alt="no_image"
               height={100}
               width={100}
-              className="rounded-[1rem] mx-auto mb-8 font-medium drop-shadow-xl  w-[664px] h-[350px]"
+              className="rounded-[1rem] mx-auto mb-8 font-medium drop-shadow-xl  w-full h-full"
             />
           </div>
           <div>
             <header>
-              <div className="inline-block align-middle">
-                <h1 className="text-4xl font-sans   font-bold">{post.title}</h1>
-              </div>
               <div className="mb-3">
                 <time>{`${day} ${month} ${year}`}</time>
               </div>
@@ -38,7 +43,7 @@ const BlogSingle = ({ post, htmlData }) => {
               />
             </div>
           </div>
-          <div className="mx-auto mt-16 md:items-center p-5 md:flex max-w-md overflow-hidden rounded-xl  shadow-lg md:max-w-4xl">
+          <div className="mx-auto mt-16 md:items-center p-5 md:flex max-w-md overflow-hidden rounded-xl   shadow-lg md:max-w-4xl">
             <Image
               width={100}
               height={100}

@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps, router }) {
   const [loading, setLoading] = React.useState(false);
   const [currentPage, setCurrentPage] = React.useState(1);
   const [totalPages, setTotalPages] = React.useState(0);
+  const [isSingal, setIsSingal] = React.useState(false);
 
   const isCilent = typeof window !== "undefined";
   React.useEffect(() => {
@@ -26,7 +27,7 @@ function MyApp({ Component, pageProps, router }) {
   React.useEffect(() => {
     const start = () => {
       setLoading(true);
-      console.log("----------->start", localStorage.getItem("len"));
+
     };
     const end = () => {
       setLoading(false);
@@ -58,7 +59,7 @@ function MyApp({ Component, pageProps, router }) {
           <div className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center">
             <main className="flex-1 py-4 pt-8 w-full max-w-[840px]">
               <Component {...pageProps} />
-              {totalPages > 1 && (
+              {totalPages > 1 && !isSingal && (
                 <Pagination
                   currentPage={currentPage}
                   totalPages={totalPages}
