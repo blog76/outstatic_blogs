@@ -17,7 +17,9 @@ function MyApp({ Component, pageProps, router }) {
     if (isCilent) {
       setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
       setIsSingal(
-        router.pathname.includes("[slug]") || router.pathname.includes("info")
+        router.pathname.includes("[slug]") ||
+          router.pathname.includes("info") ||
+          router.query.s
       );
     }
   }, [isCilent, loading, router.pathname]);
