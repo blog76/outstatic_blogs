@@ -10,7 +10,7 @@ const Index = ({ posts, len }) => {
   if (n) {
     const startIndex = n ? (n - 1) * 10 : 0;
     const endIndex = startIndex + 10;
-    filteredBlogs = allBlogs.slice(startIndex, endIndex);
+    filteredBlogs = posts.slice(startIndex, endIndex);
   }
   if (typeof window !== "undefined") {
     localStorage.setItem("len", JSON.stringify(len));

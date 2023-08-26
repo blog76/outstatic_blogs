@@ -16,13 +16,18 @@ function MyApp({ Component, pageProps, router }) {
   React.useEffect(() => {
     if (isCilent) {
       setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
-      setIsSingal(router.pathname.includes("[slug]"));
+      setIsSingal(
+        router.pathname.includes("[slug]") || router.pathname.includes("info")
+      );
     }
   }, [isCilent, loading, router.pathname]);
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
-    router.push(`/?n=${newPage}`);
+    router.push({
+      pathname: router.pathname,
+      query: { n: newPage },
+    });
     setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
   };
   React.useEffect(() => {
