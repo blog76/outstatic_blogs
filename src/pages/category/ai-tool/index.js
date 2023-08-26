@@ -63,7 +63,7 @@ const Index = ({ posts, len }) => {
                       </p>
                       <p className="mb-5">
                         <Link
-                          href={"/category/aivoices/" + post.slug}
+                          href={"/category/posts/" + post.slug}
                           className="text-white bg-[#2872fa] hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-base rounded-[3px] px-5 py-2.5"
                         >
                           Read more
