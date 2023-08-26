@@ -9,12 +9,11 @@ const BlogSingle = ({ post, htmlData }) => {
     month: "short",
   });
   const year = publishedDate.getFullYear();
-  
 
   return (
     <div className="">
-      <header className="h-55 mb-5 pb-10 text-[#2f4468] font-[600] text-4xl">
-        <h1 className="text-4xl font-sans font-bold capitalize">
+      <header className="h-55 mb-5 pb-10 text-[#2f4468] font-[600] text-3xl">
+        <h1 className="text-3xl font-sans font-bold capitalize">
           {post.title}
         </h1>
       </header>

@@ -18,7 +18,7 @@ const Index = ({ posts, len }) => {
   return (
     <>
       <div className="">
-        <header className="h-55 mb-5 text-black font-[600] text-4xl">
+        <header className="h-55 mb-5 text-black font-[600] text-3xl">
           <h1>AI Logo Maker</h1>
         </header>
         {/* <h1>Welcome to my Blog!</h1> */}

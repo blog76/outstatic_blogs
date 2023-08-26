@@ -9,12 +9,12 @@ const BlogSingle = ({ post, htmlData }) => {
     month: "short",
   });
   const year = publishedDate.getFullYear();
-  
+
   return (
     <div>
       <div className="container">
-        <header className="h-55 mb-5 py-12 text-[#2f4468] font-[600] text-4xl">
-          <h1 className="text-4xl font-sans ml-10  font-bold">{post.title}</h1>
+        <header className="h-55 mb-5 py-12 text-[#2f4468] font-[600] text-3xl">
+          <h1 className="text-3xl font-sans ml-10  font-bold">{post.title}</h1>
         </header>
 
         <div className=" md:px-[3rem] px-[1rem] py-[2rem] drop-shadow-lg   mx-auto my-3 ">
