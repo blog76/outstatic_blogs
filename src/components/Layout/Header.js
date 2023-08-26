@@ -18,8 +18,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav class="bg-white p-2 text-[#192a3d]">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
+    <nav className="bg-white p-2 text-[#192a3d]">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <span className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
           <Link href="/" className="leading-normal">
             Smart AI Solutions
@@ -31,7 +31,7 @@ export default function Navbar() {
           onClick={toggleDrawer}
         >
           <svg
-            class="w-5 h-5"
+            className="w-5 h-5"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -54,7 +54,7 @@ export default function Navbar() {
           <button className="p-4 text-dark" onClick={toggleDrawer}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-x"
+              className="icon icon-tabler icon-tabler-x"
               width="24"
               height="24"
               viewBox="0 0 24 24"
