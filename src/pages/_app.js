@@ -3,10 +3,10 @@ import Navbar from "@/components/Layout/Header";
 import Sidebar from "@/components/Layout/Sidebar";
 import React from "react";
 import "tailwindcss/tailwind.css";
-import "../styles/globals.css"
+import "../styles/globals.css";
 import Loader from "./loading";
 import Pagination from "@/components/UI/Pagination";
-import { getDocuments } from "outstatic/server";;
+import { getDocuments } from "outstatic/server";
 import SliderSlick from "@/components/UI/SliderSlick";
 
 function MyApp({ Component, pageProps, router, posts }) {
@@ -22,8 +22,8 @@ function MyApp({ Component, pageProps, router, posts }) {
       setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
       setIsSingal(
         router.pathname.includes("[slug]") ||
-        router.pathname.includes("info") ||
-        router.query.s
+          router.pathname.includes("info") ||
+          router.query.s
       );
     }
   }, [isCilent, loading, router.pathname]);
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps, router, posts }) {
     router.events.on("routeChangeStart", start);
     router.events.on("routeChangeComplete", end);
     router.events.on("routeChangeError", end);
-    setLatest(JSON.parse(localStorage.getItem("latest")));
+    setLatest(JSON.parse(localStorage.getItem("latest")) || []);
     return () => {
       router.events.off("routeChangeStart", start);
       router.events.off("routeChangeComplete", end);
