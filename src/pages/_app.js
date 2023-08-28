@@ -31,6 +31,9 @@ function MyApp({ Component, pageProps, router, posts }) {
       // localStorage.removeItem("n");
     }
   }, [isCilent, router.pathname]);
+  React.useEffect(() => {
+    setLatest(JSON.parse(localStorage.getItem("latest")) || []);
+  }, []);
 
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
