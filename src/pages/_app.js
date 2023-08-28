@@ -3,6 +3,7 @@ import Navbar from "@/components/Layout/Header";
 import Sidebar from "@/components/Layout/Sidebar";
 import React from "react";
 import "tailwindcss/tailwind.css";
+import "../styles/globals.css"
 import Loader from "./loading";
 import Pagination from "@/components/UI/Pagination";
 import { getDocuments } from "outstatic/server";;
@@ -83,19 +84,19 @@ function MyApp({ Component, pageProps, router, posts }) {
                 <div className="col-span-12 lg:col-span-5">
                   <Sidebar />
                 </div>
-              </div>
-              {isSingal && (
-                <>
-                  <div className="sm:grid grid-cols-12 gap-7 rounded-xl w-full items-center mt-12">
-                    <div className="col-span-12  mb-5 sm:mb-0 text-3xl font-bold">
+                {isSingal && (
+                  <>
+                    <div className="col-span-12 lg:col-span-12 text-3xl font-bold mb-5 sm:mb-0">
                       More Suggestions
                     </div>
-                  </div>
-                  <div className="sm:grid grid-cols-12 gap-7 rounded-xl w-full items-center my-12">
-                    <SliderSlick latest={latest} />
-                  </div>
-                </>
-              )}
+                    <div className="col-span-12 lg:col-span-12 mb-10">
+                      <div className={"lg:w-full slider-maincontainer m-auto"}>
+                        <SliderSlick latest={latest} />
+                      </div>
+                    </div>
+                  </>
+                )}
+              </div>
             </div>
           </nav>
           <Footer />

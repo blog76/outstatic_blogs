@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-prev:before {
+  content: "" !important;
+}
+.slick-arrow {
+  display: none !important;
+}
+
+@media only screen and (max-width: 639px) {
+  .slider-maincontainer {
+    width: 595px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .slider-maincontainer {
+    width: 580px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .slider-maincontainer {
+    width: 560px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .slider-maincontainer {
+    width: 540px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .slider-maincontainer {
+    width: 520px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .slider-maincontainer {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .slider-maincontainer {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .slider-maincontainer {
+    width: 460px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .slider-maincontainer {
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .slider-maincontainer {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .slider-maincontainer {
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .slider-maincontainer {
+    width: 320px;
+  }
+}

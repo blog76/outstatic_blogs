@@ -43,7 +43,8 @@ const CardView = ({ post, redirect }) => {
                         </h2>
                     </header>
                     <p className="mb-4 text-md font-[400] text-[#3A4F66]">
-                        {post.description}
+                        {post.description.slice(0, 90)}
+                        {post.description.length < 90 ? "" : "...."}
                     </p>
                     <p className="mb-4">
                         <button
