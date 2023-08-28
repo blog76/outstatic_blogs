@@ -2,7 +2,7 @@ import { getCollections, getDocuments } from "outstatic/server";
 import { useRouter } from "next/router";
 import CardView from "@/components/UI/CardView";
 
-const Index = ({ allBlogs, len, latest }) => {
+const Index = ({ allBlogs, len, latest, rec }) => {
   const router = useRouter();
   const { s } = router.query;
   let filteredBlogs = [],
@@ -11,6 +11,7 @@ const Index = ({ allBlogs, len, latest }) => {
   if (typeof window !== "undefined") {
     localStorage.setItem("len", JSON.stringify(len));
     localStorage.setItem("latest", JSON.stringify(latest));
+    localStorage.setItem("rec", JSON.stringify(rec));
     n = localStorage.getItem("n");
   }
 
@@ -97,6 +98,11 @@ export async function getStaticProps() {
   len = allBlogs.length;
 
   return {
-    props: { allBlogs: allBlogs, len: len, latest: latest },
+    props: {
+      allBlogs: allBlogs,
+      len: len,
+      latest: latest,
+      rec: allBlogs.splice(-3),
+    },
   };
 }
