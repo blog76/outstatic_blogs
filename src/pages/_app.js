@@ -84,7 +84,7 @@ function MyApp({ Component, pageProps, router, posts }) {
                 <div className="col-span-12 lg:col-span-5">
                   <Sidebar />
                 </div>
-                {isSingal && (
+                {isSingal && !router.pathname.includes("info") && (
                   <>
                     <div className="col-span-12 lg:col-span-12 text-3xl font-bold mb-5 sm:mb-0">
                       More Suggestions
