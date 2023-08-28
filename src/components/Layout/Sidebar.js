@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import FeaturedBlog from "../UI/FeaturedBlog";
 
 const category = [
   ["AI Avtar Generator", "/category/avatar-generators"],
@@ -27,9 +28,9 @@ const Sidebar = ({ changePager }) => {
   };
 
   return (
-    <aside className="">
-      <div className="">
-        <div className=" md:px-6 text-xl bg-white rounded-md py-5 px-5 mb-8">
+    <div className="sm:grid grid-cols-12 gap-8 mt-0 rounded-xl w-full">
+      <div className="col-span-12 mb-5 sm:mb-0">
+        <div className=" md:px-6 text-xl bg-white rounded-md py-5 px-5 mb-0">
           <form
             role="search"
             className=" relative flex justify-between p-2.5 rounded-md border border-gray-300"
@@ -59,6 +60,12 @@ const Sidebar = ({ changePager }) => {
             </button>
           </form>
         </div>
+      </div>
+      <div className="col-span-12 mb-5 sm:mb-0">
+        <FeaturedBlog />
+      </div>
+      <div className="col-span-12 mb-5 sm:mb-0">
+
         <div className=" md:px-6 text-xl bg-white rounded-md py-2.5 px-2 my-8">
           <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
             Select Your Category
@@ -79,7 +86,7 @@ const Sidebar = ({ changePager }) => {
           </div>
         </div>
       </div>
-    </aside>
+    </div>
   );
 };
 

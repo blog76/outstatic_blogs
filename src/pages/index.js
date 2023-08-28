@@ -27,7 +27,7 @@ const Index = ({ allBlogs, len, latest }) => {
             <h1>{`Search Results for: ${s} `}</h1>
           </header>
         ) : (
-          <header className="h-55 mb-10 text-black font-[600] text-3xl">
+          <header className="mb-10 text-black font-[600] text-3xl bg-white p-5 rounded-xl">
             <h1>Home Page</h1>
           </header>
         )}
@@ -39,7 +39,7 @@ const Index = ({ allBlogs, len, latest }) => {
           })}
         </div>
         {filteredBlogs.length < 1 && s && (
-          <header className="h-55 mb-5 p-12 bg-white font-[600] text-3xl drop-shadow-lg ">
+          <header className="h-55 mb-5 p-12 bg-white font-[600] text-3xl drop-shadow-lg rounded-xl">
             <h1>Nothing Found</h1>
             <p className="mt-5 text-black text-lg">
               Sorry, but nothing matched your search terms. Please try again
