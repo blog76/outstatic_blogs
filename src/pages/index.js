@@ -4,8 +4,16 @@ import CardView from "@/components/UI/CardView";
 
 const Index = ({ allBlogs, len, latest }) => {
   const router = useRouter();
-  const { s, n } = router.query;
-  let filteredBlogs = [];
+  const { s } = router.query;
+  let filteredBlogs = [],
+    n;
+
+  if (typeof window !== "undefined") {
+    localStorage.setItem("len", JSON.stringify(len));
+    localStorage.setItem("latest", JSON.stringify(latest));
+    n = localStorage.getItem("n");
+  }
+
   if (s && allBlogs && allBlogs.length > 0) {
     filteredBlogs = allBlogs.filter((post) =>
       post.title.toLowerCase().includes(s.toLowerCase())
@@ -15,10 +23,7 @@ const Index = ({ allBlogs, len, latest }) => {
     const endIndex = startIndex + 10;
     filteredBlogs = allBlogs.slice(startIndex, endIndex);
   }
-  if (typeof window !== "undefined") {
-    localStorage.setItem("len", JSON.stringify(len));
-    localStorage.setItem("latest", JSON.stringify(latest));
-  }
+
   return (
     <>
       <div className="">
@@ -34,7 +39,11 @@ const Index = ({ allBlogs, len, latest }) => {
         <div className="row mb-10">
           {filteredBlogs?.map((post) => {
             return (
-              <CardView post={post} key={post.publishedAt} redirect={`/category/${post.collection}/${post.slug}`} />
+              <CardView
+                post={post}
+                key={post.publishedAt}
+                redirect={`/category/${post.collection}/${post.slug}`}
+              />
             );
           })}
         </div>

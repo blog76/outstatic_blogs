@@ -89,6 +89,7 @@ export function HeaderLinks() {
                                 href={menu.path}
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
                                 role="menuitem"
+                                onClick={() => localStorage.removeItem("n")}
                               >
                                 {menu.name}
                               </a>
@@ -103,6 +104,7 @@ export function HeaderLinks() {
                     href={item.path}
                     className={`px-5 py-5 leading-normal hover:text-[#2872fa] text-[15px] font-medium`}
                     aria-current="page"
+                    onClick={() => localStorage.removeItem("n")}
                   >
                     {item.name}
                   </Link>

@@ -3,8 +3,11 @@ import { useRouter } from "next/router";
 import CardView from "@/components/UI/CardView";
 
 const Index = ({ posts, len }) => {
-  const router = useRouter();
-  const { n } = router.query;
+  let n;
+  if (typeof window !== "undefined") {
+    localStorage.setItem("len", JSON.stringify(len));
+    n = localStorage.getItem("n");
+  }
   let filteredBlogs = [];
   if (n) {
     const startIndex = n ? (n - 1) * 10 : 0;
@@ -24,7 +27,11 @@ const Index = ({ posts, len }) => {
         <div className="row">
           {(n ? filteredBlogs : posts).map((post) => {
             return (
-              <CardView post={post} key={post.publishedAt} redirect={"/category/video-generators/" + post.slug} />
+              <CardView
+                post={post}
+                key={post.publishedAt}
+                redirect={"/category/video-generators/" + post.slug}
+              />
             );
           })}
         </div>

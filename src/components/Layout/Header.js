@@ -13,6 +13,7 @@ export default function Navbar() {
   };
 
   const redirect = (path) => {
+    localStorage.removeItem("n");
     router.push(path);
     toggleDrawer();
   };
@@ -21,7 +22,11 @@ export default function Navbar() {
     <nav className="bg-white p-2 text-[#192a3d]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         <span className="w-auto font-bold text-[25px] leading-normal items-center mr-auto lg:flex hover:text-[#2872fa]">
-          <Link href="/" className="leading-normal">
+          <Link
+            href="/"
+            className="leading-normal"
+            onClick={() => localStorage.removeItem("n")}
+          >
             Smart AI Solutions
           </Link>
         </span>

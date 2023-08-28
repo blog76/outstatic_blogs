@@ -65,7 +65,6 @@ const Sidebar = ({ changePager }) => {
         <FeaturedBlog />
       </div>
       <div className="col-span-12 mb-5 sm:mb-0">
-
         <div className=" md:px-6 text-xl bg-white rounded-md py-2.5 px-2 my-8">
           <div className=" text-[#192a3d] text-lg font-bold px-2 py-1 mb-3">
             Select Your Category
@@ -73,7 +72,14 @@ const Sidebar = ({ changePager }) => {
           <div>
             <ul id="category" className="bg-white text-[#3A4F66] w-60 ">
               {category.map(([label, href], i) => (
-                <Link href={href} key={i} onClick={changePager}>
+                <Link
+                  href={href}
+                  key={i}
+                  onClick={() => {
+                    console.log("hiiiiiiiiiiiiii");
+                    localStorage.removeItem("n");
+                  }}
+                >
                   <li
                     key={label}
                     className={`text-base font-normal ml-2 hover:text-[#2872fa]`}

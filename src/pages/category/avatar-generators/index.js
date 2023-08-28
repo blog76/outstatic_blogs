@@ -3,17 +3,18 @@ import { useRouter } from "next/router";
 import CardView from "@/components/UI/CardView";
 
 const Index = ({ posts, len }) => {
-  const router = useRouter();
-  const { n } = router.query;
+   let n;
+   if (typeof window !== "undefined") {
+     localStorage.setItem("len", JSON.stringify(len));
+     n = localStorage.getItem("n");
+   }
   let filteredBlogs = [];
   if (n) {
     const startIndex = n ? (n - 1) * 10 : 0;
     const endIndex = startIndex + 10;
     filteredBlogs = posts.slice(startIndex, endIndex);
   }
-  if (typeof window !== "undefined") {
-    localStorage.setItem("len", JSON.stringify(len));
-  }
+ 
   return (
     <>
       <div className="">
