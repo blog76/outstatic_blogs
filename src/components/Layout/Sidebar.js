@@ -76,7 +76,6 @@ const Sidebar = ({ changePager }) => {
                   href={href}
                   key={i}
                   onClick={() => {
-                    console.log("hiiiiiiiiiiiiii");
                     localStorage.removeItem("n");
                   }}
                 >
