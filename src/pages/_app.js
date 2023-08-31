@@ -15,22 +15,19 @@ function MyApp({ Component, pageProps, router, posts }) {
   const [isSingal, setIsSingal] = React.useState(false);
   const [latest, setLatest] = React.useState([]);
   console.log("post", posts);
-  const isCilent = typeof window !== "undefined";
   React.useEffect(() => {
-    if (isCilent) {
-      setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
-      setIsSingal(
-        router.pathname.includes("[slug]") ||
-          router.pathname.includes("info") ||
-          router.query.s
-      );
-      console.log("Hiiiiiiiiiii", currentPage);
-      if (!localStorage.getItem("n")) {
-        setCurrentPage(1);
-      }
-      // localStorage.removeItem("n");
+    setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
+    setIsSingal(
+      router.pathname.includes("[slug]") ||
+        router.pathname.includes("info") ||
+        router.query.s
+    );
+    console.log("Hiiiiiiiiiii", currentPage);
+    if (!localStorage.getItem("n")) {
+      setCurrentPage(1);
     }
-  }, [isCilent, router.pathname]);
+    // localStorage.removeItem("n");
+  }, [currentPage, router.pathname, router.query.s]);
   React.useEffect(() => {
     setLatest(JSON.parse(localStorage.getItem("latest")) || []);
   }, []);
