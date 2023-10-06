@@ -1,6 +1,6 @@
 ---
 title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -10,7 +10,7 @@ coverImage: '/images/leonardo-ai-image-generator-1-YzMz.png'
 publishedAt: '2023-10-06T10:02:56.814Z'
 ---
 
-![](/images/leonardo-ai-image-generator-1-Q0MD.png)
+![](/images/leonardo-ai-image-generator-1-Y4Mz.png)
 
 Calling all creators! Want FREE AI content for YouTube, Instagram, or games?
 
