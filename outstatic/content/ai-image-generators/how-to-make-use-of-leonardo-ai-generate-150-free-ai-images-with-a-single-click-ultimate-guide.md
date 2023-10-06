@@ -10,7 +10,7 @@ coverImage: '/images/leonardo-ai-image-generator-1-YzMz.png'
 publishedAt: '2023-10-06T10:02:56.814Z'
 ---
 
-![](/images/leonardo-ai-image-generator-1-gyOD.png)
+![](/images/leonardo-ai-image-generator-1-Q0MD.png)
 
 Calling all creators! Want FREE AI content for YouTube, Instagram, or games?
 
@@ -39,8 +39,6 @@ It is currently in early access and offers free usage to accepted users, allowin
 ## **Early Access to Leonardo AI**
 
 Guide to accessing Leonardo AI:
-
-
 
 - Go to [Leonardo.ai](http://Leonardo.ai).
 
@@ -185,12 +183,4 @@ No, Leonardo AI does not demand that you give credit or acknowledgment for the p
 <br>
 
 <br>
-
-
-
-
-
-
-
-
 
