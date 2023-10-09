@@ -42,9 +42,29 @@ const FeaturedBlog = () => {
                   <div className="py-5 px-5 sm:px-5 sm:py-0">
                     <header className="block">
                       <h2
-                        onClick={() =>
-                          router.push(`/category/${obj.collection}/${obj.slug}`)
-                        }
+                        onClick={() => {
+                          if (
+                            [
+                              "ai-tool",
+                              "aivoices",
+                              "avatar-generators",
+                              "chatbots",
+                              "latests",
+                              "logo-makers",
+                              "posts",
+                              "text-generators",
+                              "transcribers",
+                              "video-generators",
+                              "writers",
+                            ].includes(obj.collection)
+                          ) {
+                            router.push(
+                              `/category/${obj.collection}/${obj.slug}`
+                            );
+                          } else {
+                            router.push(`/${obj.collection}/${obj.slug}`);
+                          }
+                        }}
                         className="mb-1 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold "
                       >
                         <a>
