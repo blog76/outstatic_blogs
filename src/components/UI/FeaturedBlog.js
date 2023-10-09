@@ -33,7 +33,7 @@ const FeaturedBlog = () => {
                   <a className="w-full">
                     <img
                       alt="bg"
-                      className="w-full h-[150px] object-cover rounded-md"
+                      className="w-full h-[150px]   rounded-md"
                       src={obj.coverImage}
                     />
                   </a>
@@ -43,8 +43,8 @@ const FeaturedBlog = () => {
                     <header className="block">
                       <h2
                         onClick={() => {
-                            router.push(`/${obj.collection}/${obj.slug}`);
-                         }}
+                          router.push(`/${obj.collection}/${obj.slug}`);
+                        }}
                         className="mb-1 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold "
                       >
                         <a>

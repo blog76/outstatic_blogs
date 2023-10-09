@@ -27,7 +27,7 @@ const CardView = ({ post, redirect }) => {
                     <Image
                         width={325}
                         height={200}
-                        className="w-full h-[200px] object-cover rounded-md"
+                        className="w-full h-[200px]  rounded-md"
                         src={imageUrl}
                         alt="bg"
                     />

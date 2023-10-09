@@ -52,7 +52,7 @@ function MyPage({ post, htmlData }) {
           <Image
             width={100}
             height={100}
-            className="m-auto md:h-24 h-36 rounded-full object-cover object-center"
+            className="m-auto md:h-24 h-36 rounded-full   object-center"
             src={post.author.picture}
             alt="Profile Image"
           />
