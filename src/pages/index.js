@@ -43,7 +43,7 @@ const Index = ({ allBlogs, len, latest, rec }) => {
               <CardView
                 post={post}
                 key={post.publishedAt}
-                redirect={`/category/${post.collection}/${post.slug}`}
+                redirect={`${post.collection}/${post.slug}`}
               />
             );
           })}

@@ -43,28 +43,8 @@ const FeaturedBlog = () => {
                     <header className="block">
                       <h2
                         onClick={() => {
-                          if (
-                            [
-                              "ai-tool",
-                              "aivoices",
-                              "avatar-generators",
-                              "chatbots",
-                              "latests",
-                              "logo-makers",
-                              "posts",
-                              "text-generators",
-                              "transcribers",
-                              "video-generators",
-                              "writers",
-                            ].includes(obj.collection)
-                          ) {
-                            router.push(
-                              `/category/${obj.collection}/${obj.slug}`
-                            );
-                          } else {
                             router.push(`/${obj.collection}/${obj.slug}`);
-                          }
-                        }}
+                         }}
                         className="mb-1 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold "
                       >
                         <a>
