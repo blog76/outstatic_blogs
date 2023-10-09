@@ -14,7 +14,6 @@ const Index = ({ allBlogs, len, latest, rec }) => {
     localStorage.setItem("rec", JSON.stringify(rec));
     n = localStorage.getItem("n");
   }
-
   if (s && allBlogs && allBlogs.length > 0) {
     filteredBlogs = allBlogs.filter((post) =>
       post.title.toLowerCase().includes(s.toLowerCase())
@@ -102,7 +101,7 @@ export async function getStaticProps() {
       allBlogs: allBlogs,
       len: len,
       latest: latest,
-      rec: allBlogs.splice(-3),
+      rec: [...allBlogs].splice(-3),
     },
   };
 }
