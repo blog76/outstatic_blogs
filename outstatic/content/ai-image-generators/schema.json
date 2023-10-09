@@ -1,13 +1,5 @@
 {
   "title": "ai-image-generators",
   "type": "object",
-  "properties": {
-    "aiImageGenerator": {
-      "required": false,
-      "description": "Canva AI Magic Edit Tutorial (Replace anything from Image)",
-      "fieldType": "Text",
-      "dataType": "string",
-      "title": "AI Image Generator"
-    }
-  }
+  "properties": {}
 }
