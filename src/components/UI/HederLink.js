@@ -5,7 +5,7 @@ const links = [
   { name: "Home", path: "/" },
   {
     name: "AI Tools",
-    path: "/category/ai-tool",
+    path: "/category/ai-tools",
     dropdown: true,
     subMenu: [
       { name: "AI Avtar Generator", path: "/category/avatar-generators" },
@@ -16,7 +16,7 @@ const links = [
       { name: "AI Voice", path: "/category/aivoices" },
       { name: "AI Writer", path: "/category/writers" },
       { name: "Text Generator", path: "/category/text-generators" },
-      { name: "AI Tools", path: "/category/ai-tool" },
+      { name: "AI Tools", path: "/category/ai-tools" },
     ],
   },
 ];

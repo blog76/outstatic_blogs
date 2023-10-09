@@ -26,7 +26,7 @@ const Index = ({ posts, len }) => {
             <CardView
               post={post}
               key={post.publishedAt}
-              redirect={"/category/posts/" + post.slug}
+              redirect={"/category/ai-tools/" + post.slug}
             />
           );
         })}
@@ -38,7 +38,7 @@ const Index = ({ posts, len }) => {
 export default Index;
 
 export const getStaticProps = async () => {
-  const posts = getDocuments("posts", [
+  const posts = getDocuments("ai-tools", [
     "title",
     "publishedAt",
     "slug",

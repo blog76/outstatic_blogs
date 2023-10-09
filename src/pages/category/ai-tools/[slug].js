@@ -72,7 +72,7 @@ const BlogSingle = ({ post, htmlData }) => {
 export default BlogSingle;
 
 export async function getStaticPaths() {
-  const posts = getDocuments("posts", ["slug"]);
+  const posts = getDocuments("ai-tools", ["slug"]);
 
   const paths = posts.map((post) => ({
     params: { slug: post.slug },
@@ -86,7 +86,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async ({ params }) => {
   const slug = params.slug;
-  const post = getDocumentBySlug("posts", slug, [
+  const post = getDocumentBySlug("ai-tools", slug, [
     "title",
     "slug",
     "coverImage",

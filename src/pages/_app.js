@@ -5,15 +5,13 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import Pagination from "@/components/UI/Pagination";
-import { getDocuments } from "outstatic/server";
 import SliderSlick from "@/components/UI/SliderSlick";
 
-function MyApp({ Component, pageProps, router, posts }) {
+function MyApp({ Component, pageProps, router }) {
   const [currentPage, setCurrentPage] = React.useState(1);
   const [totalPages, setTotalPages] = React.useState(0);
   const [isSingal, setIsSingal] = React.useState(false);
   const [latest, setLatest] = React.useState([]);
-  console.log("post", posts);
   React.useEffect(() => {
     setTotalPages(Math.ceil(localStorage.getItem("len") / 10));
     setIsSingal(
@@ -81,18 +79,3 @@ function MyApp({ Component, pageProps, router, posts }) {
 }
 
 export default MyApp;
-
-export const getStaticProps = async () => {
-  const posts = getDocuments("aivoices", [
-    "title",
-    "publishedAt",
-    "slug",
-    "coverImage",
-    "description",
-    "author",
-  ]);
-
-  return {
-    props: { posts },
-  };
-};
