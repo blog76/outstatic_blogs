@@ -1,6 +1,6 @@
 ---
 title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide)'
-status: 'published'
+status: 'draft'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -84,21 +84,31 @@ Here's how to get started.
 
 - Name and describe your dataset.
 
+<!-- -->
+
 ![](/images/leonardo-ai-create-dataset-1024x536-UyMz.png)<br>
 
 - "Edit Dataset" - go to it.
+
+<!-- -->
 
 ![](/images/leonardo-ai-upload-images-1024x536-c5OD.png)<br>
 
 - Combine Leonardo's gallery images with your own uploads to make a distinctive dataset.
 
+<!-- -->
+
 ### **Step 2: Train Your Model**
 
 - Start training by clicking "Train Model" once your dataset is prepared.
 
+<!-- -->
+
 ![](/images/leonardo-ai-dataset-images-1024x536-c1NT.png)
 
 - Add metadata to model. Fine-tune new model combining Stable Diffusion as base model with dataset images as style and preference.
+
+<!-- -->
 
 ![](/images/leonardo-ai-own-fine-tuned-model-1024x536-E3ND.png)
 
