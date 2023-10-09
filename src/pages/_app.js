@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps, router }) {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <nav className="flex flex-col lg:flex-row flex-1 bg-gray-100 justify-center p-2 text-[#192a3d] items-start">
-        <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-3">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           <div className="sm:grid grid-cols-12 gap-8 mt-5 rounded-xl w-full">
             <div className="col-span-12 lg:col-span-7 mb-5 sm:mb-0">
               <Component {...pageProps} />

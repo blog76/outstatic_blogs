@@ -4,7 +4,7 @@ import { FooterLinks } from "../UI/FooterLink";
 const Footer = () => {
   return (
     <footer className="bg-white p-5">
-      <div className="max-w-screen-lg flex flex-wrap items-center justify-evenly mx-auto p-5">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-evenly mx-auto p-5">
         <FooterLinks />
         <div className="">
           <div className=" m-auto max-w-5xl text-center font-normal mt-5">
