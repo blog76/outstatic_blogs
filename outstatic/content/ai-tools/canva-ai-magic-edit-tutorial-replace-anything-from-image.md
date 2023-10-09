@@ -6,11 +6,11 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
 slug: 'canva-ai-magic-edit-tutorial-replace-anything-from-image'
 description: ''
-coverImage: '/images/canva-ai-magic-edit--Y2OD.png'
+coverImage: ''
 publishedAt: '2023-10-09T07:25:14.656Z'
 ---
 
-
+![](/images/canva-ai-magic-edit--E3Nz.png)
 
 Canva has launched a new AI photo editing tool called Magic Edit, which allows users to seamlessly remove and replace unwanted objects in their photos.
 
