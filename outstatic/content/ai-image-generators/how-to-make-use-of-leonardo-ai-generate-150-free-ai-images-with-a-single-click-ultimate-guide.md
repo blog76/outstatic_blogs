@@ -1,5 +1,6 @@
 ---
-title: ''
+title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide)
+'
 status: 'published'
 author:
   name: ''
@@ -10,7 +11,7 @@ coverImage: '/images/leonardo-ai-image-generator-1-YzMz.png'
 publishedAt: '2023-10-06T10:02:56.814Z'
 ---
 
-### How to Make Use of [Leonardo.AI](http://Leonardo.AI): Generate 150 Free AI Images with a Single Click (Ultimate Guide)
+![](/images/leonardo-ai-image-generator-app-1024x536-QxNT.png)
 
 
 
