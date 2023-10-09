@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
 slug: 'canva-ai-magic-edit-tutorial-replace-anything-from-image'
 description: ''
-coverImage: '/images/canva-ai-magic-edit--U5Mj.png'
+coverImage: '/images/canva-ai-magic-edit--yxnd-A1MD.png'
 publishedAt: '2023-10-09T07:25:14.656Z'
 ---
 
