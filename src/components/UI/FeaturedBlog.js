@@ -45,7 +45,7 @@ const FeaturedBlog = () => {
                         onClick={() => {
                           router.push(`/${obj.collection}/${obj.slug}`);
                         }}
-                        className="mb-1 text-[#2f4468] text-[20px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold "
+                        className="mb-1 text-[#2f4468] text-[18px] leading-normal hover:text-[#2872fa] cursor-pointer font-bold "
                       >
                         <a>
                           <h2>{obj.title}</h2>
