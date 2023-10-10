@@ -1,6 +1,6 @@
 ---
 title: 'Decktopus AI PPT Download for Free! Step By Step Guide'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -30,8 +30,6 @@ Search for **"Decktopus AI"** in the search bar and click the first link to acce
 
 To use Decktopus AI, create an account by clicking **"Get Started"** and optionally logging in with your Google account.
 
-
-
 ![](/images/decktopus-ai-sign-up-Y4OT.png)
 
 **Creating a Topic**
@@ -46,8 +44,6 @@ Create a presentation now that you have an account.
 
 **5\. Enter Your Topic**
 
-
-
 Choose a topic for your presentation. In the video, the topic is "Difference Between Scalar and Vector Quantities." This step establishes the basis for the content of your presentation.
 
 ![](/images/decktopus-ai-presentation-topic-1024x509-Y0OD.png)
@@ -59,8 +55,6 @@ Decktopus AI asks about the audience to tailor the presentation. "Professionals 
 ![](/images/decktopus-ai-audience-aiming-1024x464-AyOT.png)
 
 **7\. Specify Your Presentation’s Objective**
-
-
 
 State presentation objective: to educate aviation and navigation professionals about scalar and vector quantities.
 
@@ -85,8 +79,6 @@ Decktopus creates customized presentations with slides and content that match yo
 ![](/images/decktopus-ai-presentation-preview-1024x528-AwMD.png)
 
 **11\. Customize Your Presentation**
-
-
 
 Modify and customize your presentation as desired, including images, until it meets your preferences.
 
