@@ -1,6 +1,5 @@
 ---
-title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide)
-'
+title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide) '
 status: 'published'
 author:
   name: ''
@@ -135,7 +134,11 @@ Here's how to get started.
 
 - Create a dataset by selecting images from Leonardo's gallery or uploading your own.
 
+- 
+
 - Go to "Training & Datasets" and click "Create New Dataset".
+
+- 
 
 ![](/images/leonardo-ai-training-dataset-1024x536-g4ND.png)
 
