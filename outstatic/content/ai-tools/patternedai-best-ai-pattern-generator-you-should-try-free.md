@@ -1,6 +1,6 @@
 ---
 title: 'PatternedAI: Best AI Pattern Generator You Should Try (Free!)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -28,7 +28,7 @@ Patterned AI covers all your needs for attention-grabbing patterns, whether it's
 
 Make mesmerizing patterns easily with Patterned AI's user-friendly interface. Here's how:
 
-### **Step 1: Visit **[**patterned.ai**](http://patterned.ai)
+### \*\*Step 1: Visit \*\*[**patterned.ai**](http://patterned.ai)
 
 Visit [patterned.ai](http://patterned.ai) and sign up with your Google account.
 
@@ -45,8 +45,6 @@ This prompt is the foundation for pattern generation.
 ### **Step 2: Tailoring the Settings (Optional)**
 
 Customize your pattern to your liking with Patterned AI's adjustable settings for color schemes and layout options. Take control of your design and make it truly yours.
-
-
 
 ![](/images/patternedai-settings-QyNj.png)
 
@@ -66,13 +64,19 @@ Patterned AI offers advanced pattern generation and full user control.
 
 - After generating a pattern, users can add it to their favorites for easy access to future projects.
 
+<!-- -->
+
 ![](/images/patternedai-favorite-1024x502-c2NT.png)
 
 - Download and own your pattern without restrictions.
 
+<!-- -->
+
 ![](/images/patternedai-download-1024x434-I5OD.png)
 
 - Explore similar patterns easily with just a click if you've found a successful pattern. Let your creativity run wild!
+
+<!-- -->
 
 ## **Discover the Vast Pattern Library**
 
@@ -91,6 +95,8 @@ Browse and download images from this collection easily. Enhance your creativity 
 ## **Writing the perfect prompt for your patterns**
 
 ### <br>
+
+
 
 **1\. Core Prompt: The Foundation of Your Pattern**
 
