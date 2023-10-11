@@ -1,6 +1,6 @@
 ---
 title: 'Remodeled AI: Free Interior & Exterior Designer for Room (Review)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
