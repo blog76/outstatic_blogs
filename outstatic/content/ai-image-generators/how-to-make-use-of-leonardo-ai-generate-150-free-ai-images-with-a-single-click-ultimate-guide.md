@@ -1,6 +1,6 @@
 ---
 title: 'How to Make Use of Leonardo.AI:  Generate 150 Free AI Images with a Single Click (Ultimate Guide) '
-status: 'published'
+status: 'draft'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
