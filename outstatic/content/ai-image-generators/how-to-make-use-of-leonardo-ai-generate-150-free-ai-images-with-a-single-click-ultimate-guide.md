@@ -80,7 +80,7 @@ Guide to accessing Leonardo AI:
 
 - Enter your email address in the field provided.
 
-- Check your inbox for an email with a link to join the Discord channel.
+- Check your inbox for an email with a link to join the Discord channel
 
 - Click on the invitation link for the Discord channel.
 
@@ -130,31 +130,19 @@ Here's how to get started.
 
 ### **Step 1: Create a Dataset**
 
-
-
 - Create a dataset by selecting images from Leonardo's gallery or uploading your own.
-
-- 
 
 - Go to "Training & Datasets" and click "Create New Dataset".
 
-- 
-
 ![](/images/leonardo-ai-training-dataset-1024x536-g4ND.png)
-
-
 
 - Name and describe your dataset.
 
 ![](/images/leonardo-ai-create-dataset-1024x536-UyMz.png)<br>
 
-
-
 - "Edit Dataset" - go to it.
 
 ![](/images/leonardo-ai-upload-images-1024x536-c5OD.png)<br>
-
-
 
 - Combine Leonardo's gallery images with your own uploads to make a distinctive dataset.
 
@@ -166,13 +154,9 @@ Here's how to get started.
 
 ![](/images/leonardo-ai-dataset-images-1024x536-c1NT.png)
 
-
-
 - Add metadata to model. Fine-tune new model combining Stable Diffusion as base model with dataset images as style and preference.
 
 ![](/images/leonardo-ai-own-fine-tuned-model-1024x536-E3ND.png)
-
-
 
 - A 5 billion image-text pair dataset (LAION-5B) creates high-quality and contextually relevant images.
 
@@ -319,8 +303,6 @@ Yes, you own all the material you create on the site and can use it for commerc
 
 
 No, Leonardo AI does not demand that you give credit or acknowledgment for the photographs that are produced.
-
-
 
 <br>
 
