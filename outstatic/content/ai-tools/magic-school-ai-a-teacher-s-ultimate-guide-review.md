@@ -1,6 +1,6 @@
 ---
 title: 'Magic School AI: A Teacher’s Ultimate Guide (Review)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -34,6 +34,8 @@ Customize rubric to fit assignment. Input assignment details.
 
 - Click 'Generate' to create formatted rubric. Copy and use on preferred platform (Word or Google Docs).
 
+<!-- -->
+
 ### **Science Assessment Generator**
 
 The Science Assessment Generator is a novel tool for science teachers that follows the NGSS and produces 3D assessments for students.
@@ -41,6 +43,8 @@ The Science Assessment Generator is a novel tool for science teachers that follo
 ![](/images/magic-school-ai-science-assessment-generator-1024x531-U0Nz.png)
 
 - Choose criteria and stimulus type, input title, generate classroom-ready assessment.
+
+<!-- -->
 
 ### **Academic Content Generator**
 
@@ -78,7 +82,7 @@ Raina, an educational chatbot, is available to provide quick answers and guidanc
 
 Ask her anything for thoughtful responses. Questions about lesson plans, teaching strategies, or other school-related topics. Instant, helpful suggestions to improve teaching practices.
 
-## **50+ Other AI Tools by **[**MagicSchool.AI**](http://MagicSchool.AI)
+## \*\*50+ Other AI Tools by \*\*[**MagicSchool.AI**](http://MagicSchool.AI)
 
 Here is the expanded version of the text with detailed information about each item:
 
@@ -207,6 +211,4 @@ To log in, go to the Magic School AI website and use your registered credentials
 **3\. Has Magic School AI received any funding?**
 
 "Magic School AI may have funding from various sources. Check news or press releases for more information."
-
-
 
