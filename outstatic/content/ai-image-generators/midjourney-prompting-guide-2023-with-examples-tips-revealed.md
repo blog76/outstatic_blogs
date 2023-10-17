@@ -1,13 +1,13 @@
 ---
 title: 'MidJourney Prompting Guide 2023 with Examples (Tips Revealed)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
 slug: 'midjourney-prompting-guide-2023-with-examples-tips-revealed'
 description: ''
 coverImage: '/images/midjourney-prompting-guide-M0Nz.png'
-publishedAt: '2023-10-18T09:54:58.000Z'
+publishedAt: '2023-10-16T09:54:58.000Z'
 ---
 
 ![](/images/midjourney-prompting-guide-Q1Nz.png)
@@ -40,7 +40,7 @@ This prompt will make you feel nostalgic!
 
 ### **2\. Duotone:**
 
-For a sleek and sophisticated style, create a duotone painting of a wolf in the forest using black and green colours.
+For a sleek and sophisticated style, create a duotone painting of a wolf in the forest using black and green colors.
 
 ![](/images/midjourney-prompt-cheat-code-duotone-cwOD.png)![](/images/midjourney-prompt-cheat-code-duotone-2-g0ND.png)
 
@@ -60,13 +60,9 @@ A future living area with a large television, a lamp, some plants, and a 32-bit 
 
 Consider a stunning wolf peering toward the camera with a stunning color scheme.
 
-<br>
-
 ![](/images/midjourney-prompt-cheat-code-phantasmal-iridescent-k5Nz.png)
 
 ### **6\. Watercolor Sketch:**
-
-<br>
 
 Allow your artistic side to shine through with a watercolor sketch of a grey wolf stalking its prey.
 
@@ -74,15 +70,13 @@ Allow your artistic side to shine through with a watercolor sketch of a grey wol
 
 ### **7\. Stained Glass Concept:**
 
-<br>
-
-Imagine your wolf as a stained glass window with an artistic twist.
+Imagine your wolf as a stained-glass window with an artistic twist.
 
 ![](/images/midjourney-prompt-cheat-code-stained-glass-window-UwMj.png)
 
 ## **8\. Charley Harper**
 
-Yosemite National Park poster with a wolf in the front and a mountain in the backdrop in the manner of Charley Harper -ar 2:3
+Yosemite National Park poster with a wolf in the front and a mountain in the backdrop in the manner of Charley Harper-ar 2:3
 
 ![](/images/charley-harper-I3OT.png)
 
@@ -98,7 +92,7 @@ The choices are unlimited, whether it's a photo of yourself or gorgeous scenery!
 
 Blending photos to create stunning graphics is one of MidJourney's finest techniques.
 
-Begin by creating a cool picture, such as a colourful paint spatter on canvas.
+Begin by creating a cool picture, such as a colorful paint spatter on canvas.
 
 Then combine that with another stimulus, like a photograph of a wolf peering into the camera.
 
