@@ -16,7 +16,7 @@ publishedAt: '2023-10-17T05:36:53.256Z'
 
 To chat with a virtual girlfriend, we need two important elements: Chub Venus AI and Kobold AI. Let's discuss each component.
 
-## \*\*What is \*\*[**Venus.Chub.ai**](http://Venus.Chub.ai)**?**
+## What is [**Venus.Chub.ai**](http://Venus.Chub.ai)**?**
 
 Venus Chub AI is a platform for interacting with various AI characters, including creating your own characters for chat and interaction.
 
@@ -36,17 +36,17 @@ Now, let's proceed with a guide to assist you in setting up and initiating a con
 
 Visit Chub Venus website: [venus.chub.ai](http://venus.chub.ai)
 
-"Log in with your email to register for Venus Chub AI."
+“Log in with your email to register for Venus Chub AI.”
 
 ![](/images/chub-venus-ai-sign-up-1024x514-AxMj.png)
 
-Log in and choose a character to be your virtual girlfriend. Click the "Chat with Character" button located below.
+Log in and choose a character to be your virtual girlfriend. Click the **“Chat with Character”** button located below.
 
 ![](/images/venus-chub-ai-chat-1024x504-MxMT.png)
 
 ## **Step 2: Get Your API Key from Kobold AI**
 
-Chub Venus AI provides the stage, but we need an actor to play our part. To enable virtual conversations, you need an AI model. This is where Kobold AI comes in. Kobold AI lets you connect with AI models using API keys, which are special keys that give you access to these models.
+Chub Venus AI provides the stage, but we require an actor to play our part. To enable virtual conversations, you require an AI model. This is where Kobold AI comes in. Kobold AI lets you connect with AI models using API keys, which are special keys that give you access to these models.
 
 Let's go through the process.
 
@@ -70,7 +70,7 @@ This link will help you to connect with the AI character of your choice. Once yo
 
 ## **Step 3: Connect and Chat with Your AI Girlfriend**
 
-Go back to Chub Venus site and paste the API link from Kobold AI. Look for the "Save" button and click on it. You're now ready to chat with your virtual girlfriend.
+Go back to Chub Venus site and paste the API link from Kobold AI. Look for the **“Save”** button and click on it. You're now ready to chat with your virtual girlfriend.
 
 ![](/images/kobold-ai-api-connect-1024x426-U4Mz.png)
 
