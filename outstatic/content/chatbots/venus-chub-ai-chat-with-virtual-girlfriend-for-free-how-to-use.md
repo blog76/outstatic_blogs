@@ -1,6 +1,6 @@
 ---
 title: 'Venus Chub AI Chat with Virtual Girlfriend for Free (How to Use)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -16,7 +16,7 @@ publishedAt: '2023-10-17T05:36:53.256Z'
 
 To chat with a virtual girlfriend, we need two important elements: Chub Venus AI and Kobold AI. Let's discuss each component.
 
-## **What is **[**Venus.Chub.ai**](http://Venus.Chub.ai)**?**
+## \*\*What is \*\*[**Venus.Chub.ai**](http://Venus.Chub.ai)**?**
 
 Venus Chub AI is a platform for interacting with various AI characters, including creating your own characters for chat and interaction.
 
