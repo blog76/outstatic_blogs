@@ -7,7 +7,7 @@ author:
 slug: 'midjourney-prompting-guide-2023-with-examples-tips-revealed'
 description: ''
 coverImage: '/images/midjourney-prompting-guide-M0Nz.png'
-publishedAt: '2023-10-16T09:54:58.000Z'
+publishedAt: '2023-10-18T09:54:58.000Z'
 ---
 
 ![](/images/midjourney-prompting-guide-Q1Nz.png)
