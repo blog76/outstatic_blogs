@@ -7,7 +7,7 @@ author:
 slug: 'midjourney-prompting-guide-2023-with-examples-tips-revealed'
 description: ''
 coverImage: '/images/midjourney-prompting-guide-M0Nz.png'
-publishedAt: '2023-10-17T09:54:58.324Z'
+publishedAt: '2023-10-18T09:54:58.000Z'
 ---
 
 ![](/images/midjourney-prompting-guide-Q1Nz.png)
@@ -115,6 +115,4 @@ Get inspiration and overcome creative block by checking out MidJourney prompts a
 With MidJourney, you have the power to explore limitless creativity and artistic expression. By trying different prompts, combining images, and finding inspiration from others, you can make stunning artworks that are truly your own.
 
 Express your imagination, embark on a creative journey, and let MidJourney be your prompt guide! Enjoy the process, have fun, and create awe-inspiring art.
-
-
 
