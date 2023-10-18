@@ -1,6 +1,6 @@
 ---
 title: 'MidJourney Prompting Guide 2023 with Examples (Tips Revealed)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
