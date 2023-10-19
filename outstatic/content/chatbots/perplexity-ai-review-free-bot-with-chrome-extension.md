@@ -90,7 +90,7 @@ This handy tool allows you to easily broaden your study and go further into rela
 
 ![](/images/perplexity-ai-related-questions-1024x366-AzND.png)
 
-### ![](/images/perplexity-ai-related-questions-1024x366-czNz.png)**Feature 4: Tapping into YouTube’s Transcripts**
+### **Feature 4: Tapping into YouTube’s Transcripts**
 
 Perplexity AI scans both written sources and transcripts of related YouTube videos, allowing users to ask questions about video content and receive valuable answers.
 
@@ -157,8 +157,4 @@ Yes, Perplexity AI can be linked with ChatGPT to improve your natural language p
 **5\. What is Perplexity AI capable of?**
 
 Perplexity AI can, among other things, offer detailed answers to your inquiries, fact-check sources, summarize web pages, and search scholarly papers.
-
-
-
-
 
