@@ -1,6 +1,6 @@
 ---
 title: 'How to use Humata AI GPT for your files? (Free PDF Reader)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
