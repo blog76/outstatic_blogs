@@ -94,5 +94,11 @@ The Pro version also includes a unique feature that can be a game-changer for th
 
 The Multi-File Q&A feature is designed to enhance your efficiency and productivity. With this feature, you can simultaneously chat with multiple files, enabling you to ask questions and receive answers across different documents at the same time. This can significantly save time and streamline your workflow when dealing with multiple documents.
 
+## **Humata AI Features:**
+
+### **1\. Effortless Document Navigation:**
+
+
+
 
 
