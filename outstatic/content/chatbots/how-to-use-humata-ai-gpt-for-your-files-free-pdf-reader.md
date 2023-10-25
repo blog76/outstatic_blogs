@@ -22,7 +22,7 @@ Humata AI simplifies PDF document information extraction for researchers, studen
 
 ## **Getting Started with Humata AI**
 
-To access Humata AI, sign up on [humata.ai](http://humata.ai). If you already have an account, click "Login" and enter your credentials.
+To access Humata AI, sign up on [humata.ai](http://humata.ai). If you already have an account, click “Login” and enter your credentials.
 
 ## **How to use Humata AI: Step By Step**
 
@@ -40,7 +40,7 @@ Humata AI will require a brief moment to analyze the uploaded PDF file, ensuring
 
 ### **Step 3: Ask Questions:**
 
-After the PDF is loaded and ready, you're all set to begin. To ask questions, simply click on the "Ask" button located on the right side of the interface.
+After the PDF is loaded and ready, you're all set to begin. To ask questions, simply click on the “Ask” button located on the right side of the interface.
 
 ![](/images/humata-ai-ask-question-1024x526-g5Nj.png)
 
@@ -56,7 +56,7 @@ Humata AI will promptly furnish you with well-informed answers, significantly en
 
 Now that your PDF is loaded and prepared for interaction, it's time to ask Humata AI questions:
 
-1\. Click the "Ask" Button.
+1\. Click the “Ask” Button.
 
 2\. On the right side of the screen, you'll see the loaded PDF document.
 
