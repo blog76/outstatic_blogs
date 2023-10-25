@@ -110,6 +110,10 @@ Humata AI offers a range of valuable features that can save you time and enhance
 
 ***5\. Seamless Webpage Integration: ***With a single click, you can easily embed Humata AI into your webpage. This enables you to connect your customers with valuable answers hidden within your documents, improving user experience and accessibility.
 
+## **Choosing the Right Version**
+
+
+
 
 
 
