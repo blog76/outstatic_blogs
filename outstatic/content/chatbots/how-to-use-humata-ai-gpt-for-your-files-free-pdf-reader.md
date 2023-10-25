@@ -98,6 +98,22 @@ The Multi-File Q&A feature is designed to enhance your efficiency and productivi
 
 ### **1\. Effortless Document Navigation:**
 
+Humata AI offers a range of valuable features that can save you time and enhance the accessibility of your documents:
+
+***1\. Efficient Document Processing*:** Humata AI can quickly skim through extensive documents, summarizing findings, comparing documents, and searching for answers, which is particularly helpful when you lack the time to read through lengthy technical papers.
+
+***2\. Unlimited File Uploads:**** *You can upload as many documents as you need without worrying about file size limits. Humata AI provides fast answers that outpace your reading speed.
+
+***3\. Citation Integration:*** Humata AI enhances trust and credibility by including citations in your source files, allowing you to trace the origin of insights for transparency and reliability.
+
+***4\. Limitless Questions: ***You can request shorter summaries as needed, and Humata AI can rewrite them until you are completely satisfied, accommodating your specific requirements.
+
+***5\. Seamless Webpage Integration: ***With a single click, you can easily embed Humata AI into your webpage. This enables you to connect your customers with valuable answers hidden within your documents, improving user experience and accessibility.
+
+
+
+
+
 
 
 
