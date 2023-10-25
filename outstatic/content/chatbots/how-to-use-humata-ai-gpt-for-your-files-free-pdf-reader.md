@@ -106,7 +106,7 @@ Humata AI offers a range of valuable features that can save you time and enhance
 
 ***3\. Citation Integration:*** Humata AI enhances trust and credibility by including citations in your source files, allowing you to trace the origin of insights for transparency and reliability.
 
-***4\. Limitless Questions: ***You can request shorter summaries as needed, and Humata AI can rewrite them until you are completely satisfied, accommodating your specific requirements.
+***4\. Limitless Questions: ***You can request shorter summaries as required, and Humata AI can rewrite them until you are completely satisfied, accommodating your specific requirements.
 
 ***5\. Seamless Webpage Integration: ***With a single click, you can easily embed Humata AI into your webpage. This enables you to connect your customers with valuable answers hidden within your documents, improving user experience and accessibility.
 
