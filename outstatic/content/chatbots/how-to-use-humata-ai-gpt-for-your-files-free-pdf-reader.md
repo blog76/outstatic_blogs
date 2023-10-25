@@ -112,7 +112,11 @@ Humata AI offers a range of valuable features that can save you time and enhance
 
 ## **Choosing the Right Version**
 
+The choice between the versions of Humata AI ultimately depends on your particular needs and budget:
 
+1\. **Pro Version**: Consider the Pro version if you are a teacher, researcher, or someone who frequently works with complex documents, generates detailed reports, or creates new content based on your files. The Pro version offers more comprehensive capabilities and is a worthwhile investment for such users.
+
+2\. **Basic Version**: On the other hand, if your requirements are more straightforward, and you primarily need to ask simple questions or obtain a general overview of your files, the Basic version might suffice and is a cost-effective option for your needs.
 
 
 
