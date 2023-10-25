@@ -90,5 +90,9 @@ Humata AI provides two pricing options, each tailored to different needs:
 
 The Pro version also includes a unique feature that can be a game-changer for those managing multiple documents.
 
+### **Multi-File Q&A**
+
+The Multi-File Q&A feature is designed to enhance your efficiency and productivity. With this feature, you can simultaneously chat with multiple files, enabling you to ask questions and receive answers across different documents at the same time. This can significantly save time and streamline your workflow when dealing with multiple documents.
+
 
 
