@@ -12,5 +12,7 @@ publishedAt: '2023-10-26T05:54:27.468Z'
 
 ![](/images/jenni-ai-writer-1-A4OT.png)
 
+Introducing a new AI writing tool called Jenni AI that enhances research writing without compromising content, which caught the author's attention despite their previous caution towards AI writing tools.
+
 
 
