@@ -18,7 +18,7 @@ AI models struggle with memory, limiting their ability to consider information w
 
 MemGPT is an AI project that enhances the memory capabilities of AI models. It helps AI systems remember and retrieve information during conversations, improving their performance in tasks such as long-term chat and document analysis.
 
-![](/images/memgpt-ai-A0Mj.png)
+![](/images/memgpt-ai-gzMD.png)
 
 MemGPT achieves this by simulating the memory hierarchy of a computer's operating system, enabling AI to autonomously manage its memory and create a sense of an expanded context window for more coherent and context-aware interactions.
 
@@ -28,7 +28,7 @@ MemGPT achieves this by simulating the memory hierarchy of a computer's operatin
 
 Artificial intelligence models like GPT have improved the field by generating human-like text. However, these models have limited memory and can only consider the information in their training data.
 
-![](/images/image-38-1024x523-E0Mz.png)
+![](/images/image-38-1024x523-g0OT.png)
 
 For example, GPT-4 models can handle up to 32,000 tokens, which is still restrictive. This limitation is particularly evident in long-term chat conversations and chats that involve referencing extensive documents or datasets.
 
@@ -72,13 +72,11 @@ To install MemGPT, follow these steps:
 
 1\. Clone the Repository: Go to the MemGPT GitHub repository and click on the "Code" button.
 
-![](/images/memgpt-ai-github-gwMT.png)
+![](/images/memgpt-ai-github-U3MT.png)
 
 Copy the GitHub URL and use the git clone command in your terminal or command prompt to clone the repository.
 
-![](/images/memgpt-ai-github-clone-1024x295-E5NT.png)
-
-***git clone <GitHub URL>***
+![](/images/memgpt-ai-github-clone-1024x295-E3Mj.png)***git clone <GitHub URL>***
 
 2\. Create a Conda Environment (Optional): If you prefer to use Conda, you can create a new Conda environment by running the specified command.
 
