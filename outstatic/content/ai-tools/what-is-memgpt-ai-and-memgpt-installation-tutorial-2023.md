@@ -18,7 +18,7 @@ AI models struggle with memory, limiting their ability to consider information w
 
 MemGPT is an AI project that enhances the memory capabilities of AI models. It helps AI systems remember and retrieve information during conversations, improving their performance in tasks such as long-term chat and document analysis.
 
-![](/images/memgpt-ai-gzMD.png)
+![](/images/memgpt-ai-k3OD.png)
 
 MemGPT achieves this by simulating the memory hierarchy of a computer's operating system, enabling AI to autonomously manage its memory and create a sense of an expanded context window for more coherent and context-aware interactions.
 
@@ -72,11 +72,13 @@ To install MemGPT, follow these steps:
 
 1\. Clone the Repository: Go to the MemGPT GitHub repository and click on the "Code" button.
 
-![](/images/memgpt-ai-github-U3MT.png)
+![](/images/memgpt-ai-github-Q0Mj.png)
 
 Copy the GitHub URL and use the git clone command in your terminal or command prompt to clone the repository.
 
-![](/images/memgpt-ai-github-clone-1024x295-E3Mj.png)***git clone <GitHub URL>***
+```javascript
+git clone <GitHub URL>
+```
 
 2\. Create a Conda Environment (Optional): If you prefer to use Conda, you can create a new Conda environment by running the specified command.
 
