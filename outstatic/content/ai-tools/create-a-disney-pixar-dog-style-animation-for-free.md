@@ -26,7 +26,7 @@ This approach entails creating graphics with a free image generator and then bri
 
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
-![](/images/dog-disney-pixar-movie-U3MD.jpg)
+![](/images/dog-disney-pixar-movie-IwND.jpg)
 
 
 
@@ -35,6 +35,16 @@ I'll make the pictures based on this script. I'm using Leonardo AI for these pho
 I'll utilise the 3D animation model to create a Disney Pixar-style animation.
 
 ## **How to Generate the Perfect Images for Your Animations for Free?**
+
+To begin, create the pictures that will be used in your animation.
+
+Create a new account at [leonardo.ai](http://leonardo.ai).
+
+Take the following steps:
+
+### **Step 1: Create a Prompt Template**
+
+
 
 
 
