@@ -26,7 +26,7 @@ This approach entails creating graphics with a free image generator and then bri
 
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
-![](/images/dog-disney-pixar-movie-k1MD.jpg)
+![](/images/dog-disney-pixar-movie-Y2ND.jpg)
 
 
 
@@ -46,7 +46,7 @@ Take the following steps:
 
 Begin by creating a prompt template that defines your situation. Include the topic, a description of the scene, and the image's desired style.
 
-![](/images/image-41-1024x213-U0OD.png)
+![](/images/image-41-1024x213-A2MD.png)
 
 If you're doing an animation with a little boy astronaut in a Disney Pixar style, your prompt may be "A dog with brown hair in a Disney Pixar movie style."
 
@@ -55,6 +55,18 @@ If you're doing an animation with a little boy astronaut in a Disney Pixar style
 Check that your settings are accurate before creating the picture. Disable the "photo reel," "Alchemy," and "prompt magic" sliders, especially if you're using the free version of the programme.
 
 For videos, select the proper aspect ratio, such as 16:9.
+
+### **Step 3: Generate the Image**
+
+When you press the "generate" button, the programme will generate a picture based on your prompt. Every day, you may make up to 150 photos for free.
+
+### **Step 4: Enhance Image Quality**
+
+Upscale the image to get the greatest possible quality for your animations. To ensure a high-resolution image, select the "HD crisp upscale" option.
+
+### **Step 5: Refine Your Prompts**
+
+
 
 
 
