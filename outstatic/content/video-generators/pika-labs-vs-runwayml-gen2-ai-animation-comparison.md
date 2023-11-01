@@ -7,7 +7,7 @@ author:
 slug: 'pika-labs-vs-runwayml-gen2-ai-animation-comparison'
 description: ''
 coverImage: '/images/pika-vs-runway-IyMj.png'
-publishedAt: '2023-11-01T12:31:33.660Z'
+publishedAt: '2023-11-02T12:31:33.000Z'
 ---
 
 ![](/images/pika-vs-runway-g2Nj.png)
@@ -20,7 +20,7 @@ We will start by looking at how these AI models deal with simple animation tasks
 
 ### **1\. *Reference Image: Ballet Dancer***
 
-![](/images/pika-vs-runway-animation-1024x576-cxMz.png)
+![](/images/pika-vs-runway-animation-1024x576-A4Nz.png)
 
 Pika Labs and Runway Gen 2 both have animations for the ballet dancer image. Pika's animation is not very impressive and struggles with human motion.
 
@@ -28,7 +28,7 @@ On the other hand, Runway's animation has cinematic camera movement and realisti
 
 ### **2\. *Reference Image: Ship on the Water***
 
-![](/images/pika-vs-runway-animation-comparison-1024x576-c0Mz.png)
+![](/images/pika-vs-runway-animation-comparison-1024x576-U0Nj.png)
 
 Pika Labs does a good job animating ship waves and simulating physics. Runway Gen 2's animation is less realistic, with static waves and occasional camera movement.
 
