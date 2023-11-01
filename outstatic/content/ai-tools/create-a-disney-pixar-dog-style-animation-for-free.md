@@ -26,7 +26,7 @@ This approach entails creating graphics with a free image generator and then bri
 
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
-![](/images/dog-disney-pixar-movie-Q5Mj.jpg)
+![](/images/dog-disney-pixar-movie-YxND.jpg)
 
 
 
@@ -46,7 +46,7 @@ Take the following steps:
 
 Begin by creating a prompt template that defines your situation. Include the topic, a description of the scene, and the image's desired style.
 
-![](/images/image-41-1024x213-IyNT.png)
+![](/images/image-41-1024x213-MzMT.png)
 
 If you're doing an animation with a little boy astronaut in a Disney Pixar style, your prompt may be “A dog with brown hair in a Disney Pixar movie style.”
 
@@ -82,7 +82,7 @@ Pika Labs AI will be used for this stage of the process.
 
 To get started with animation generating, go to the Pika Labs website and click the "join beta" button.
 
-**![](/images/pika-labs-ai-A4MT.png)**
+**![](/images/pika-labs-ai-QyNT.png)**
 
 ### **Step 2: Start Generating**
 
@@ -92,7 +92,11 @@ Pika Labs includes a number of generating rooms where you may make films. Begin 
 
 Create a question that characterises the video's theme, scenario, and style. Because Pika Labs may make movies up to 3 seconds long, be specific when describing movement in the environment.
 
-![](/images/pika-labs-ai-upload-photo-1-QwNj.png)
+![](/images/pika-labs-ai-upload-photo-1-UwMj.png)
+
+### **Step 4: Adjust Metrics**
+
+<br>
 
 
 
