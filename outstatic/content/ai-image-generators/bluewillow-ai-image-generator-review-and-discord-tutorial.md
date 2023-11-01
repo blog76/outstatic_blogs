@@ -22,11 +22,11 @@ BlueWillow AI is a free AI image generator that can create images based on text 
 
 To access BlueWillow and create AI-generated images, follow these steps: visit the official website and click the "Discord" button.
 
-![](/images/bluewillow-ai-discord-1024x505-c2Mj.png)
+![](/images/bluewillow-ai-discord-1024x505-YwMz.png)
 
 This will connect the BlueWillow bot to your Discord account. Once you verify that you are human, you will have full access to the server.
 
-![](/images/image-42-EyOD.png)
+![](/images/image-42-kyNz.png)
 
 Note that you need a Discord account to use BlueWillow, but creating one is not covered in this guide.
 
@@ -34,7 +34,7 @@ Note that you need a Discord account to use BlueWillow, but creating one is not 
 
 Create your own server to keep your AI-generated images private. Click the "Plus" button and select "Create My Own Server." Choose "For Me and My Friends" and name your server.
 
-![](/images/bluewillow-ai-discord-create-own-server-M2Mz.png)
+![](/images/bluewillow-ai-discord-create-own-server-k5Mz.png)
 
 To connect it to BlueWillow, click "Show Member List," select the BlueWillow bot, and click "Add to Server." Now you can generate AI art in your own private space.
 
@@ -46,7 +46,7 @@ To use BlueWillow for creating images, follow these steps:
 
 2\. Type the command "Imagine" like you would with Midjourney.
 
-![](/images/bluewillow-ai-type-prompt-1024x190-gxMj.png)
+![](/images/bluewillow-ai-type-prompt-1024x190-gxMD.png)
 
 3\. Provide a text prompt after entering the command.
 
@@ -58,7 +58,7 @@ To use BlueWillow for creating images, follow these steps:
 
 \- Create Variants: Select an option with "V" to generate slightly different versions of an image.
 
-![](/images/bluewillow-free-ai-image-generator-1024x576-Y5OD.png)
+![](/images/bluewillow-free-ai-image-generator-1024x576-IxOT.png)
 
 6\. BlueWillow's image quality may not match Midjourney's, but it is a great option for those who don't want to pay for AI image generators.
 
@@ -86,23 +86,23 @@ BlueWillow is a free AI image and art generator, serving as an alternative to Mi
 
 ***1\. Is BlueWillow AI Free?***
 
-> BlueWillow AI is currently free to use.
+BlueWillow AI is currently free to use.
 
 ***2\. How Does BlueWillow Prompt Work?***
 
-> BlueWillow generates AI graphics by using word prompts. You enter a question, and it generates graphics based on it.
+BlueWillow generates AI graphics by using word prompts. You enter a question, and it generates graphics based on it.
 
 ***3\. Does BlueWillow provide a free AI image generator?***
 
-> Yes, BlueWillow is a free AI picture generator, making it a cost-effective way to create AI art.
+Yes, BlueWillow is a free AI picture generator, making it a cost-effective way to create AI art.
 
 ***4\. How Can I Get BlueWillow Prompts?***
 
-> BlueWillow instructions may be found by joining their Discord server after acquiring access through their official website.
+BlueWillow instructions may be found by joining their Discord server after acquiring access through their official website.
 
 ***5\. Is BlueWillow a Good Substitute for Midjourney?***
 
-> BlueWillow is a viable alternative to Midjourney, particularly for those seeking a free AI picture generator. The visual quality, however, may vary.
+BlueWillow is a viable alternative to Midjourney, particularly for those seeking a free AI picture generator. The visual quality, however, may vary.
 
 
 
