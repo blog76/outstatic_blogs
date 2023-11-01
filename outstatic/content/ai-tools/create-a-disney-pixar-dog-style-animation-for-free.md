@@ -26,7 +26,7 @@ This approach entails creating graphics with a free image generator and then bri
 
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
-![](/images/dog-disney-pixar-movie-IwND.jpg)
+![](/images/dog-disney-pixar-movie-k1MD.jpg)
 
 
 
@@ -43,6 +43,20 @@ Create a new account at [leonardo.ai](http://leonardo.ai).
 Take the following steps:
 
 ### **Step 1: Create a Prompt Template**
+
+Begin by creating a prompt template that defines your situation. Include the topic, a description of the scene, and the image's desired style.
+
+![](/images/image-41-1024x213-U0OD.png)
+
+If you're doing an animation with a little boy astronaut in a Disney Pixar style, your prompt may be "A dog with brown hair in a Disney Pixar movie style."
+
+### **Step 2: Configure Settings**
+
+Check that your settings are accurate before creating the picture. Disable the "photo reel," "Alchemy," and "prompt magic" sliders, especially if you're using the free version of the programme.
+
+For videos, select the proper aspect ratio, such as 16:9.
+
+
 
 
 
