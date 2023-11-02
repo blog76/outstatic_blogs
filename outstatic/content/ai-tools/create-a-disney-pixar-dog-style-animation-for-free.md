@@ -22,15 +22,15 @@ To make AI-generated animations, first produce a picture of the scenario you wan
 
 You may bring this image to life and affect the outcome with specific prompts and inputs to get your desired results.
 
-This approach entails creating graphics with a free image generator and then bringing these images to life with a second programme.
+This approach entails creating graphics with a free image generator and then bringing these images to life with a second program.
 
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
 ![](/images/dog-disney-pixar-movie-YxND.jpg)
 
-I'll make the pictures based on this script. I'm using Leonardo AI for these photographs, which allows you to produce 150 images for free every day. You can produce ultra-realistic photographs if you know how to utilise it.
+I'll make the pictures based on this script. I'm using Leonardo AI for these photographs, which allows you to produce 150 images for free every day. You can produce ultra-realistic photographs if you know how to utilize it.
 
-I'll utilise the 3D animation model to create a Disney Pixar-style animation.
+I'll utilize the 3D animation model to create a Disney Pixar-style animation.
 
 ## **How to Generate the Perfect Images for Your Animations for Free?**
 
@@ -50,13 +50,13 @@ If you're doing an animation with a little boy astronaut in a Disney Pixar style
 
 ### **Step 2: Configure Settings**
 
-Check that your settings are accurate before creating the picture. Disable the “photo reel,” “Alchemy,” and “prompt magic” sliders, especially if you're using the free version of the programme.
+Check that your settings are accurate before creating the picture. Disable the “photo reel,” “Alchemy,” and “prompt magic” sliders, especially if you're using the free version of the program.
 
 For videos, select the proper aspect ratio, such as 16:9.
 
 ### **Step 3: Generate the Image**
 
-When you press the “generate” button, the programme will generate a picture based on your prompt. Every day, you may make up to 150 photos for free.
+When you press the “generate” button, the program will generate a picture based on your prompt. Every day, you may make up to 150 photos for free.
 
 ### **Step 4: Enhance Image Quality**
 
@@ -78,17 +78,17 @@ Pika Labs AI will be used for this stage of the process.
 
 ### **Step 1: Visit Pika Labs**
 
-To get started with animation generating, go to the Pika Labs website and click the "join beta" button.
+To get started with animation generating, go to the Pika Labs website and click the “join beta” button.
 
 **![](/images/pika-labs-ai-QyNT.png)**
 
 ### **Step 2: Start Generating**
 
-Pika Labs includes a number of generating rooms where you may make films. Begin by entering "award SL" and then choosing "anime." Use the prior tool to upload the image you made.
+Pika Labs includes a number of generating rooms where you may make films. Begin by entering “award SL” and then choosing “anime.” Use the prior tool to upload the image you made.
 
 ### **Step 3: Write a Prompt**
 
-Create a question that characterises the video's theme, scenario, and style. Because Pika Labs may make movies up to 3 seconds long, be specific when describing movement in the environment.
+Create a question that characterizes the video's theme, scenario, and style. Because Pika Labs may make movies up to 3 seconds long, be specific when describing movement in the environment.
 
 ![](/images/pika-labs-ai-upload-photo-1-UwMj.png)
 
@@ -98,7 +98,7 @@ You can adjust metrics to influence the video outcome. These metrics include neg
 
 ### **Step 5: Generate and Experiment**
 
-Generate video and experiment with prompts and settings for desired result. Adjust camera movement and guidance scale for fine-tuning animation.
+Generate a video and experiment with prompts and settings for the desired results. Adjust camera movement and guidance scale for fine-tuning animation.
 
 ### **Step 6: Download the Video**
 
@@ -118,7 +118,7 @@ Consider using Fliki AI for voice-overs in your animations. Fliki offers a varie
 
 ### **My Preferred Free Editing Software:**
 
-For video editing, choose any preferred editing software. CapCut is a free and user-friendly tool for beginners. Import elements like images, animations, sound effects, and music into your software and edit as desired. If new to video editing, watch tutorials for your chosen software to learn the basics and create a polished final product.
+For video editing, select any preferred editing software. CapCut is a free and user-friendly tool for beginners. Import elements like images, animations, sound effects, and music into your software and edit as desired. If new to video editing, watch tutorials for your chosen software to learn the basics and create a polished final product.
 
 ## **Conclusion:**
 
