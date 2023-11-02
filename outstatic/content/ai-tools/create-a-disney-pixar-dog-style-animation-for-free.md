@@ -7,7 +7,7 @@ author:
 slug: 'create-a-disney-pixar-dog-style-animation-for-free'
 description: ''
 coverImage: '/images/disney-pixar-dog-style-g4Nz.png'
-publishedAt: '2023-11-01T13:29:07.025Z'
+publishedAt: '2023-11-02T13:29:07.000Z'
 ---
 
 ![](/images/disney-pixar-dog-style-IyND.png)
