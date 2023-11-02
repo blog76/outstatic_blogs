@@ -1,6 +1,6 @@
 ---
 title: 'Create a Disney Pixar Dog Style Animation for FREE!'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -27,8 +27,6 @@ This approach entails creating graphics with a free image generator and then bri
 I wanted to make a trailer for a Disney Pixar Dog AI film, therefore I used ChatGPT to write a script for a short non-existent Disney Pixar trailer.
 
 ![](/images/dog-disney-pixar-movie-YxND.jpg)
-
-
 
 I'll make the pictures based on this script. I'm using Leonardo AI for these photographs, which allows you to produce 150 images for free every day. You can produce ultra-realistic photographs if you know how to utilise it.
 
@@ -96,15 +94,33 @@ Create a question that characterises the video's theme, scenario, and style. Bec
 
 ### **Step 4: Adjust Metrics**
 
-<br>
+You can adjust metrics to influence the video outcome. These metrics include negative prompts, FPS, guidance scale, camera movement, amount of motion, and seed number.
 
+### **Step 5: Generate and Experiment**
 
+Generate video and experiment with prompts and settings for desired result. Adjust camera movement and guidance scale for fine-tuning animation.
 
+### **Step 6: Download the Video**
 
+Download the animation to your computer when you're done.
 
+## **How to Upscale Your Generations for Amazing Quality for Free**
 
+Download the video from Pika Labs and upscale its quality using a tool like CapCut for a better final output.
 
+## **How to Get High-Quality Sound Effects and Copyright-Free Background Music?**
 
+Choose the right audio elements for your videos by using a platform like Epidemic Sound that offers high-quality music and sound effects to avoid copyright issues.
 
+### **My Preferred AI Voice-Over Software:**
 
+Consider using Fliki AI for voice-overs in your animations. Fliki offers a variety of realistic voiceovers to bring your characters to life.
+
+### **My Preferred Free Editing Software:**
+
+For video editing, choose any preferred editing software. CapCut is a free and user-friendly tool for beginners. Import elements like images, animations, sound effects, and music into your software and edit as desired. If new to video editing, watch tutorials for your chosen software to learn the basics and create a polished final product.
+
+## **Conclusion:**
+
+Make free Disney Pixar-style animations with AI by being patient and experimenting. Have a clear vision, refine prompts, and adjust settings for desired results. With tools and creativity, bring animated dreams to life. For questions or guidance, leave a comment. Read our latest AI Tutorials if helpful.<br>
 
