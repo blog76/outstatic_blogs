@@ -34,7 +34,7 @@ Pika Labs does a good job animating ship waves and simulating physics. Runway Ge
 
 One notable difference is the video length, with Runway animations being longer at 4 seconds compared to Pika's 3 seconds.
 
-RunwayML offers the feature of extending video length up to 16 seconds, but it often results in videos with a different color palette and unintended alterations to the content.
+RunwayML offers the feature of extending video length up to 16 seconds, but it often results in videos with a different colour palette and unintended alterations to the content.
 
 In summary, while Runway provides more cinematic animations, it struggles with maintaining the integrity of the original reference image. Pika offers more creative and flexible animations.
 
@@ -54,7 +54,7 @@ For specific examples, Pika's animations of a dancer wearing a dress show occasi
 
 ## **Human Head Motions:**
 
-Pika Labs produces decent facial motions with occasional blinks, but sometimes keeps the head static while animating other elements. On the other hand, Runway Gen 2 delivers smoother head tilting movements but may introduce changes in facial structure while maintaining the original paint.
+Pika Labs produces decent facial motions with occasional blinks but sometimes keeps the head static while animating other elements. On the other hand, Runway Gen 2 delivers smoother head-tilting movements but may introduce changes in facial structure while maintaining the original paint.
 
 ## **Camera Motion Options:**
 
@@ -78,5 +78,5 @@ Runway allows combining different camera movements like zoom and pan or zoom and
 
 ## **Conclusion:**
 
-Pika Labs and Runway Gen 2 have different strengths and weaknesses in AI video animation. Runway is good at cinematic human motion and dynamic camera shots, while Pika is more creative and flexible in responding to user prompts. Pika is also better at adhering to the source content, while Runway leans towards cinematic animations. Pika outperforms Runway in executing custom prompts effectively. Runway excels in cinematic camera movements but sometimes struggles with human motion. Pika offers a free plan, making it more cost-effective. The choice depends on specific needs and priorities. Both platforms are continuously improving in the evolving field of AI video generation.
+Pika Labs and Runway Gen 2 have different strengths and weaknesses in AI video animation. Runway is good at cinematic human motion and dynamic camera shots, while Pika is more creative and flexible in responding to user prompts. Pika is also better at adhering to the source content, while Runway leans toward cinematic animations. Pika outperforms Runway in executing custom prompts effectively. Runway excels in cinematic camera movements, but sometimes struggles with human motion. Pika offers a free plan, making it more cost-effective. The choice depends on specific needs and priorities. Both platforms are continuously improving in the evolving field of AI video generation.
 
