@@ -1,6 +1,6 @@
 ---
 title: 'Aomni AI Research Tool (Review 2023)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
