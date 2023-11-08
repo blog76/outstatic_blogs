@@ -10,7 +10,7 @@ coverImage: '/images/deepfake-ai-swap-face-MzMj.png'
 publishedAt: '2023-11-09T11:23:46.000Z'
 ---
 
-![](/images/deepfake-ai-swap-face-k4Mj.png)
+![](/images/deepfake-ai-swap-face-U4OD.png)
 
 Today, I'll show you how to create Deepfake videos using a free online AI tool. With this tool, you can swap faces in videos and even make yourself talk like Mr. Bean or any other actor. In this tutorial, we'll learn how to use Deepfake AI to swap faces online for free using Google Colab. Please note that this tutorial is for educational purposes only.
 
@@ -28,13 +28,13 @@ To begin, download the Deepfake file I will share with you. Simply open the Deep
 
 Connect to Google Colab and access powerful GPUs for free, like a coding playground in your web browser.
 
-![](/images/google-colab-connect-1-UxNj.png)
+![](/images/google-colab-connect-1-gwMT.png)
 
 ### **Step 3: Clone Repository and install dependencies**
 
 Install dependencies and clone the repository by executing the cell.
 
-![](/images/image--3--UzNj.png)
+![](/images/image--3--A4Nj.png)
 
 ### **Step 4: Download Model**
 
@@ -42,13 +42,13 @@ You'll find useful tools as you scroll down the page.
 
 To begin, select 'Download Model' and then press the play button to run the code.
 
-![](/images/image-1-QxNz.png)
+![](/images/image-1-I4MD.png)
 
 ### **Step 5: Execute GPU Support**
 
 Then, press the play button to run the code for 'GPU support.' These procedures are critical for creating deep false swaps.
 
-![](/images/image-2-1024x194-I2Mj.png)
+![](/images/image-2-1024x194-UxOD.png)
 
 ### **Step 6: Upload your video**
 
@@ -58,7 +58,7 @@ You'll see a folder icon on the left side of the page; click on it.
 
 It's as simple as clicking the + symbol and selecting your video file to add it. Anything goes—a witty monologue, a famous movie scene, or even a personal video.
 
-![](/images/deepfake-ai-upload-video-UxOT.png)
+![](/images/deepfake-ai-upload-video-kxMj.png)
 
 Keep your file names simple while your movie is uploading. Spaces, special characters, and digits should be avoided.
 
@@ -72,19 +72,19 @@ Now comes the exciting part. Scroll all the way down to the 'Deepfake' cell code
 
 Add the URL path to your video to the Target path. Copy the path to your video file by right-clicking it and pasting it into the code. It's as easy as that.
 
-![](/images/image-3-M0Nz.png)
+![](/images/image-3-kyNj.png)
 
 Let's now upload the source image—the face you wish to replace. Right-click on the path of the picture you want to use, copy it, and change the original path in the source URL.
 
-![](/images/image-4-I2ND.png)
+![](/images/image-4-M1MD.png)
 
-Finally, if you want a video, change the file format to '.mp4'. Simply enter '.mp4' in the content section and you're done.
+Finally, if you want a video, change the file format to '.mp4'. Simply enter '.mp4' in the content section, and you're done.
 
 ### **Step 9: Run Deepfake AI**
 
 It's finally showtime! Click on the play button to run the code.
 
-![](/images/image-5-1024x203-gwNz.png)
+![](/images/image-5-1024x203-k2OD.png)
 
 It may take some time depending on your internet speed and computer power.
 
@@ -92,13 +92,13 @@ It may take some time depending on your internet speed and computer power.
 
 When the operation is finished, you'll notice a new file labelled'swapped.'
 
-![](/images/deepfake-ai-video-download-A3Nj.png)
+![](/images/deepfake-ai-video-download-M5NT.png)
 
 To make it your own, simply right-click on it and select 'Download,' and you're done! You just made a deepfake video.
 
 ## **Features of Deepfake AI Video:**
 
-![](/images/screenshot-2023-11-08-161932-g5NT.png)
+![](/images/screenshot-2023-11-08-161932-I4ND.png)
 
 ## **Conclusion:**
 
