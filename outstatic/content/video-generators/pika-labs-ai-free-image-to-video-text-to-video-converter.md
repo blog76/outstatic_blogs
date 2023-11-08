@@ -1,6 +1,6 @@
 ---
 title: 'Pika Labs AI: Free Image to Video, Text to Video Converter'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
