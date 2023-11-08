@@ -1,6 +1,6 @@
 ---
 title: 'Canva vs Kittl: Which one you should use in 2023?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -24,7 +24,7 @@ Starting with Canva and Kittl pricing, it's important to address it upfront, des
 
 Canva has a free version with limited features, but it doesn't support transparent backgrounds.
 
-![](/images/image-58-Y1Mj.png)
+![](/images/image-58-c3ND.png)
 
 Canva Pro costs $119.99 per year and offers more features, making it popular among T-shirt designers.
 
@@ -32,7 +32,7 @@ Canva Pro costs $119.99 per year and offers more features, making it popular amo
 
 Kittl has a free version with low-resolution exports, but for serious users, there's a Pro version available for $120/year, which is similar to Canva's Pro.
 
-![](/images/image-59-1024x493-UzNT.png)
+![](/images/image-59-1024x493-M3Nj.png)
 
 Kittl's Expert plan costs $288/year and includes premium templates and more storage space.
 
@@ -44,13 +44,13 @@ Let's examine Canva and Kittl's template options more closely.
 
 Canva offers various T-shirt design templates that are simple and straightforward, typically consisting of text and basic artwork elements.
 
-![](/images/image-60-1024x327-E4Nj.png)
+![](/images/image-60-1024x327-QwMj.png)
 
 ### **Kittl Templates**
 
 Kittl provides premium, detailed templates with intricate graphics and stunning layouts, ideal for creating complex and professional designs. Canva offers simpler templates for basic designs.
 
-![](/images/image-61-1024x320-U1OD.png)
+![](/images/image-61-1024x320-A5OD.png)
 
 ## **3\. Text Effects Comparison:**
 
@@ -60,7 +60,7 @@ Text effects impact design appeal. Canva and Kittl compared.
 
 Canva has limited text effects options, but they are straightforward. You can add curves and straighten text, but customization options are limited.
 
-![](/images/image-62-c2NT.png)
+![](/images/image-62-M0NT.png)
 
 Canva is a good option for basic text effects.
 
@@ -68,7 +68,7 @@ Canva is a good option for basic text effects.
 
 Kittl elevates text effects with a wider range of options for modifying fonts, transformations, and other effects.
 
-![](/images/image-63-YyNj.png)
+![](/images/image-63-Y0Mj.png)
 
 Its advanced features and flexibility surpass Canva's simpler options for text effects.
 
@@ -80,13 +80,13 @@ Textures enhance designs. Canva and Kittl have their own approaches to handling 
 
 Canva has texture options, but they are limited and cannot be easily removed, which may not be suitable for print-on-demand needs.
 
-![](/images/image-65-YxNT.png)
+![](/images/image-65-gyOT.png)
 
 ### **Kittl Textures**
 
 Kittl is great for textures. They offer a variety of textures for creating vintage or distressed designs. These textures can be clipped out and used in different design projects.
 
-![](/images/image-64-QxNj.png)
+![](/images/image-64-U1Mj.png)
 
 Kittl is known for its ability to incorporate and manipulate textures, making it useful for creating vintage or textured designs.
 
@@ -98,7 +98,7 @@ Canva and Kittl offer different quantities and varieties of graphics, making a d
 
 Canva has a large library of graphics, including photos, icons, and design elements, covering various categories.
 
-![](/images/image-66-czNj.png)
+![](/images/image-66-EyOT.png)
 
 It is the go-to platform for those who require a wide selection to choose from.
 
@@ -106,7 +106,7 @@ It is the go-to platform for those who require a wide selection to choose from.
 
 Kittl offers high-quality graphics, while Canva offers a larger quantity.
 
-![](/images/image-67-cxND.png)
+![](/images/image-67-cyNz.png)
 
 Kittl focuses on premium graphics for complex design projects, which is a key selling point.
 
@@ -130,13 +130,13 @@ Having a mobile app is advantageous for designers who want flexibility to work o
 
 Canva's mobile app enables easy design creation on smartphones and tablets, useful for designers working remotely.
 
-![](/images/image-68-k1MT.png)
+![](/images/image-68-AxNj.png)
 
 ### **Kittl Mobile App**
 
 Kittl currently lacks a mobile app, so Canva is a better option for mobile design.
 
-![](/images/image-69-1024x300-A1NT.png)
+![](/images/image-69-1024x300-MwOT.png)
 
 ## **8\. Other Features Comparison:**
 
@@ -150,7 +150,7 @@ Kittl is for graphic designers and has premium graphics, fonts, and templates. I
 
 Compare Canva and Kittl with this chart for an informed decision.
 
-![](/images/screenshot-2023-11-08-120312-Q1NT.png)
+![](/images/screenshot-2023-11-08-120312-g0OD.png)
 
 ## **Making Your Choice:**
 
