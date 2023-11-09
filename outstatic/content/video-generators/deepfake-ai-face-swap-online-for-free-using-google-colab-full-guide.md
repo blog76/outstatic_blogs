@@ -1,6 +1,6 @@
 ---
 title: 'Deepfake AI Face Swap Online for Free using Google Colab (Full Guide)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -107,10 +107,4 @@ Imagine speaking like your favourite actor or comedian in a hilarious video. You
 What's more, the finest part? It's a lot easier than it appears.
 
 Now I'm hoping you've discovered the realm of deepfake, or switching faces in movies and images. Please think about and read more interesting AI lessons.
-
-
-
-
-
-
 
