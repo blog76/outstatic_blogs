@@ -12,5 +12,45 @@ publishedAt: '2023-11-16T05:05:13.944Z'
 
 ![](/images/lensa-ai-avatar-generator-k2Mj.png)
 
+Are you interested in creating amazing AI avatars from your selfies? We are going to examine Lensa AI, an AI art generator, in this blog today. With the help of this robust photo-editing software, you can create amazing avatars from your everyday selfies.
+
+Using this AI technique, I have created 50 distinct and magical avatars myself. Come along with me as I go over the fundamentals and show you how to utilize this amazing tool.
+
+## **What is Lensa AI?**
+
+Personalized AI-generated avatars from your images may be created with Lensa AI, an intuitive AI application. You can upload your photos and create a wide variety of original avatars that represent various expressions and styles.
+
+### **Lensa AI Basic Features:**
+
+The smartphone app Lensa AI is accessible on Apple and Android devices. Just search for Lensa in your app store, download, and install it to get started.
+
+When you first open the program, a series of introduction screens will walk you through its features, including its magic avatars and photo editing skills.
+
+Purchasing:
+
+You can browse through the app's different membership tiers. There is a seven-day free trial available, but keep in mind that you will be charged if you don't cancel. The trial will be used in this demonstration.
+
+## **How to use Lensa AI Avatars?**
+
+To use the Lensa AI Avatar follow the below steps:
+
+Choose Subject and Gender: Decide if you want an avatar that represents a person or an animal. Next, indicate your gender to help the app generate personalized artwork for your face.
+
+Select Your Style: Lensa provides a wide range of genres, including sci-fi and fantasy. Pick a few styles that catch your attention.
+
+![](/images/image-95-I4Mz.png)
+
+Upload Photos: To create your avatars, upload ten to twenty selfies from your library, adhering to the app's instructions.
+
+Acquire Avatars: A price will be shown based on the quantity of styles and images. Get your avatars the necessary amount of credits.
+
+![](/images/image-94-Y2ND.png)
+
+
+
+
+
+<br>
+
 
 
