@@ -1,6 +1,6 @@
 ---
 title: 'Lensa AI Avatar Generator: Step By Step Guide (How to Use)'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -66,7 +66,7 @@ Pro tip: you can take advantage of a 50% discount by activating full access, so 
 
 Ten to twenty pictures of you must be uploaded to Lensa AI. The AI will use these selfies as a sample set to create those amazing magic avatars.
 
-![](/images/image-92-Q0Nz.png)
+![](/images/image-92-A4OD.png)
 
 Verify that you are in clear, up-close pictures in these pictures.
 
@@ -97,6 +97,30 @@ Use the app to download your favorites straight away, selecting between 4K and r
 ## **Editing Photos:**
 
 Lensa is a photo editor as well as an excellent magician avatar creator. A few brief features are as follows:
+
+![](/images/image-93-g2Mz.png)
+
+skin smoothing, hair color changes, and multiple editing choices.
+
+Although it's not the most feature-rich editor, it's ideal for quick edits and background experiments.
+
+## **Important Notes:**
+
+Even though LENSA AI guarantees a smooth avatar creation process, there are a few important things to keep in mind:
+
+Concerned about the photos you've uploaded? You can be sure that Prisma Labs-backed LENSA AI processes photos using AWS cloud services. Your photos are instantly removed after the AI model has been trained.
+
+Popularity Surge: These AI-generated avatars are going to become very popular very quickly. As people embrace this cutting-edge technology, get ready to see a flood of these distinctive avatars populating social media profiles.
+
+## **Conclusion**
+
+I appreciate you coming along on this Lensa AI journey with me. If you thought this post was useful, check out more interesting articles, particularly those on AI-related tools.
+
+This short guide gives you an overview of Lensa AI's other photo editing features and walks you through using it to create amazing avatars.
+
+
+
+
 
 
 
