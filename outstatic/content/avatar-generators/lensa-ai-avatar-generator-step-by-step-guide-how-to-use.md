@@ -62,15 +62,43 @@ Look up "Lensa AI" in the app store on your phone. Once you've located it, insta
 
 Pro tip: you can take advantage of a 50% discount by activating full access, so go ahead and begin discovering the magic.
 
+### **3\. Uploading Your Selfies**
 
+Ten to twenty pictures of you must be uploaded to Lensa AI. The AI will use these selfies as a sample set to create those amazing magic avatars.
 
+![](/images/image-92-Q0Nz.png)
 
+Verify that you are in clear, up-close pictures in these pictures.
 
+### **4\. Generating Magic Avatars**
 
+Lensa AI will get to work on your selfies as soon as you upload them. The avatar generation process will take about twenty minutes, so please take a seat back and let the AI work its magic.
+
+You even have the option to receive an alert once the procedure is finished.
+
+### **5\. Reviewing Your Magic Avatars**
+
+Your magical avatars are prepared at this point! You will be given a pack of fifty different avatars by Lensa AI. These avatars are divided into a number of styles, including sci-fi, mystical, fashionable, and more. For convenient access, you can store them all in your photo library.
+
+### **6\. Sharing Your Avatars**
+
+Selecting your favorite avatar and sharing it with others is as simple as tapping on it. Spread the word about it via email, social media, friends, or anywhere else your imagination leads you!
+
+## **Reviewing Magic AI Avatars:**
+
+After making your payment and uploading your pictures, watch for the avatars to appear:
+
+It might take a while to generate—It took me about 18 minutes.
+
+Examine your avatars, experiment with various backgrounds and positions, and get a variety of outcomes.
+
+Use the app to download your favorites straight away, selecting between 4K and regular resolution.
+
+## **Editing Photos:**
+
+Lensa is a photo editor as well as an excellent magician avatar creator. A few brief features are as follows:
 
 
 
 <br>
-
-
 
