@@ -38,13 +38,33 @@ Choose Subject and Gender: Decide if you want an avatar that represents a person
 
 Select Your Style: Lensa provides a wide range of genres, including sci-fi and fantasy. Pick a few styles that catch your attention.
 
-![](/images/image-95-I4Mz.png)
+![](/images/image-94-QyMj.png)
 
 Upload Photos: To create your avatars, upload ten to twenty selfies from your library, adhering to the app's instructions.
 
 Acquire Avatars: A price will be shown based on the quantity of styles and images. Get your avatars the necessary amount of credits.
 
-![](/images/image-94-Y2ND.png)
+![](/images/image-95-MxNz.png)
+
+## **Exploring Lensa AI: Step-by-Step Guide**
+
+### **1\. Getting Started with Lensa AI**
+
+Look up "Lensa AI" in the app store on your phone. Once you've located it, install it on your device by clicking the download option.
+
+![](/images/image-90-U4Nz.png)
+
+### **2\. Setting up Lensa AI**
+
+Look up "Lensa AI" in the app store on your phone. Once you've located it, install it on your device by clicking the download option.
+
+![](/images/image-91-k2NT.png)
+
+Pro tip: you can take advantage of a 50% discount by activating full access, so go ahead and begin discovering the magic.
+
+
+
+
 
 
 
