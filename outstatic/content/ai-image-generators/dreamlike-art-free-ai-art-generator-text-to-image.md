@@ -18,7 +18,7 @@ AI content creation is now easy. In previous posts, I shared tutorials on text-t
 
 Dreamlike Art is an AI website that converts text into digital art using natural language processing. It allows users to visualize their imagination uniquely.
 
-![](/images/dreamlike-art-ai-1024x536-QxMD.png)
+![](/images/dreamlike-art-ai-1024x536-EzNz.png)
 
 The website, [Dreamlike.Art](http://Dreamlike.Art), uses advanced AI algorithms to generate realistic pictures that resemble real photos. The model is based on Stable Diffusion 1.5 and has been fine-tuned using a dataset of high-quality photos, resulting in visually appealing and realistic images.
 
@@ -26,7 +26,7 @@ The website, [Dreamlike.Art](http://Dreamlike.Art), uses advanced AI algorithms 
 
 To test the potential of Dreamlike Art, we tried out the platform and were impressed by the results. We gave it various prompts, from dreamy landscapes to fantastical creatures, and the AI effortlessly turned our descriptions into stunning images.
 
-![](/images/screenshot-2023-11-17-140646-c5ND.png)
+![](/images/screenshot-2023-11-17-140646-c0OD.png)
 
 The generated images are incredibly detailed and realistic, perfectly capturing the essence of our prompts with precision and creativity.
 
@@ -46,15 +46,15 @@ And anyone, regardless of their background or profession, can generate visually 
 
 Go to [Dreamlike.Art](http://Dreamlike.Art) and click “Get Started For Free”.
 
-![](/images/dreamlike-art-ai-1024x536--1--U5Nj.png)
+![](/images/dreamlike-art-ai-1024x536--1--k2Mz.png)
 
 Access the Login/Sign up page and sign up with Google or Discord.
 
-![](/images/dreamlike-art-sign-up-1024x536-A3Nz.png)
+![](/images/dreamlike-art-sign-up-1024x536-MxNT.png)
 
 Upon successful sign-up, you will receive 24 credits to use on the platform for generating AI-powered images.
 
-![](/images/dreamlike-art-ai-sign-up-1024x536-EwOD.png)
+![](/images/dreamlike-art-ai-sign-up-1024x536-MwMz.png)
 
 These credits serve as your currency for the creative process. Learn how to generate free AI images on [Dreamlike.Art](http://Dreamlike.Art).
 
@@ -66,31 +66,31 @@ Create AI-generated images easily with Dreamlike Art. Follow these simple steps 
 
 Visit [Dreamlike.Art](http://Dreamlike.Art) website, sign up for an account to access powerful image-generation features.
 
-![](/images/dreamlike-art-ai-sign-up-1-1024x536-c1NT.png)
+![](/images/dreamlike-art-ai-sign-up-1-1024x536-g5NT.png)
 
 ### **2\. Select the pre-trained Model:**
 
 Select a pre-trained model that matches your desired style or theme after logging in. These models are used as the basis for creating your AI-generated images.
 
-![](/images/dreamlike.art-select-model-QxMD.png)
+![](/images/dreamlike.art-select-model-A1OD.png)
 
 ### **3\. Enter the Text Prompt:**
 
 Enter instructions for the AI to generate images. Be specific and imaginative in guiding the AI to understand your vision.
 
-![](/images/dreamlike.art-prompt-Q1MT.png)
+![](/images/dreamlike.art-prompt-A4Mj.png)
 
 ### **4\. Add an Image (Optional):**
 
 Choose or upload an image to help the AI understand what you want it to create. This will give the AI more context and help it generate images that match your vision.
 
-![](/images/dreamlike.art-upload-image-I1MT.png)
+![](/images/dreamlike.art-upload-image-g5OT.png)
 
 ### **5\. Add a Negative Prompt:**
 
 To improve the output, you can add a negative prompt to specify what elements or characteristics you want to avoid in the generated images.
 
-![](/images/dreamlike.art-negative-prompt-YxOD.png)<br>
+![](/images/dreamlike.art-negative-prompt-MzOT.png)<br>
 
 ### **6\. Select the Number of Images:**
 
@@ -100,7 +100,7 @@ Specify the number of images you want the AI to generate based on your prompt, a
 
 Decide on the desired image ratio. [Dreamlike.Art](http://Dreamlike.Art) allows you to customize the aspect ratio to match your preferences and intended use.
 
-![](/images/dreamlike.art-images-cwMz.png)
+![](/images/dreamlike.art-images-g0Mz.png)
 
 ### **8\. Choose the Mode:**
 
@@ -110,7 +110,7 @@ Select a simplified or advanced mode based on your familiarity and comfort with 
 
 Once settings are configured, click “Generate Images”. AI will process the prompt, using account credits. Generated images appear on the right side, showing AI's interpretation results.
 
-![](/images/dreamlike.art-generate-images-E2MD.png)
+![](/images/dreamlike.art-generate-images-Q4Nz.png)
 
 ### **10\. Explore and Download:**
 
@@ -160,9 +160,9 @@ Now that we've looked at Dreamlike Art's possibilities, let's take a look at the
 
 Here's a breakdown of Dreamlike Art's price options:
 
-![](/images/screenshot-2023-11-17-140751-kwNj.png)
+![](/images/screenshot-2023-11-17-140751-Q2OT.png)
 
-![](/images/image-16-1024x554-UxMD.png)
+![](/images/image-16-1024x554-UwMz.png)
 
 Dreamlike Art offers a free sign-up option that grants customers 50 credits to utilize in order to explore the platform's capabilities. As a result, members earn 24 credits every day, giving them plenty of freedom for exploration and image creation.
 
@@ -184,35 +184,35 @@ Dreamlike Art provides a compelling solution for artists seeking inspiration, de
 
 Here are some commonly asked questions about Dreamlike Art to help you understand it better:
 
-Q: Can Dreamlike Art create visuals in response to prompts?
+*Q: Can Dreamlike Art create visuals in response to prompts?*
 
 A: Yes, Dreamlike Art has the ability to translate abstract and surreal prompts into visually attractive graphics, allowing for the exploration of inventive themes.
 
-Q: Do the created photos belong to the users?
+*Q: Do the created photos belong to the users?*
 
 A: Users retain ownership of the pictures created on Dreamlike Art and may use them for personal or commercial purposes in accordance with the platform's terms of service.
 
-Q: Does Dreamlike Art have the ability to generate animated images?
+*Q: Does Dreamlike Art have the ability to generate animated images?*
 
 A: Dreamlike Art now concentrates on static picture production; however, the platform's staff is actively working on including animated image generation in the future.
 
-Q: Do you need prior creative experience to use Dreamlike Art?
+*Q: Do you need prior creative experience to use Dreamlike Art?*
 
 A: No, Dreamlike Art caters to people with varied levels of artistic ability. The platform's user-friendly interface and AI-powered picture production make it accessible to anyone.
 
-Q: Is it possible to utilize Dreamlike Art on mobile devices?
+*Q: Is it possible to utilize Dreamlike Art on mobile devices?*
 
 A: Yes, Dreamlike Art is adaptable and accessible via mobile devices, allowing users to create gorgeous images on the move.
 
-Q: Is there a size limit to the images Dreamlike Art can create?
+*Q: Is there a size limit to the images Dreamlike Art can create?*
 
 A: Dreamlike Art allows for the creation of images of various sizes, allowing flexibility and compatibility with a variety of creative projects.
 
-Q: Does Dreamlike Art have the ability to make images in certain art styles or to imitate famous artists?
+*Q: Does Dreamlike Art have the ability to make images in certain art styles or to imitate famous artists?*
 
 A: While Dreamlike Art is primarily concerned with the creation of photorealistic images, its versatility allows for the investigation of other artistic styles and inspirations.
 
-Q: Can Dreamlike Art produce visuals in a variety of color palettes?
+*Q: Can Dreamlike Art produce visuals in a variety of color palettes?*
 
 A: Yes, Dreamlike Art allows users to customize color palettes, allowing them to create images that match their preferred style.
 
