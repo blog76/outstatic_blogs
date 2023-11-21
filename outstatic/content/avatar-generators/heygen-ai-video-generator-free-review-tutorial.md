@@ -1,6 +1,6 @@
 ---
 title: 'HeyGen AI Video Generator (Free) Review, Tutorial'
-status: 'published'
+status: 'draft'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -11,6 +11,4 @@ publishedAt: '2023-11-21T06:52:34.718Z'
 ---
 
 ![](/images/heygen-ai-video-generator-I5Mz.png)
-
-
 
