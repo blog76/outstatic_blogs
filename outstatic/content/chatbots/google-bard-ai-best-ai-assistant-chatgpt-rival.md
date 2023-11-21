@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
 slug: 'google-bard-ai-best-ai-assistant-chatgpt-rival'
 description: ''
-coverImage: ''
+coverImage: '/images/google-bard-ai-e2nz-k4NT.png'
 publishedAt: '2023-11-20T06:58:02.389Z'
 ---
 
@@ -115,8 +115,4 @@ Google Bard is a fantastic AI tool for academics. It allows people to locate inf
 Q7: Are there any limits to Google Bard?
 
 Google Bard provides a lot of useful features, but it also has several flaws. It may not always provide accurate facts and may express incorrect ideas.
-
-
-
-
 
