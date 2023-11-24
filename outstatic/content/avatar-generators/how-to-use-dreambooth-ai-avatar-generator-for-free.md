@@ -1,6 +1,6 @@
 ---
 title: 'How to Use Dreambooth AI Avatar Generator for Free?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/141731814?v=4'
@@ -91,10 +91,4 @@ Use Lexicon for new ideas and tweak the scale for more refined results.
 ## **Conclusion**
 
 This is how to use Dreambooth for AI-generated avatars. If you need more help, see my other beginner-friendly AI art tutorials. To start over or train different models, just reset using the runtime tab.
-
-
-
-
-
-
 
